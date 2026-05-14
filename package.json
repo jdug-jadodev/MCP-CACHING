@@ -1,0 +1,56 @@
+{
+  "name": "@tu-org/mcp-context-cache",
+  "version": "1.0.0",
+  "description": "MCP server for AI agent context caching",
+  "homepage": "https://github.com/jdug-jadodev/MCP-CACHING",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jdug-jadodev/MCP-CACHING.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jdug-jadodev/MCP-CACHING/issues"
+  },
+  "keywords": ["mcp", "context", "cache", "ai", "agents", "model-context-protocol"],
+  "author": "jdug-jadodev",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mcp-context-cache": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src/**/*.ts",
+    "prepublish": "pnpm build",
+    "postbuild": "node scripts/postbuild.mjs"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "fast-glob": "^3.3.2",
+    "glob": "^11.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.3.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.4.0",
+    "vitest": "^1.6.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
