@@ -53,10 +53,13 @@ Edit `%APPDATA%\Code\User\mcp.json` on Windows or `~/.config/Code/User/mcp.json`
 ```json
 {
   "servers": {
-    "mcp-context-cache": {
-      "type": "stdio",
-      "command": "mcp-context-cache"
-    }
+		"mcp-context-cache": {
+			"type": "stdio",
+			"command": "node",
+			"args": [
+				"%APPDATA%\\Local\\pnpm\\global\\5\\.pnpm\\mcp-context-cache@1.0.0\\node_modules\\mcp-context-cache\\dist\\index.js"
+			]
+		}
   }
 }
 ```
