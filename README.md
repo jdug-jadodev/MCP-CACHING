@@ -17,12 +17,26 @@ MCP server for AI agent context caching. Efficiently loads, caches, and delivers
 
 ## Installation
 
-```bash
-# No install needed — run directly
-npx @jdug-jadodev/mcp-context-cache --init
+### Global Installation (Recommended)
 
-# Or install globally
-npm install -g @jdug-jadodev/mcp-context-cache
+```bash
+npm install -g mcp-context-cache
+```
+
+Or with pnpm:
+```bash
+pnpm add -g mcp-context-cache
+```
+
+Verify installation:
+```bash
+mcp-context-cache --version
+```
+
+### Run without installing
+
+```bash
+npx mcp-context-cache --init
 ```
 
 ---
@@ -41,8 +55,7 @@ Edit `%APPDATA%\Code\User\mcp.json` on Windows or `~/.config/Code/User/mcp.json`
   "servers": {
     "mcp-context-cache": {
       "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@jdug-jadodev/mcp-context-cache"]
+      "command": "mcp-context-cache"
     }
   }
 }
@@ -56,8 +69,7 @@ Create `.vscode/mcp.json` at the project root:
   "servers": {
     "mcp-context-cache": {
       "type": "stdio",
-      "command": "npx",
-      "args": ["-y", "@jdug-jadodev/mcp-context-cache"]
+      "command": "mcp-context-cache"
     }
   }
 }
@@ -71,8 +83,7 @@ Create `.mcp.json` at the project root:
 {
   "mcpServers": {
     "mcp-context-cache": {
-      "command": "npx",
-      "args": ["-y", "@jdug-jadodev/mcp-context-cache"]
+      "command": "mcp-context-cache"
     }
   }
 }
