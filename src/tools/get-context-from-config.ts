@@ -15,6 +15,11 @@ export interface GetContextFromConfigArgs {
   configPath?: string;
 }
 
+interface CacheStats {
+  hits: number;
+  misses: number;
+}
+
 const INSTRUCTION_FILES = ['INSTRUCTIONS.md', 'copilot-instructions.md'];
 
 async function findInstructionFile(modulePath: string): Promise<string | null> {
@@ -35,6 +40,7 @@ async function processFileToBlock(
   relativePath: string,
   cache: LRUCache,
   logger: Logger,
+  stats?: CacheStats,
 ): Promise<FormattedBlock | null> {
   let fileContent: string;
   try {
@@ -49,9 +55,12 @@ async function processFileToBlock(
 
   if (cached && cached.fingerprint === fingerprint) {
     logger.debug('Cache hit', { file: relativePath });
+    if (stats) stats.hits++;
     return { relativePath, formattedBlock: cached.block };
   }
 
+  logger.debug('Cache miss', { file: relativePath });
+  if (stats) stats.misses++;
   const formattedBlock = formatFileBlock(relativePath, fingerprint, fileContent);
   cache.set(absolutePath, { fingerprint, block: formattedBlock });
   return { relativePath, formattedBlock };
@@ -63,12 +72,14 @@ export async function getContextFromConfig(
   logger: Logger,
 ): Promise<BundleResult> {
   const projectRoot = path.resolve(args.projectRoot);
+  logger.info('AI_CONTEXT_USAGE: getContextFromConfig invoked', { projectRoot });
   const config = loadConfig(projectRoot, args.configPath);
   const securityConfig = resolveSecurityConfig(config);
   const maxTotalSizeKb = resolveMaxTotalSizeKb(config);
 
   const allBlocks: FormattedBlock[] = [];
   let totalOmitted = 0;
+  const stats: CacheStats = { hits: 0, misses: 0 };
 
   // Process global instructions first
   if (config.globalInstructions) {
@@ -101,7 +112,7 @@ export async function getContextFromConfig(
         const relativePath = path
           .relative(projectRoot, instructionFile)
           .replace(/\\/g, '/');
-        const block = await processFileToBlock(instructionFile, relativePath, cache, logger);
+        const block = await processFileToBlock(instructionFile, relativePath, cache, logger, stats);
         if (block) {
           // Prepend with module instructions header
           const headerBlock = `=== MODULE INSTRUCTIONS: ${module.name} ===\n${block.formattedBlock}=== END MODULE INSTRUCTIONS: ${module.name} ===\n\n`;
@@ -140,7 +151,7 @@ export async function getContextFromConfig(
         continue;
       }
 
-      const block = await processFileToBlock(absolutePath, relativePath, cache, logger);
+      const block = await processFileToBlock(absolutePath, relativePath, cache, logger, stats);
       if (block) {
         moduleBlocks.push(block);
       } else {
@@ -155,6 +166,14 @@ export async function getContextFromConfig(
 
   const result = formatBundleResult(allBlocks, maxTotalSizeKb);
   result.filesOmitted += totalOmitted;
+
+  logger.info('AI_CONTEXT_USAGE: getContextFromConfig completed', {
+    filesIncluded: result.filesIncluded,
+    filesOmitted: result.filesOmitted,
+    truncated: result.truncated,
+    cacheHits: stats.hits,
+    cacheMisses: stats.misses,
+  });
 
   return result;
 }

@@ -1,42 +1,43 @@
 # Agent Instructions — mcp-context-cache
+# Instrucciones para Agentes — mcp-context-cache
 
-This document explains how AI agents (GitHub Copilot, Cline, Cody, etc.) should use the `mcp-context-cache` MCP server.
+Este documento explica cómo los agentes de IA (GitHub Copilot, Cline, Cody, etc.) deben usar el servidor MCP `mcp-context-cache`.
 
-## Available Tools
+## Herramientas disponibles
 
 ### `get_project_context`
 
-**When to use:** When you need specific files loaded into context. Best for targeted file loading when you know exactly which files are relevant.
+**Cuándo usarla:** Cuando necesitas cargar archivos específicos en el contexto. Es ideal para cargas dirigidas cuando ya conoces los archivos relevantes.
 
 ```json
 {
   "paths": ["src/auth/login.ts", "src/auth/types.ts", "src/middleware/auth.ts"],
-  "projectRoot": "/path/to/project"
+  "projectRoot": "/ruta/al/proyecto"
 }
 ```
 
 ### `get_directory_context`
 
-**When to use:** When you need all files from a directory (e.g., a feature module). Best for exploring or understanding a complete module.
+**Cuándo usarla:** Cuando necesitas todos los archivos de un directorio (por ejemplo, un módulo de funcionalidad). Es útil para explorar o comprender un módulo completo.
 
 ```json
 {
-  "rootPath": "/path/to/project/src/auth",
+  "rootPath": "/ruta/al/proyecto/src/auth",
   "excludePatterns": ["*.test.ts", "*.spec.ts"]
 }
 ```
 
 ### `get_context_from_config`
 
-**When to use:** When the project has a `contextcache.json` and you want the full curated project context. Best at the start of a session to load everything the project owner deemed relevant.
+**Cuándo usarla:** Cuando el proyecto tiene un `contextcache.json` y quieres obtener el contexto curado completo del proyecto. Es la opción recomendada al iniciar una sesión para cargar todo lo que el autor del proyecto consideró relevante.
 
 ```json
 {
-  "projectRoot": "/path/to/project"
+  "projectRoot": "/ruta/al/proyecto"
 }
 ```
 
-## IDE Configuration
+## Configuración del IDE
 
 ### VS Code — `.vscode/mcp.json`
 
@@ -54,18 +55,18 @@ This document explains how AI agents (GitHub Copilot, Cline, Cody, etc.) should 
 
 ### GitHub Copilot — `.github/copilot-instructions.md`
 
-Add this to your Copilot instructions file to guide the agent:
+Añade esto a tu archivo de instrucciones de Copilot para guiar al agente:
 
 ```markdown
-## Context Loading
+## Carga de contexto
 
-Use the `mcp-context-cache` MCP tools to load project files:
+Usa las herramientas MCP de `mcp-context-cache` para cargar archivos del proyecto:
 
-- `get_context_from_config` with `projectRoot: "<absolute-path>"` to load the full project context at session start
-- `get_project_context` with specific `paths` when you need targeted files
-- `get_directory_context` with `rootPath` to explore a module
+- `get_context_from_config` con `projectRoot: "<ruta-absoluta>"` para cargar el contexto completo del proyecto al iniciar la sesión
+- `get_project_context` con `paths` específicos cuando necesites archivos concretos
+- `get_directory_context` con `rootPath` para explorar un módulo
 
-When you see `BUNDLE_TRUNCATED`, use `get_project_context` with the listed omitted files to fetch them.
+Cuando veas `BUNDLE_TRUNCATED`, usa `get_project_context` con las rutas de los archivos omitidos para obtenerlos.
 ```
 
 ### JetBrains — `mcp.json`
@@ -83,41 +84,40 @@ When you see `BUNDLE_TRUNCATED`, use `get_project_context` with the listed omitt
 }
 ```
 
-## Handling `BUNDLE_TRUNCATED`
+## Manejo de `BUNDLE_TRUNCATED`
 
-When a response contains `BUNDLE_TRUNCATED`, the context was too large to fit in the configured limit. The message includes:
+Cuando una respuesta contiene `BUNDLE_TRUNCATED`, el contexto era demasiado grande para caber en el límite configurado. El mensaje incluye:
 
-- The configured size limit
-- The actual total size
-- The list of omitted files in alphabetical order
+- El límite de tamaño configurado
+- El tamaño total real
+- La lista de archivos omitidos en orden alfabético
 
-**How to handle:** Use `get_project_context` with the omitted file paths to load them in a subsequent call:
+**Cómo manejarlo:** Usa `get_project_context` con las rutas de los archivos omitidos para cargarlos en una llamada posterior:
 
 ```json
 {
   "paths": ["path/to/omitted/file1.ts", "path/to/omitted/file2.ts"],
-  "projectRoot": "/path/to/project"
+  "projectRoot": "/ruta/al/proyecto"
 }
 ```
 
-## Output Format Reference
+## Formato de salida de referencia
 
 ```
 BUNDLE_START: <sha256-hex-fingerprint>
 relative/path/to/file.ts
 <complete file content>
 BUNDLE_END: relative/path/to/file.ts
-
-BUNDLE_START: <sha256-hex-fingerprint>
-relative/path/to/file2.ts
-...
-BUNDLE_END: relative/path/to/file2.ts
 ```
 
-Files are always sorted alphabetically by relative path for deterministic output.
+Los archivos siempre se ordenan alfabéticamente por la ruta relativa para obtener una salida determinista.
 
-## Caching Behavior
+## Comportamiento de la caché
 
+- Los archivos se identifican por su hash SHA-256
+- Si un archivo no ha cambiado, se reutiliza el bloque cacheado (no se lee del disco)
+- La caché es en memoria y por proceso del servidor (se borra al reiniciar)
+- Los archivos grandes que exceden `maxEntrySizeKb` nunca se almacenan en la caché (se sirven, pero no se cachean)
 - Files are identified by their SHA-256 hash
 - If a file hasn't changed, the cached block is reused (no disk read)
 - The cache is in-memory and per-server-process (cleared on restart)

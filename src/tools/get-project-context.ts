@@ -5,7 +5,7 @@ import * as crypto from 'node:crypto';
 import type { BundleResult } from '../types.js';
 import { LRUCache } from '../cache/lru-cache.js';
 import { Logger } from '../logger/logger.js';
-import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../security/security-guard.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG } from '../security/security-guard.js';
 import { formatFileBlock, formatBundleResult, type FormattedBlock } from '../formatter/bundle-formatter.js';
 import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../config/config-loader.js';
 
@@ -21,6 +21,7 @@ export async function getProjectContext(
   logger: Logger,
 ): Promise<BundleResult> {
   const projectRoot = args.projectRoot ? path.resolve(args.projectRoot) : process.cwd();
+  logger.info('AI_CONTEXT_USAGE: getProjectContext invoked', { projectRoot, paths: args.paths.length });
 
   let securityConfig = DEFAULT_SECURITY_CONFIG;
   let maxTotalSizeKb = 2048;
@@ -36,11 +37,14 @@ export async function getProjectContext(
   }
 
   if (args.paths.length === 0) {
+    logger.info('AI_CONTEXT_USAGE: getProjectContext no paths provided', { projectRoot });
     return { content: '', filesIncluded: 0, filesOmitted: 0, truncated: false, omittedFiles: [] };
   }
 
   const blocks: FormattedBlock[] = [];
   let omittedCount = 0;
+  let cacheHits = 0;
+  let cacheMisses = 0;
 
   for (const filePath of args.paths) {
     const absolutePath = path.resolve(projectRoot, filePath);
@@ -68,8 +72,11 @@ export async function getProjectContext(
 
     if (cached && cached.fingerprint === fingerprint) {
       logger.debug('Cache hit', { file: relativePath });
+      cacheHits++;
       blocks.push({ relativePath, formattedBlock: cached.block });
     } else {
+      logger.debug('Cache miss', { file: relativePath });
+      cacheMisses++;
       const formattedBlock = formatFileBlock(relativePath, fingerprint, fileContent);
       cache.set(cacheKey, { fingerprint, block: formattedBlock });
       blocks.push({ relativePath, formattedBlock });
@@ -78,6 +85,14 @@ export async function getProjectContext(
 
   const result = formatBundleResult(blocks, maxTotalSizeKb);
   result.filesOmitted += omittedCount;
+
+  logger.info('AI_CONTEXT_USAGE: getProjectContext completed', {
+    filesIncluded: result.filesIncluded,
+    filesOmitted: result.filesOmitted,
+    truncated: result.truncated,
+    cacheHits,
+    cacheMisses,
+  });
 
   return result;
 }

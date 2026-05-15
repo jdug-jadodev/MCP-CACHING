@@ -111,6 +111,7 @@ export class ContextCacheServer {
     });
 
     this.logger.info('Starting mcp-context-cache server');
+    this.logger.info('Log file', { path: this.logger.logPath });
     await this.server.connect(transport);
   }
 

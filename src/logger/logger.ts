@@ -16,13 +16,14 @@ const DEFAULT_LOG_PATH = path.join(os.homedir(), '.mcp-context-cache', 'logs', '
 export class Logger {
   private readonly level: LogLevel;
   private logFile: fs.WriteStream | undefined;
+  readonly logPath: string;
 
   constructor(level: LogLevel = 'info', logPath?: string) {
     this.level = level;
-    const resolvedLogPath = logPath ?? DEFAULT_LOG_PATH;
+    this.logPath = logPath ?? DEFAULT_LOG_PATH;
     try {
-      fs.mkdirSync(path.dirname(resolvedLogPath), { recursive: true });
-      this.logFile = fs.createWriteStream(resolvedLogPath, { flags: 'a' });
+      fs.mkdirSync(path.dirname(this.logPath), { recursive: true });
+      this.logFile = fs.createWriteStream(this.logPath, { flags: 'a' });
     } catch {
       // If log file can't be opened, only log to stderr
       this.logFile = undefined;

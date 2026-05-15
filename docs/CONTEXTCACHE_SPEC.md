@@ -1,80 +1,80 @@
-# contextcache.json Specification
+# Especificación de `contextcache.json`
 
-Complete reference for all fields supported in `contextcache.json`.
+Referencia completa de todos los campos soportados en `contextcache.json`.
 
-## Root Object
+## Objeto raíz
 
-| Field | Type | Default | Description |
-|-------|------|---------|-------------|
-| `modules` | `ModuleConfig[]` | `[]` | List of project modules to include |
-| `globalInstructions` | `string` | — | Path to a global instructions file (relative to project root). Included at the top of every context bundle. |
-| `maxTotalSizeKb` | `number` | `2048` | Maximum total bundle size in KB before truncation |
-| `cache` | `CacheConfig` | see below | Cache behavior settings |
-| `security` | `SecurityConfig` | see below | Security validation rules |
+| Campo | Tipo | Valor por defecto | Descripción |
+|------:|:----:|:-----------------:|:-----------|
+| `modules` | `ModuleConfig[]` | `[]` | Lista de módulos del proyecto a incluir |
+| `globalInstructions` | `string` | — | Ruta a un archivo de instrucciones global (relativa a la raíz del proyecto). Se incluye al principio de cada bundle de contexto. |
+| `maxTotalSizeKb` | `number` | `2048` | Tamaño máximo total del bundle en KB antes de truncar |
+| `cache` | `CacheConfig` | ver abajo | Configuración del comportamiento de la caché |
+| `security` | `SecurityConfig` | ver abajo | Reglas de validación de seguridad |
 
 ---
 
 ## `ModuleConfig`
 
-| Field | Type | Default | Description |
-|-------|------|---------|-------------|
-| `name` | `string` | **required** | Display name for the module |
-| `path` | `string` | **required** | Path to the module directory (relative to project root) |
-| `includeInstructions` | `boolean` | `false` | If `true`, looks for `INSTRUCTIONS.md` or `copilot-instructions.md` in the module directory and prepends it before the module's code files |
-| `excludePatterns` | `string[]` | `[]` | Glob patterns to exclude from this module. Supports `*` wildcard. |
+| Campo | Tipo | Valor por defecto | Descripción |
+|------:|:----:|:-----------------:|:-----------|
+| `name` | `string` | **requerido** | Nombre descriptivo del módulo |
+| `path` | `string` | **requerido** | Ruta al directorio del módulo (relativa a la raíz del proyecto) |
+| `includeInstructions` | `boolean` | `false` | Si es `true`, busca `INSTRUCTIONS.md` o `copilot-instructions.md` en el directorio del módulo y lo antepone antes de los archivos del módulo |
+| `excludePatterns` | `string[]` | `[]` | Patrones glob para excluir archivos de este módulo. Admite el comodín `*`. |
 
-### `excludePatterns` examples
+### Ejemplos de `excludePatterns`
 
 ```json
 ["*.test.ts", "*.spec.ts", "__mocks__/**", "fixtures/**"]
 ```
 
-### Instruction file search order
+### Orden de búsqueda de archivos de instrucciones
 
-When `includeInstructions: true`, the following files are searched in order:
+Cuando `includeInstructions: true`, se buscan los siguientes archivos en orden:
 
 1. `INSTRUCTIONS.md`
 2. `copilot-instructions.md`
 
-The first one found is used. If neither exists, no instructions are included.
+Se usa el primero que se encuentre. Si no existe ninguno, no se incluyen instrucciones.
 
 ---
 
 ## `CacheConfig`
 
-| Field | Type | Default | Description |
-|-------|------|---------|-------------|
-| `maxEntries` | `number` | `5000` | Maximum number of files to keep in the LRU cache |
-| `maxEntrySizeKb` | `number` | `1024` | Maximum size (in KB) of a single cache entry. Files larger than this are served but not cached. |
+| Campo | Tipo | Valor por defecto | Descripción |
+|------:|:----:|:-----------------:|:-----------|
+| `maxEntries` | `number` | `5000` | Número máximo de archivos a mantener en la caché LRU |
+| `maxEntrySizeKb` | `number` | `1024` | Tamaño máximo (en KB) de una única entrada de caché. Los archivos mayores se sirven pero no se almacenan. |
 
 ---
 
 ## `SecurityConfig`
 
-| Field | Type | Default | Description |
-|-------|------|---------|-------------|
-| `allowedPaths` | `string[]` | `["./"]` | Only files under these paths are allowed. Use `["./"]` to allow all files under the project root. |
-| `deniedPaths` | `string[]` | `[]` | Files under these paths are always denied. Takes priority over `allowedPaths`. |
-| `deniedFiles` | `string[]` | `[]` | Filename patterns to deny. Supports `*` wildcard (e.g., `"*.local.ts"`). |
-| `maxFileSizeKb` | `number` | `500` | Maximum file size in KB. Larger files are denied. |
-| `allowedExtensions` | `string[]` | `["*"]` | File extensions to allow. Use `["*"]` for all text extensions. Example: `[".ts", ".js", ".json"]` |
+| Campo | Tipo | Valor por defecto | Descripción |
+|------:|:----:|:-----------------:|:-----------|
+| `allowedPaths` | `string[]` | `["./"]` | Solo se permiten archivos bajo estas rutas. Usa `["./"]` para permitir todos los archivos bajo la raíz del proyecto. |
+| `deniedPaths` | `string[]` | `[]` | Los archivos bajo estas rutas siempre están denegados. Tiene prioridad sobre `allowedPaths`. |
+| `deniedFiles` | `string[]` | `[]` | Patrones de nombres de archivo a denegar. Admite `*` como comodín (por ejemplo, `"*.local.ts"`). |
+| `maxFileSizeKb` | `number` | `500` | Tamaño máximo de archivo en KB. Los archivos más grandes son denegados. |
+| `allowedExtensions` | `string[]` | `["*"]` | Extensiones de archivo permitidas. Usa `["*"]` para permitir todas las extensiones de texto. Ejemplo: `[".ts", ".js", ".json"]` |
 
-### Security pipeline execution order
+### Orden de ejecución del pipeline de seguridad
 
-The following checks are applied in strict order. The first denial wins:
+Las siguientes comprobaciones se aplican en orden estricto. La primera denegación es la que prevalece:
 
-1. **HARDCODED_BLACKLIST** — Internal immutable blocklist (`.env`, `*.pem`, `id_rsa`, `secret*`, etc.). Cannot be disabled by config.
-2. **BINARY_EXTENSION** — Binary file extensions (`.exe`, `.dll`, `.png`, `.zip`, etc.).
-3. **DENIED_PATH** — File is under a `deniedPaths` entry.
-4. **NOT_IN_ALLOWED_PATH** — File is not under any `allowedPaths` entry.
-5. **DENIED_FILE_PATTERN** — Filename matches a `deniedFiles` pattern.
-6. **EXTENSION_NOT_ALLOWED** — Extension not in `allowedExtensions` (when not `["*"]`).
-7. **FILE_TOO_LARGE** — File exceeds `maxFileSizeKb`.
-8. **MODULE_EXCLUDE_PATTERN** — File matches a module-level `excludePatterns` entry.
+1. **HARDCODED_BLACKLIST** — Lista interna inmutable de bloqueo (`.env`, `*.pem`, `id_rsa`, `secret*`, etc.). No puede desactivarse mediante la configuración.
+2. **BINARY_EXTENSION** — Extensiones de archivos binarios (`.exe`, `.dll`, `.png`, `.zip`, etc.).
+3. **DENIED_PATH** — El archivo está bajo una entrada de `deniedPaths`.
+4. **NOT_IN_ALLOWED_PATH** — El archivo no está bajo ninguna entrada de `allowedPaths`.
+5. **DENIED_FILE_PATTERN** — El nombre del archivo coincide con un patrón de `deniedFiles`.
+6. **EXTENSION_NOT_ALLOWED** — La extensión no está en `allowedExtensions` (cuando no es `["*"]`).
+7. **FILE_TOO_LARGE** — El archivo excede `maxFileSizeKb`.
+8. **MODULE_EXCLUDE_PATTERN** — El archivo coincide con un patrón de exclusión a nivel de módulo (`excludePatterns`).
 
-### Hardcoded blacklist
+### Lista de bloqueo hardcoded
 
-These patterns are **always** blocked regardless of configuration:
+Estos patrones están **siempre** bloqueados independientemente de la configuración:
 
 ```
 .env          .env.*        credentials.json    *.pem
@@ -85,7 +85,7 @@ secret*       secrets.json  token*              service-account.json
 
 ---
 
-## Complete Example
+## Ejemplo completo
 
 ```json
 {
@@ -131,9 +131,9 @@ secret*       secrets.json  token*              service-account.json
 
 ---
 
-## Bundle Output Format
+## Formato de salida del bundle
 
-### File block
+### Bloque de archivo
 
 ```
 BUNDLE_START: <sha256-hex-64-chars>
@@ -142,7 +142,7 @@ relative/path/to/file.ts
 BUNDLE_END: relative/path/to/file.ts
 ```
 
-### Truncation message (when size limit exceeded)
+### Mensaje de truncamiento (cuando se excede el límite de tamaño)
 
 ```
 BUNDLE_TRUNCATED: Límite de tamaño excedido.

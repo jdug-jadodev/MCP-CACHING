@@ -6,7 +6,7 @@ import fg from 'fast-glob';
 import type { BundleResult } from '../types.js';
 import { LRUCache } from '../cache/lru-cache.js';
 import { Logger } from '../logger/logger.js';
-import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../security/security-guard.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG } from '../security/security-guard.js';
 import { formatFileBlock, formatBundleResult, type FormattedBlock } from '../formatter/bundle-formatter.js';
 import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../config/config-loader.js';
 
@@ -22,6 +22,7 @@ export async function getDirectoryContext(
   logger: Logger,
 ): Promise<BundleResult> {
   const rootPath = path.resolve(args.rootPath);
+  logger.info('AI_CONTEXT_USAGE: getDirectoryContext invoked', { rootPath });
 
   let securityConfig = DEFAULT_SECURITY_CONFIG;
   let maxTotalSizeKb = 2048;
@@ -53,6 +54,8 @@ export async function getDirectoryContext(
 
   const blocks: FormattedBlock[] = [];
   let omittedCount = 0;
+  let cacheHits = 0;
+  let cacheMisses = 0;
 
   for (const absolutePath of files) {
     const relativePath = path.relative(rootPath, absolutePath).replace(/\\/g, '/');
@@ -79,8 +82,11 @@ export async function getDirectoryContext(
 
     if (cached && cached.fingerprint === fingerprint) {
       logger.debug('Cache hit', { file: relativePath });
+      cacheHits++;
       blocks.push({ relativePath, formattedBlock: cached.block });
     } else {
+      logger.debug('Cache miss', { file: relativePath });
+      cacheMisses++;
       const formattedBlock = formatFileBlock(relativePath, fingerprint, fileContent);
       cache.set(cacheKey, { fingerprint, block: formattedBlock });
       blocks.push({ relativePath, formattedBlock });
@@ -89,6 +95,14 @@ export async function getDirectoryContext(
 
   const result = formatBundleResult(blocks, maxTotalSizeKb);
   result.filesOmitted += omittedCount;
+
+  logger.info('AI_CONTEXT_USAGE: getDirectoryContext completed', {
+    filesIncluded: result.filesIncluded,
+    filesOmitted: result.filesOmitted,
+    truncated: result.truncated,
+    cacheHits,
+    cacheMisses,
+  });
 
   return result;
 }
