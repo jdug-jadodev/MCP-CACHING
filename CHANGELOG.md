@@ -1,45 +1,53 @@
+## [1.1.0] - 2026-05-19
+
+### Summary
+
+This release adds debugging and export features for the LRU cache and server tools.
+
+### Changes (from `cambios-registro.md`)
+
+```
+# 📊 Registro de Cambios con Estadísticas
+**Iniciado:** 19/5/2026, 7:26:42 p. m.
+**Proyecto:** C:\Users\Usuario\Documents\mcp-context-cache
+**Formato:** Archivos nuevos, modificados y eliminados
+**Estado:** Monitoreando cambios no commiteados
+
+## 🕐 19/05/2026, 19:26:43
+
+### 📊 Resumen
+- **Total archivos:** 6
+- **📝 Nuevos:** 3
+- **✏️ Modificados:** 3
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +192
+- **Líneas eliminadas:** -6
+- **Balance neto:** +186 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/tools/cache-paths.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/tools/clear-cache.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/tools/inspect-cache.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/server.ts` | +119 | -6 | +113 |
+| ✏️ | `src/cache/lru-cache.ts` | +72 | -0 | +72 |
+| ✏️ | `src/types.ts` | +1 | -0 | +1 |
+
+### Notas
+- Añadido `LRUCache.getAllEntries()` y herramienta `dump_cache`.
+- Añadido endpoint HTTP opcional `MCP_CACHE_HTTP_PORT` para debugging local.
+
+```
+
+---
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on "Keep a Changelog" and this project adheres to Semantic Versioning.
 
-## [1.0.0] - 2026-05-14
+## [Unreleased]
 
-### Added
-- Initial release of mcp-context-cache
-- Three MCP tools for context loading:
-  - `get_project_context` - Load specific files into context
-  - `get_directory_context` - Recursively load files from directories
-  - `get_context_from_config` - Load curated context from `contextcache.json`
-- LRU in-memory caching with SHA-256 fingerprinting
-- 8-step security validation pipeline with hardcoded blacklist
-- Smart truncation with reporting of omitted files
-- Alphabetical ordering for deterministic output
-- `--init` command for generating project configuration
-- Comprehensive test suite (43 tests, 100% passing)
-- Full documentation including Agent Instructions and API specification
-- GitHub Actions workflow for automated publishing
-
-### Technical Details
-- Built with TypeScript, Zod for validation, fast-glob for file discovery
-- Supports CommonJS and ES modules
-- Strict type checking enabled
-- ESLint and Prettier integration
-- Vitest for testing
-- Works with Node.js 18+
-
-### Security Features
-- Hardcoded blacklist for sensitive files (`.env`, `*.pem`, credentials, etc.)
-- Path validation pipeline
-- Binary file extension filtering
-- File size limits
-- Configurable security rules per project
-
-### Caching
-- LRU cache with configurable entry limits
-- Per-file size limits for cache entries
-- Automatic eviction of least-recently-used entries
-- Cache key based on absolute file path
-- Fingerprint verification using SHA-256
