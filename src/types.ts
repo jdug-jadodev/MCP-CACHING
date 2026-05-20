@@ -3,6 +3,7 @@
 export interface CacheEntry {
   fingerprint: string; // SHA-256 of the file
   block: string; // Formatted BUNDLE_START...BUNDLE_END block
+  lastAccess?: number; // epoch ms of last access (optional)
 }
 
 export interface LRUCacheOptions {
