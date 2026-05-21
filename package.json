@@ -1,6 +1,6 @@
 {
   "name": "mcp-context-cache",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "MCP server for AI agent context caching",
   "homepage": "https://github.com/jdug-jadodev/MCP-CACHING",
   "repository": {
@@ -10,7 +10,14 @@
   "bugs": {
     "url": "https://github.com/jdug-jadodev/MCP-CACHING/issues"
   },
-  "keywords": ["mcp", "context", "cache", "ai", "agents", "model-context-protocol"],
+  "keywords": [
+    "mcp",
+    "context",
+    "cache",
+    "ai",
+    "agents",
+    "model-context-protocol"
+  ],
   "author": "jdug-jadodev",
   "license": "MIT",
   "type": "module",
