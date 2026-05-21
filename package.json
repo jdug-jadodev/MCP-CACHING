@@ -17,13 +17,18 @@
   "bin": {
     "mcp-context-cache": "dist/index.js"
   },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint src/**/*.ts",
-    "prepublish": "pnpm build",
+    "prepublishOnly": "pnpm build",
     "postbuild": "node scripts/postbuild.mjs"
   },
   "files": [
@@ -31,7 +36,7 @@
     "README.md"
   ],
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "access": "public"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.0",
