@@ -1,7 +1,7 @@
-// src/security/security-guard.ts
+
 import * as fs from 'node:fs';
 import * as path from 'node:path';
-import type { SecurityCheckResult, SecurityConfig, DenialReason } from '../types.js';
+import type { SecurityCheckResult, SecurityConfig, DenialReason } from '../../types.js';
 
 const HARDCODED_BLACKLIST = [
   '.env',
@@ -74,43 +74,43 @@ export function checkFile(
   const filename = path.basename(absolutePath);
   const ext = path.extname(absolutePath).toLowerCase();
 
-  // Step 1: Hardcoded blacklist
+  
   for (const pattern of HARDCODED_BLACKLIST) {
     if (matchesPattern(filename, pattern)) {
       return { allowed: false, reason: 'HARDCODED_BLACKLIST' };
     }
   }
 
-  // Step 2: Binary extensions
+  
   if (BINARY_EXTENSIONS.has(ext)) {
     return { allowed: false, reason: 'BINARY_EXTENSION' };
   }
 
-  // Step 3: Denied paths
+  
   if (config.deniedPaths.length > 0 && isInDeniedPath(absolutePath, config.deniedPaths)) {
     return { allowed: false, reason: 'DENIED_PATH' };
   }
 
-  // Step 4: Must be in allowed paths
+  
   if (config.allowedPaths.length > 0 && !isInAllowedPath(absolutePath, config.allowedPaths)) {
     return { allowed: false, reason: 'NOT_IN_ALLOWED_PATH' };
   }
 
-  // Step 5: Denied files patterns
+  
   for (const pattern of config.deniedFiles) {
     if (matchesPattern(filename, pattern)) {
       return { allowed: false, reason: 'DENIED_FILE_PATTERN' };
     }
   }
 
-  // Step 6: Allowed extensions check
+  
   if (!config.allowedExtensions.includes('*')) {
     if (!config.allowedExtensions.includes(ext)) {
       return { allowed: false, reason: 'EXTENSION_NOT_ALLOWED' };
     }
   }
 
-  // Step 7: File size check
+  
   try {
     const stats = fs.statSync(absolutePath);
     const fileSizeKb = stats.size / 1024;
@@ -121,7 +121,7 @@ export function checkFile(
     return { allowed: false, reason: 'FILE_TOO_LARGE' };
   }
 
-  // Step 8: Module exclude patterns
+  
   if (excludePatterns && excludePatterns.length > 0) {
     const relativeName = filename;
     for (const pattern of excludePatterns) {
@@ -135,7 +135,7 @@ export function checkFile(
 }
 
 export const DEFAULT_SECURITY_CONFIG: SecurityConfig = {
-  allowedPaths: [], // Empty = no path restriction (when no config provided)
+  allowedPaths: [], 
   deniedPaths: [],
   deniedFiles: [],
   maxFileSizeKb: 500,

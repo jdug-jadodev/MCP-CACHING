@@ -1,4 +1,4 @@
-// src/logger/logger.ts
+
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import * as os from 'node:os';
@@ -24,7 +24,7 @@ export class Logger {
       fs.mkdirSync(path.dirname(resolvedLogPath), { recursive: true });
       this.logFile = fs.createWriteStream(resolvedLogPath, { flags: 'a' });
     } catch {
-      // If log file can't be opened, only log to stderr
+      
       this.logFile = undefined;
     }
   }
@@ -53,7 +53,7 @@ export class Logger {
     if (!this.shouldLog(level)) return;
     const metaStr = meta !== undefined ? ' ' + JSON.stringify(meta) : '';
     const line = `[${new Date().toISOString()}] [${level.toUpperCase()}] ${message}${metaStr}\n`;
-    // ALWAYS write to stderr, NEVER stdout (stdout is reserved for MCP stdio transport)
+    
     process.stderr.write(line);
     this.logFile?.write(line);
   }

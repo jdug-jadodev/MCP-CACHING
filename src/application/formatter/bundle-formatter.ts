@@ -1,9 +1,9 @@
-// src/formatter/bundle-formatter.ts
-import type { BundleResult } from '../types.js';
+
+import type { BundleResult } from '../../types.js';
 
 export interface FormattedBlock {
   relativePath: string;
-  formattedBlock: string; // Full BUNDLE_START...BUNDLE_END string
+  formattedBlock: string; 
 }
 
 export function formatFileBlock(
@@ -24,7 +24,7 @@ export function formatBundleResult(
   blocks: FormattedBlock[],
   maxTotalSizeKb: number,
 ): BundleResult {
-  // Sort alphabetically by relative path
+  
   const sorted = [...blocks].sort((a, b) => a.relativePath.localeCompare(b.relativePath));
 
   const maxTotalBytes = maxTotalSizeKb * 1024;

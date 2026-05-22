@@ -1,27 +1,27 @@
-// src/types.ts
+
 
 export interface CacheEntry {
-  fingerprint: string; // SHA-256 of the file
-  block: string; // Formatted BUNDLE_START...BUNDLE_END block
+  fingerprint: string; 
+  block: string; 
 }
 
 export interface LRUCacheOptions {
-  maxEntries: number; // default: 5000
-  maxEntrySizeKb: number; // default: 1024
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
 }
 
 export interface SecurityConfig {
-  allowedPaths: string[]; // default: ["./"]
+  allowedPaths: string[]; 
   deniedPaths: string[];
-  deniedFiles: string[]; // supports simple wildcards (*)
-  maxFileSizeKb: number; // default: 500
-  allowedExtensions: string[]; // ["*"] = all text extensions
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
 }
 
 export interface ModuleConfig {
   name: string;
   path: string;
-  includeInstructions?: boolean; // default: false
+  includeInstructions?: boolean; 
   excludePatterns?: string[];
 }
 
@@ -33,7 +33,7 @@ export interface CacheConfig {
 export interface ProjectConfig {
   modules?: ModuleConfig[];
   globalInstructions?: string;
-  maxTotalSizeKb?: number; // default: 2048
+  maxTotalSizeKb?: number; 
   cache?: CacheConfig;
   security?: Partial<SecurityConfig>;
 }

@@ -1,13 +1,13 @@
-// src/server.ts
+
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { z } from 'zod';
-import { LRUCache } from './cache/lru-cache.js';
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
 import { Logger } from './logger/logger.js';
 import type { LRUCacheOptions } from './types.js';
-import { getProjectContext, getProjectContextMcpResponse } from './tools/get-project-context.js';
-import { getDirectoryContext, getDirectoryContextMcpResponse } from './tools/get-directory-context.js';
-import { getContextFromConfig, getContextFromConfigMcpResponse } from './tools/get-context-from-config.js';
+import { getProjectContext, getProjectContextMcpResponse } from './application/tools/get-project-context.js';
+import { getDirectoryContext, getDirectoryContextMcpResponse } from './application/tools/get-directory-context.js';
+import { getContextFromConfig, getContextFromConfigMcpResponse } from './application/tools/get-context-from-config.js';
 
 export class ContextCacheServer {
   private readonly server: McpServer;

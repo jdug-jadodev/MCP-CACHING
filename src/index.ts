@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// src/index.ts
+
 import { ContextCacheServer } from './server.js';
 import { runInitCommand } from './init/init-command.js';
 

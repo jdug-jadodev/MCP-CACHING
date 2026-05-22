@@ -1,14 +1,14 @@
-// src/tools/get-context-from-config.ts
+
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import * as crypto from 'node:crypto';
 import fg from 'fast-glob';
-import type { BundleResult, ModuleConfig } from '../types.js';
-import { LRUCache } from '../cache/lru-cache.js';
-import { Logger } from '../logger/logger.js';
-import { checkFile, mergeSecurityConfig } from '../security/security-guard.js';
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile } from '../../infrastructure/security/security-guard.js';
 import { formatFileBlock, formatBundleResult, type FormattedBlock } from '../formatter/bundle-formatter.js';
-import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../config/config-loader.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
 
 export interface GetContextFromConfigArgs {
   projectRoot: string;
@@ -24,7 +24,7 @@ async function findInstructionFile(modulePath: string): Promise<string | null> {
       await fs.promises.access(candidate, fs.constants.R_OK);
       return candidate;
     } catch {
-      // File doesn't exist or isn't readable, try next
+      console.debug('No instruction file found at', candidate);
     }
   }
   return null;
@@ -70,7 +70,7 @@ export async function getContextFromConfig(
   const allBlocks: FormattedBlock[] = [];
   let totalOmitted = 0;
 
-  // Process global instructions first
+  
   if (config.globalInstructions) {
     const instructionsPath = path.resolve(projectRoot, config.globalInstructions);
     try {
@@ -78,7 +78,7 @@ export async function getContextFromConfig(
       const relativePath = path.relative(projectRoot, instructionsPath).replace(/\\/g, '/');
       const fingerprint = crypto.createHash('sha256').update(content).digest('hex');
       const block = formatFileBlock(relativePath, fingerprint, content);
-      // Prepend global instructions with special header
+      
       const headerBlock = `=== GLOBAL INSTRUCTIONS ===\n${block}=== END GLOBAL INSTRUCTIONS ===\n\n`;
       allBlocks.push({ relativePath: '00_global_instructions', formattedBlock: headerBlock });
     } catch (err) {
@@ -89,12 +89,12 @@ export async function getContextFromConfig(
     }
   }
 
-  // Process each module
+  
   for (const module of config.modules ?? []) {
     const modulePath = path.resolve(projectRoot, module.path);
     const moduleBlocks: FormattedBlock[] = [];
 
-    // Include module instructions if requested
+    
     if (module.includeInstructions) {
       const instructionFile = await findInstructionFile(modulePath);
       if (instructionFile) {
@@ -103,14 +103,14 @@ export async function getContextFromConfig(
           .replace(/\\/g, '/');
         const block = await processFileToBlock(instructionFile, relativePath, cache, logger);
         if (block) {
-          // Prepend with module instructions header
+          
           const headerBlock = `=== MODULE INSTRUCTIONS: ${module.name} ===\n${block.formattedBlock}=== END MODULE INSTRUCTIONS: ${module.name} ===\n\n`;
           moduleBlocks.push({ relativePath: `00_instructions_${module.name}`, formattedBlock: headerBlock });
         }
       }
     }
 
-    // List files in the module directory
+    
     let files: string[];
     try {
       files = await fg('**/*', {
@@ -148,7 +148,7 @@ export async function getContextFromConfig(
       }
     }
 
-    // Sort module blocks alphabetically (instruction blocks have 00_ prefix to appear first)
+    
     moduleBlocks.sort((a, b) => a.relativePath.localeCompare(b.relativePath));
     allBlocks.push(...moduleBlocks);
   }

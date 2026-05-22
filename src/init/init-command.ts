@@ -1,4 +1,4 @@
-// src/init/init-command.ts
+
 import * as fs from 'node:fs';
 import * as path from 'node:path';
 import type { ProjectConfig } from '../types.js';

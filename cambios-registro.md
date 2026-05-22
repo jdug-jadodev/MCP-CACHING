@@ -1,11 +1,75 @@
 # 📊 Registro de Cambios con Estadísticas
-**Iniciado:** 21/5/2026, 3:56:14 p. m.
+**Iniciado:** 21/5/2026, 6:20:26 p. m.
 **Proyecto:** C:\Users\Usuario\Documents\mcp-context-cache
-**Último commit:** 89ab099 - chore(release): v1.1.5 (2 seconds ago)
+**Último commit:** ec27363 - Actualiza herramientas de obtención de contexto, formateador y pruebas; mejoras de seguridad y logging (1 second ago)
 **Estado:** Monitoreando nuevos cambios
 
 
-## 🕐 21/05/2026, 15:59:14
+## 🕐 21/05/2026, 18:33:13
+
+### 📊 Resumen
+- **Total archivos:** 1
+- **📝 Nuevos:** 1
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (1)</summary>
+
+**🆕 Nuevos:**
+```
+src/domain/errors/error-messages.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:18
+
+### 📊 Resumen
+- **Total archivos:** 2
+- **📝 Nuevos:** 2
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (2)</summary>
+
+**🆕 Nuevos:**
+```
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:21
 
 ### 📊 Resumen
 - **Total archivos:** 3
@@ -20,9 +84,9 @@
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
 
 ### 📁 Lista completa
 
@@ -31,34 +95,34 @@
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-contextcache.json
-scripts/daemon-test.mjs
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
 ```
 
 </details>
 
 ---
 
-## 🕐 21/05/2026, 16:01:10
+## 🕐 21/05/2026, 18:33:24
 
 ### 📊 Resumen
 - **Total archivos:** 4
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
+- **📝 Nuevos:** 4
+- **✏️ Modificados:** 0
 - **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +58
-- **Líneas eliminadas:** -2
-- **Balance neto:** +56 líneas
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
 
 ### 📝 Detalle por archivo
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +58 | -2 | +56 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
 
 ### 📁 Lista completa
 
@@ -67,1072 +131,36 @@ scripts/daemon-test.mjs
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
 ```
 
 </details>
 
-### 💻 Código Añadido
-
-**README.md** (+58 líneas)**
-
-```
-Install and run using pnpm (recommended):
-
-pnpm add -g mcp-context-cache
-# Run the init command to generate a configuration file in the current project
-
-# Or run the server once without installing globally
-pnpm dlx mcp-context-cache
-```
-
-If you prefer to install the package into your project (local dev or CI):
-
-```bash
-pnpm add -D mcp-context-cache
-# then run with: pnpm dlx mcp-context-cache --init
-If you need to run the published CLI but not install it, `pnpm dlx mcp-context-cache` will execute the package directly.
-
-## Configuration (contextcache.json)
-
-The server looks for a `contextcache.json` file in the project root by default. You can also pass an explicit path to tools that accept `configPath`.
-
-Example `contextcache.json`:
-
-```json
-{
-	"modules": [
-		{
-			"name": "src",
-			"path": "src",
-			"includeInstructions": true,
-			"excludePatterns": ["**/*.test.ts"]
-		}
-	],
-	"globalInstructions": "Summarize the project and important files for an AI agent.",
-	"maxTotalSizeKb": 2048,
-	"cache": {
-		"maxEntries": 1000,
-		"maxEntrySizeKb": 200
-	},
-	"security": {
-		"allowedPaths": ["src"],
-		"deniedPaths": ["node_modules"],
-		"deniedFiles": ["*.secret"],
-		"maxFileSizeKb": 200,
-		"allowedExtensions": [".ts", ".js", ".md"]
-	}
-}
-```
-
-Fields reference (brief):
-
-- `modules`: array of module objects with `name` and `path` (required), optional `includeInstructions` (boolean) and `excludePatterns` (glob list).
-- `globalInstructions`: top-level instructions sent to agents when formatting context.
-- `maxTotalSizeKb`: overall limit for returned project context (kilobytes).
-- `cache`: tuning for the internal LRU cache (`maxEntries`, `maxEntrySizeKb`).
-- `security`: fine-grained allow/deny lists and file-size/extension limits.
-
-See `src/config/config-loader.ts` for exact validation rules.
-
-```
-
 ---
 
-## 🕐 21/05/2026, 16:02:48
-
-### 📊 Resumen
-- **Total archivos:** 4
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +113
-- **Líneas eliminadas:** -3
-- **Balance neto:** +110 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +113 | -3 | +110 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (4)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-</details>
-
-### 💻 Código Añadido
-
-**README.md** (+113 líneas)**
-
-```
-Install and run using pnpm (recommended):
-
-```bash
-﻿# mcp-context-cache
-
-🚀 **Servidor MCP para cache de contexto de agentes de IA**
-
-Carga, almacena en caché y entrega de forma eficiente el contexto de archivos de un proyecto a agentes de IA usando el Model Context Protocol (MCP).
-
-## Inicio rápido
-
-Instalación y ejecución con `pnpm` (recomendado):
-
-# Instalar globalmente
-pnpm add -g mcp-context-cache
-# Generar un archivo de configuración en tu proyecto
-
-# Ejecutar el paquete sin instalarlo (útil para probar)
-pnpm dlx mcp-context-cache
-```
-
-Instalar como dependencia de desarrollo en un proyecto:
-
-```bash
-pnpm add -D mcp-context-cache
-# ejecutar: pnpm dlx mcp-context-cache --init
-```
-
-## Características
-
-- Caché LRU — Los archivos se hashean (SHA-256) y se almacenan; los archivos sin cambios no se vuelven a leer.
-- Canal de seguridad — Validaciones para evitar cargar archivos sensibles.
-- Herramientas MCP — Carga de contexto por lista de archivos, directorio o archivo de configuración.
-- Truncado inteligente — Respeta límites de tamaño e informa archivos omitidos.
-- Orden determinista — Salida ordenada para respuestas estables de los agentes.
-
-## Documentación
-
-- **[README completo](docs/README.md)** — Instalación, configuración y ejemplos
-- **[Instrucciones para agentes](docs/AGENT_INSTRUCTIONS.md)** — Cómo los agentes usan este servidor
-- **[Especificación API](docs/CONTEXTCACHE_SPEC.md)** — Especificación completa
-- **[Guía de contribución](CONTRIBUTING.md)** — Cómo contribuir
-
-## Configuración (contextcache.json)
-
-El servidor busca un archivo `contextcache.json` en la raíz del proyecto por defecto. También puedes pasar una ruta explícita a las herramientas que aceptan `configPath`.
-
-Ejemplo de `contextcache.json`:
-
-```json
-{
-	"modules": [
-		{
-			"name": "src",
-			"path": "src",
-			"includeInstructions": true,
-			"excludePatterns": ["**/*.test.ts"]
-		}
-	],
-	"globalInstructions": "Resume el proyecto y los archivos importantes para un agente de IA.",
-	"maxTotalSizeKb": 2048,
-	"cache": {
-		"maxEntries": 1000,
-		"maxEntrySizeKb": 200
-	},
-	"security": {
-		"allowedPaths": ["src"],
-		"deniedPaths": ["node_modules"],
-		"deniedFiles": ["*.secret"],
-		"maxFileSizeKb": 200,
-		"allowedExtensions": [".ts", ".js", ".md"]
-	}
-}
-```
-
-Descripción breve de los campos:
-
-- `modules`: array de módulos con `name` y `path` (requeridos), opcional `includeInstructions` (boolean) y `excludePatterns` (globs).
-- `globalInstructions`: instrucciones generales que se añaden al contexto para los agentes.
-- `maxTotalSizeKb`: límite total de contexto devuelto (en KB).
-- `cache`: ajustes para la caché LRU (`maxEntries`, `maxEntrySizeKb`).
-- `security`: listas de rutas permitidas/denegadas, tamaño máximo de archivo y extensiones permitidas.
-
-Consulta `src/config/config-loader.ts` para las reglas de validación exactas.
-
-## Desarrollo
-
-```bash
-pnpm install        # Instalar dependencias
-pnpm build          # Compilar TypeScript
-pnpm test           # Ejecutar tests
-pnpm lint           # Linter
-pnpm dev            # Modo desarrollo
-## Licencia
-
-MIT — ver [LICENSE](LICENSE)
-
----
-
-Creado con TypeScript • MCP Protocol • LRU Cache • Zod
-}
-```
-
-Fields reference (brief):
-
-- `modules`: array of module objects with `name` and `path` (required), optional `includeInstructions` (boolean) and `excludePatterns` (glob list).
-- `globalInstructions`: top-level instructions sent to agents when formatting context.
-- `maxTotalSizeKb`: overall limit for returned project context (kilobytes).
-- `cache`: tuning for the internal LRU cache (`maxEntries`, `maxEntrySizeKb`).
-- `security`: fine-grained allow/deny lists and file-size/extension limits.
-
-See `src/config/config-loader.ts` for exact validation rules.
-
-```
-
----
-
-## 🕐 21/05/2026, 16:03:31
-
-### 📊 Resumen
-- **Total archivos:** 4
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +160
-- **Líneas eliminadas:** -3
-- **Balance neto:** +157 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +160 | -3 | +157 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (4)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-</details>
-
-### 💻 Código Añadido
-
-**README.md** (+160 líneas)**
-
-```
-Install and run using pnpm (recommended):
-
-```bash
-﻿# mcp-context-cache
-
-🚀 **Servidor MCP para cache de contexto de agentes de IA**
-
-Carga, almacena en caché y entrega de forma eficiente el contexto de archivos de un proyecto a agentes de IA usando el Model Context Protocol (MCP).
-
-## Inicio rápido
-
-Instalación y ejecución con `pnpm` (recomendado):
-
-# Instalar globalmente
-pnpm add -g mcp-context-cache
-# Generar un archivo de configuración en tu proyecto
-
-# Ejecutar el paquete sin instalarlo (útil para probar)
-pnpm dlx mcp-context-cache
-Instalar como dependencia de desarrollo en un proyecto:
-
-```bash
-pnpm add -D mcp-context-cache
-# ejecutar: pnpm dlx mcp-context-cache --init
-```
-
-VS Code — Global instructions (applies to ALL workspaces)
-Create the file %APPDATA%\Code\User\prompts\mcp-context-cache.instructions.md on Windows
-or ~/.config/Code/User/prompts/mcp-context-cache.instructions.md on macOS/Linux:
-
----
-applyTo: "**"
----
-
-# Context Loading — mcp-context-cache
-
-The MCP server `mcp-context-cache` is available globally.
-
-## PROHIBITED tools for reading project files
-
-**NEVER call these built-in tools to read or explore project source files:**
-
-- `read_file`
-- `list_dir`
-- `file_search`
-- `semantic_search`
-- `grep_search`
-
-Using any of the above to read project source files when `mcp-context-cache` tools are available is **not allowed**.
-They may only be used if all MCP tools fail with an error.
-
-## MANDATORY procedure
-
-**Before making any other tool call at the start of a task:**
-
-1. Check whether the workspace contains a `contextcache.json` file.
-2. If it exists → call `get_context_from_config` with `{ "projectRoot": "<absolute-workspace-path>" }` immediately.
-3. If it does not exist and you need directory contents → call `get_directory_context`.
-4. If you need specific files by path → call `get_project_context` with a `paths` array.
-5. Only fall back to `read_file` if ALL three MCP tools return an error.
-
-## Tool reference
-
-- `get_context_from_config`  →  `{ "projectRoot": "<absolute-path>" }`
-- `get_project_context`      →  `{ "paths": ["rel/path.ts", ...], "projectRoot": "<absolute-path>" }`
-- `get_directory_context`    →  `{ "rootPath": "<absolute-path-to-dir>" }`
-
-## Handling BUNDLE_TRUNCATED
-
-If the response contains `BUNDLE_TRUNCATED`, call `get_project_context` with the listed omitted file paths.
-Do NOT switch to `read_file` to recover truncated files.
-The applyTo: "**" frontmatter tells VS Code Copilot to inject this file into every conversation regardless of the active workspace.
-
-## Características
-
-- Caché LRU — Los archivos se hashean (SHA-256) y se almacenan; los archivos sin cambios no se vuelven a leer.
-- Canal de seguridad — Validaciones para evitar cargar archivos sensibles.
-- Herramientas MCP — Carga de contexto por lista de archivos, directorio o archivo de configuración.
-- Truncado inteligente — Respeta límites de tamaño e informa archivos omitidos.
-- Orden determinista — Salida ordenada para respuestas estables de los agentes.
-
-## Documentación
-
-- **[README completo](docs/README.md)** — Instalación, configuración y ejemplos
-- **[Instrucciones para agentes](docs/AGENT_INSTRUCTIONS.md)** — Cómo los agentes usan este servidor
-- **[Especificación API](docs/CONTEXTCACHE_SPEC.md)** — Especificación completa
-- **[Guía de contribución](CONTRIBUTING.md)** — Cómo contribuir
-
-## Configuración (contextcache.json)
-
-El servidor busca un archivo `contextcache.json` en la raíz del proyecto por defecto. También puedes pasar una ruta explícita a las herramientas que aceptan `configPath`.
-
-Ejemplo de `contextcache.json`:
-
-```json
-{
-	"modules": [
-		{
-			"name": "src",
-			"path": "src",
-			"includeInstructions": true,
-			"excludePatterns": ["**/*.test.ts"]
-		}
-	],
-	"globalInstructions": "Resume el proyecto y los archivos importantes para un agente de IA.",
-	"maxTotalSizeKb": 2048,
-	"cache": {
-		"maxEntries": 1000,
-		"maxEntrySizeKb": 200
-	},
-	"security": {
-		"allowedPaths": ["src"],
-		"deniedPaths": ["node_modules"],
-		"deniedFiles": ["*.secret"],
-		"maxFileSizeKb": 200,
-		"allowedExtensions": [".ts", ".js", ".md"]
-	}
-}
-```
-
-Descripción breve de los campos:
-
-- `modules`: array de módulos con `name` y `path` (requeridos), opcional `includeInstructions` (boolean) y `excludePatterns` (globs).
-- `globalInstructions`: instrucciones generales que se añaden al contexto para los agentes.
-- `maxTotalSizeKb`: límite total de contexto devuelto (en KB).
-- `cache`: ajustes para la caché LRU (`maxEntries`, `maxEntrySizeKb`).
-- `security`: listas de rutas permitidas/denegadas, tamaño máximo de archivo y extensiones permitidas.
-
-Consulta `src/config/config-loader.ts` para las reglas de validación exactas.
-
-## Desarrollo
-
-```bash
-pnpm install        # Instalar dependencias
-pnpm build          # Compilar TypeScript
-pnpm test           # Ejecutar tests
-pnpm lint           # Linter
-pnpm dev            # Modo desarrollo
-```
-
-## Licencia
-
-MIT — ver [LICENSE](LICENSE)
-
----
-
-Creado con TypeScript • MCP Protocol • LRU Cache • Zod
-}
-```
-
-Fields reference (brief):
-
-- `modules`: array of module objects with `name` and `path` (required), optional `includeInstructions` (boolean) and `excludePatterns` (glob list).
-- `globalInstructions`: top-level instructions sent to agents when formatting context.
-- `maxTotalSizeKb`: overall limit for returned project context (kilobytes).
-- `cache`: tuning for the internal LRU cache (`maxEntries`, `maxEntrySizeKb`).
-- `security`: fine-grained allow/deny lists and file-size/extension limits.
-
-See `src/config/config-loader.ts` for exact validation rules.
-
-```
-
----
-
-## 🕐 21/05/2026, 16:03:56
-
-### 📊 Resumen
-- **Total archivos:** 4
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +172
-- **Líneas eliminadas:** -3
-- **Balance neto:** +169 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +172 | -3 | +169 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (4)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-</details>
-
-### 💻 Código Añadido
-
-**README.md** (+172 líneas)**
-
-```
-Install and run using pnpm (recommended):
-
-```bash
-﻿# mcp-context-cache
-
-🚀 **Servidor MCP para cache de contexto de agentes de IA**
-
-Carga, almacena en caché y entrega de forma eficiente el contexto de archivos de un proyecto a agentes de IA usando el Model Context Protocol (MCP).
-
-## Inicio rápido
-
-Instalación y ejecución con `pnpm` (recomendado):
-
-# Instalar globalmente
-pnpm add -g mcp-context-cache
-# Generar un archivo de configuración en tu proyecto
-
-# Ejecutar el paquete sin instalarlo (útil para probar)
-pnpm dlx mcp-context-cache
-```
-
-Instalar como dependencia de desarrollo en un proyecto:
-
-```bash
-pnpm add -D mcp-context-cache
-# ejecutar: pnpm dlx mcp-context-cache --init
-```
-
-VS Code — Global instructions (applies to ALL workspaces)
-Create the file %APPDATA%\Code\User\prompts\mcp-context-cache.instructions.md on Windows
-or ~/.config/Code/User/prompts/mcp-context-cache.instructions.md on macOS/Linux:
-
----
-applyTo: "**"
----
-
-# Context Loading — mcp-context-cache
-
-The MCP server `mcp-context-cache` is available globally.
-
-## PROHIBITED tools for reading project files
-
-**NEVER call these built-in tools to read or explore project source files:**
-
-- `read_file`
-- `list_dir`
-- `file_search`
-- `semantic_search`
-- `grep_search`
-
-Using any of the above to read project source files when `mcp-context-cache` tools are available is **not allowed**.
-They may only be used if all MCP tools fail with an error.
-
-## MANDATORY procedure
-
-**Before making any other tool call at the start of a task:**
-
-1. Check whether the workspace contains a `contextcache.json` file.
-2. If it exists → call `get_context_from_config` with `{ "projectRoot": "<absolute-workspace-path>" }` immediately.
-3. If it does not exist and you need directory contents → call `get_directory_context`.
-4. If you need specific files by path → call `get_project_context` with a `paths` array.
-5. Only fall back to `read_file` if ALL three MCP tools return an error.
-
-## Tool reference
-
-- `get_context_from_config`  →  `{ "projectRoot": "<absolute-path>" }`
-- `get_project_context`      →  `{ "paths": ["rel/path.ts", ...], "projectRoot": "<absolute-path>" }`
-- `get_directory_context`    →  `{ "rootPath": "<absolute-path-to-dir>" }`
-
-## Handling BUNDLE_TRUNCATED
-
-If the response contains `BUNDLE_TRUNCATED`, call `get_project_context` with the listed omitted file paths.
-Do NOT switch to `read_file` to recover truncated files.
-The applyTo: "**" frontmatter tells VS Code Copilot to inject this file into every conversation regardless of the active workspace.
-
-## PROHIBITED — do not use these tools to read project files
-
-**NEVER call `read_file`, `list_dir`, `file_search`, `semantic_search`, or `grep_search` to read project source files.**
-Only fall back to them if all MCP tools return an error.
-
-## MANDATORY first step
-
-This project has a `contextcache.json`. Call `get_context_from_config` before any other tool:
-
-```json
-{ "projectRoot": "<absolute-path-to-this-repo>" }
-
-## Características
-
-- Caché LRU — Los archivos se hashean (SHA-256) y se almacenan; los archivos sin cambios no se vuelven a leer.
-- Canal de seguridad — Validaciones para evitar cargar archivos sensibles.
-- Herramientas MCP — Carga de contexto por lista de archivos, directorio o archivo de configuración.
-- Truncado inteligente — Respeta límites de tamaño e informa archivos omitidos.
-- Orden determinista — Salida ordenada para respuestas estables de los agentes.
-
-## Documentación
-
-- **[README completo](docs/README.md)** — Instalación, configuración y ejemplos
-- **[Instrucciones para agentes](docs/AGENT_INSTRUCTIONS.md)** — Cómo los agentes usan este servidor
-- **[Especificación API](docs/CONTEXTCACHE_SPEC.md)** — Especificación completa
-- **[Guía de contribución](CONTRIBUTING.md)** — Cómo contribuir
-
-## Configuración (contextcache.json)
-
-El servidor busca un archivo `contextcache.json` en la raíz del proyecto por defecto. También puedes pasar una ruta explícita a las herramientas que aceptan `configPath`.
-
-Ejemplo de `contextcache.json`:
-
-```json
-{
-	"modules": [
-		{
-			"name": "src",
-			"path": "src",
-			"includeInstructions": true,
-			"excludePatterns": ["**/*.test.ts"]
-		}
-	],
-	"globalInstructions": "Resume el proyecto y los archivos importantes para un agente de IA.",
-	"maxTotalSizeKb": 2048,
-	"cache": {
-		"maxEntries": 1000,
-		"maxEntrySizeKb": 200
-	},
-	"security": {
-		"allowedPaths": ["src"],
-		"deniedPaths": ["node_modules"],
-		"deniedFiles": ["*.secret"],
-		"maxFileSizeKb": 200,
-		"allowedExtensions": [".ts", ".js", ".md"]
-	}
-}
-```
-
-Descripción breve de los campos:
-
-- `modules`: array de módulos con `name` y `path` (requeridos), opcional `includeInstructions` (boolean) y `excludePatterns` (globs).
-- `globalInstructions`: instrucciones generales que se añaden al contexto para los agentes.
-- `maxTotalSizeKb`: límite total de contexto devuelto (en KB).
-- `cache`: ajustes para la caché LRU (`maxEntries`, `maxEntrySizeKb`).
-- `security`: listas de rutas permitidas/denegadas, tamaño máximo de archivo y extensiones permitidas.
-
-Consulta `src/config/config-loader.ts` para las reglas de validación exactas.
-
-## Desarrollo
-
-```bash
-pnpm install        # Instalar dependencias
-pnpm build          # Compilar TypeScript
-pnpm test           # Ejecutar tests
-pnpm lint           # Linter
-pnpm dev            # Modo desarrollo
-## Licencia
-
-MIT — ver [LICENSE](LICENSE)
-
----
-
-Creado con TypeScript • MCP Protocol • LRU Cache • Zod
-}
-```
-
-Fields reference (brief):
-
-- `modules`: array of module objects with `name` and `path` (required), optional `includeInstructions` (boolean) and `excludePatterns` (glob list).
-- `globalInstructions`: top-level instructions sent to agents when formatting context.
-- `maxTotalSizeKb`: overall limit for returned project context (kilobytes).
-- `cache`: tuning for the internal LRU cache (`maxEntries`, `maxEntrySizeKb`).
-- `security`: fine-grained allow/deny lists and file-size/extension limits.
-
-See `src/config/config-loader.ts` for exact validation rules.
-
-```
-
----
-
-## 🕐 21/05/2026, 16:05:26
-
-### 📊 Resumen
-- **Total archivos:** 4
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +330
-- **Líneas eliminadas:** -28
-- **Balance neto:** +302 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +330 | -28 | +302 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (4)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-</details>
-
-### 💻 Código Añadido
-
-**README.md** (+330 líneas)**
-
-```
-﻿﻿# mcp-context-cache
-MCP server for AI agent context caching. Efficiently loads, caches, and delivers project file context to AI agents using the Model Context Protocol (MCP).
-> **Without this server:** AI agents call `read_file` once per file — 30 files = 30 tool calls.  
-> **With this server:** one call to `get_context_from_config` returns all files bundled and cached.
-## Features
-
-- **LRU caching** — Files are hashed (SHA-256) and cached in memory. Unchanged files are never re-read from disk.
-- **Security pipeline** — 8-step validation prevents loading sensitive files (`.env`, `*.pem`, credentials, binaries, etc.).
-- **3 MCP tools** — Flexible context loading: by file list, directory, or config file.
-- **Smart truncation** — Respects configurable size limits and reports omitted files.
-- **Alphabetical ordering** — Deterministic output for stable AI agent responses.
-
----
-
-## Installation
-
-### Global Installation (Recommended)
-
-```bash
-npm install -g mcp-context-cache
-```
-Or with pnpm:
-pnpm add -g mcp-context-cache
-```
-Verify installation:
-```bash
-mcp-context-cache --version
-### Run without installing
-```bash
-npx mcp-context-cache --init
-```
----
-## Setup Guide
-### Step 1 — Register the MCP server in your IDE
-
-#### VS Code
-
-**Option A — Global (all workspaces):**  
-Edit `%APPDATA%\Code\User\mcp.json` on Windows or `~/.config/Code/User/mcp.json` on macOS/Linux:
-
-```json
-{
-  "servers": {
-		"mcp-context-cache": {
-			"type": "stdio",
-			"command": "node",
-			"args": [
-				"%APPDATA%\\Local\\pnpm\\global\\5\\.pnpm\\mcp-context-cache@1.0.0\\node_modules\\mcp-context-cache\\dist\\index.js"
-			]
-		}
-  }
-}
-```
-
-**Option B — Per workspace:**  
-Create `.vscode/mcp.json` at the project root:
-
-```json
-{
-  "servers": {
-    "mcp-context-cache": {
-      "type": "stdio",
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-#### JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
-
-Create `.mcp.json` at the project root:
-
-```json
-{
-  "mcpServers": {
-    "mcp-context-cache": {
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-> JetBrains AI Assistant picks up `.mcp.json` automatically from the project root since version 2024.3.
-
----
-
-### Step 2 — Add agent instructions to prefer MCP tools
-
-AI agents have built-in file-reading tools and will use them by default. You must explicitly instruct them to prefer the MCP tools instead.
-
-#### VS Code — Global instructions (applies to ALL workspaces)
-
-Create the file `%APPDATA%\Code\User\prompts\mcp-context-cache.instructions.md` on Windows  
-or `~/.config/Code/User/prompts/mcp-context-cache.instructions.md` on macOS/Linux:
-
-```markdown
----
-applyTo: "**"
----
-
-# Context Loading — mcp-context-cache
-
-The MCP server `mcp-context-cache` is available globally.
-
-## PROHIBITED tools for reading project files
-
-**NEVER call these built-in tools to read or explore project source files:**
-
-- `read_file`
-- `list_dir`
-- `file_search`
-- `semantic_search`
-- `grep_search`
-
-Using any of the above to read project source files when `mcp-context-cache` tools are available is **not allowed**.
-They may only be used if all MCP tools fail with an error.
-
-## MANDATORY procedure
-
-**Before making any other tool call at the start of a task:**
-
-1. Check whether the workspace contains a `contextcache.json` file.
-2. If it exists → call `get_context_from_config` with `{ "projectRoot": "<absolute-workspace-path>" }` immediately.
-3. If it does not exist and you need directory contents → call `get_directory_context`.
-4. If you need specific files by path → call `get_project_context` with a `paths` array.
-5. Only fall back to `read_file` if ALL three MCP tools return an error.
-
-## Tool reference
-
-- `get_context_from_config`  →  `{ "projectRoot": "<absolute-path>" }`
-- `get_project_context`      →  `{ "paths": ["rel/path.ts", ...], "projectRoot": "<absolute-path>" }`
-- `get_directory_context`    →  `{ "rootPath": "<absolute-path-to-dir>" }`
-
-## Handling BUNDLE_TRUNCATED
-
-If the response contains `BUNDLE_TRUNCATED`, call `get_project_context` with the listed omitted file paths.
-Do NOT switch to `read_file` to recover truncated files.
-```
-
-> The `applyTo: "**"` frontmatter tells VS Code Copilot to inject this file into every conversation regardless of the active workspace.
-
-#### VS Code — Per-project instructions
-
-Create `.github/copilot-instructions.md` at the project root:
-
-```markdown
-## PROHIBITED — do not use these tools to read project files
-
-**NEVER call `read_file`, `list_dir`, `file_search`, `semantic_search`, or `grep_search` to read project source files.**
-Only fall back to them if all MCP tools return an error.
-
-## MANDATORY first step
-
-This project has a `contextcache.json`. Call `get_context_from_config` before any other tool:
-
-```json
-{ "projectRoot": "<absolute-path-to-this-repo>" }
-```
-
-For module-level exploration use `get_directory_context`.
-For specific files use `get_project_context` with a `paths` array.
-```
-
-#### JetBrains — Global instructions (GitHub Copilot plugin)
-
-The GitHub Copilot plugin for JetBrains reads `.github/copilot-instructions.md` **per project** — there is no global instructions file equivalent to VS Code. For each project you want covered, add the same `.github/copilot-instructions.md` block shown above.
-
-To avoid repeating yourself, you can create a shared snippet and copy it via your project template or a `cookiecutter`/`degit` setup.
-
-#### JetBrains — Global system prompt (JetBrains AI Assistant)
-
-Go to **Settings → Tools → AI Assistant → System prompt** and add:
-
-```
-When working in any project that has a contextcache.json file, call the MCP tool
-get_context_from_config with the project root path before reading any individual files.
-Prefer get_directory_context over reading files one by one, and get_project_context
-over multiple read_file calls.
-```
-
----
-
-### Step 3 — Initialize your project
-
-Run in the project root to generate a `contextcache.json`:
-npx @jdug-jadodev/mcp-context-cache --init
-Or create `contextcache.json` manually:
-
-```json
-{
-  "modules": [
-    {
-      "name": "src",
-      "path": "src",
-      "includeInstructions": true,
-      "excludePatterns": ["**/*.test.ts", "**/*.spec.ts", "**/__mocks__/**"]
-    }
-  ],
-  "globalInstructions": ".github/copilot-instructions.md",
-  "maxTotalSizeKb": 2048,
-  "cache": {
-    "maxEntries": 5000,
-    "maxEntrySizeKb": 1024
-  },
-  "security": {
-    "allowedPaths": ["./"],
-    "deniedPaths": ["./node_modules", "./dist", "./secrets", "./.git"],
-    "deniedFiles": [".env", "credentials.json", "*.pem"],
-    "maxFileSizeKb": 500,
-    "allowedExtensions": [".ts", ".tsx", ".js", ".jsx", ".json", ".md", ".yaml", ".yml"]
-  }
-}
-```
-
-| Field | Description |
-|---|---|
-| `modules` | List of directories to bundle |
-| `modules[].path` | Path relative to project root |
-| `modules[].includeInstructions` | If `true`, prepends content of `globalInstructions` |
-| `modules[].excludePatterns` | Glob patterns to skip |
-| `globalInstructions` | Path to a Markdown file included at the top of bundles when `includeInstructions: true` |
-| `maxTotalSizeKb` | Max total bundle size in KB |
-| `cache.maxEntries` | Max number of files in the LRU cache |
-| `cache.maxEntrySizeKb` | Max individual file size to cache |
-| `security.allowedPaths` | Paths the server is allowed to read from |
-| `security.deniedPaths` | Paths always blocked |
-| `security.deniedFiles` | Filename patterns always blocked |
-| `security.maxFileSizeKb` | Max file size to serve |
-| `security.allowedExtensions` | Whitelist of file extensions |
-
----
-
-## MCP Tools
-
-### `get_context_from_config`
-
-Loads the full project context defined in `contextcache.json`. **Use this first.**
-
-```json
-{ "projectRoot": "/absolute/path/to/project" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `projectRoot` | string | yes | Directory containing `contextcache.json` |
-| `configPath` | string | no | Explicit path to `contextcache.json` |
-
-### `get_directory_context`
-
-Recursively loads all files from a directory.
-
-```json
-{ "rootPath": "/absolute/path/to/src/auth", "excludePatterns": ["*.test.ts"] }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `rootPath` | string | yes | Directory to scan |
-| `configPath` | string | no | Path to `contextcache.json` for security config |
-| `excludePatterns` | string[] | no | Additional glob patterns to exclude |
-
-### `get_project_context`
-
-Loads a specific list of files.
-```json
-{ "paths": ["src/auth/login.ts", "src/types.ts"], "projectRoot": "/absolute/path" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `paths` | string[] | yes | File paths to load |
-| `projectRoot` | string | no | Root for resolving relative paths |
-| `configPath` | string | no | Path to `contextcache.json` |
-
----
-
-## Output Format
-
-Each file in a bundle is wrapped with BUNDLE markers:
-
-```
-BUNDLE_START: <sha256-fingerprint>
-path/to/file.ts
-<complete file content>
-BUNDLE_END: path/to/file.ts
-```
-
-Files are always sorted alphabetically for deterministic output.
-
-### Handling `BUNDLE_TRUNCATED`
-
-When the total size exceeds `maxTotalSizeKb`, the response includes:
-
-```
-BUNDLE_TRUNCATED: size limit exceeded.
-Configured limit: 2048 KB
-Total size: 3100 KB
-Omitted files:
-  src/large-module/file-a.ts
-  src/large-module/file-b.ts
-```
-
-Call `get_project_context` with the omitted paths to retrieve them in a follow-up call.
-## Security
-
-The following are **always blocked** regardless of `contextcache.json`:
-
-- `.env`, `.env.*`, `credentials.json`, `*.pem`, `id_rsa`, `id_ed25519`
-- `*.key`, `private.key`, `secret*`, `secrets.json`, `token*`
-- `service-account.json`, `.npmrc`, `.pypirc`
-- All binary extensions (`.exe`, `.dll`, `.png`, `.zip`, `.wasm`, etc.)
-
-Paths outside `allowedPaths` are rejected. The server never follows symlinks outside the allowed tree.
-
----
-
-## Development
-
-```bash
-pnpm install
-pnpm build        # Compile TypeScript → dist/
-pnpm dev          # Run with tsx (no build step)
-pnpm test         # Vitest test suite
-```
-
----
-
-## License
-
-MIT
-```
-
----
-
-## 🕐 21/05/2026, 16:08:16
+## 🕐 21/05/2026, 18:33:27
 
 ### 📊 Resumen
 - **Total archivos:** 5
-- **📝 Nuevos:** 4
-- **✏️ Modificados:** 1
+- **📝 Nuevos:** 5
+- **✏️ Modificados:** 0
 - **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +330
-- **Líneas eliminadas:** -28
-- **Balance neto:** +302 líneas
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
 
 ### 📝 Detalle por archivo
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README.es.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +330 | -28 | +302 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
 
 ### 📁 Lista completa
 
@@ -1141,759 +169,38 @@ MIT
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-README.es.md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
 ```
 
 </details>
 
-### 💻 Código Añadido
-
-**README.md** (+330 líneas)**
-
-```
-﻿﻿# mcp-context-cache
-MCP server for AI agent context caching. Efficiently loads, caches, and delivers project file context to AI agents using the Model Context Protocol (MCP).
-> **Without this server:** AI agents call `read_file` once per file — 30 files = 30 tool calls.  
-> **With this server:** one call to `get_context_from_config` returns all files bundled and cached.
-## Features
-
-- **LRU caching** — Files are hashed (SHA-256) and cached in memory. Unchanged files are never re-read from disk.
-- **Security pipeline** — 8-step validation prevents loading sensitive files (`.env`, `*.pem`, credentials, binaries, etc.).
-- **3 MCP tools** — Flexible context loading: by file list, directory, or config file.
-- **Smart truncation** — Respects configurable size limits and reports omitted files.
-- **Alphabetical ordering** — Deterministic output for stable AI agent responses.
-
 ---
 
-## Installation
-
-### Global Installation (Recommended)
-
-```bash
-npm install -g mcp-context-cache
-```
-Or with pnpm:
-pnpm add -g mcp-context-cache
-```
-Verify installation:
-```bash
-mcp-context-cache --version
-### Run without installing
-```bash
-npx mcp-context-cache --init
-```
----
-## Setup Guide
-### Step 1 — Register the MCP server in your IDE
-
-#### VS Code
-
-**Option A — Global (all workspaces):**  
-Edit `%APPDATA%\Code\User\mcp.json` on Windows or `~/.config/Code/User/mcp.json` on macOS/Linux:
-
-```json
-{
-  "servers": {
-		"mcp-context-cache": {
-			"type": "stdio",
-			"command": "node",
-			"args": [
-				"%APPDATA%\\Local\\pnpm\\global\\5\\.pnpm\\mcp-context-cache@1.0.0\\node_modules\\mcp-context-cache\\dist\\index.js"
-			]
-		}
-  }
-}
-```
-
-**Option B — Per workspace:**  
-Create `.vscode/mcp.json` at the project root:
-
-```json
-{
-  "servers": {
-    "mcp-context-cache": {
-      "type": "stdio",
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-#### JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
-
-Create `.mcp.json` at the project root:
-
-```json
-{
-  "mcpServers": {
-    "mcp-context-cache": {
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-> JetBrains AI Assistant picks up `.mcp.json` automatically from the project root since version 2024.3.
-
----
-
-### Step 2 — Add agent instructions to prefer MCP tools
-
-AI agents have built-in file-reading tools and will use them by default. You must explicitly instruct them to prefer the MCP tools instead.
-
-#### VS Code — Global instructions (applies to ALL workspaces)
-
-Create the file `%APPDATA%\Code\User\prompts\mcp-context-cache.instructions.md` on Windows  
-or `~/.config/Code/User/prompts/mcp-context-cache.instructions.md` on macOS/Linux:
-
-```markdown
----
-applyTo: "**"
----
-
-# Context Loading — mcp-context-cache
-
-The MCP server `mcp-context-cache` is available globally.
-
-## PROHIBITED tools for reading project files
-
-**NEVER call these built-in tools to read or explore project source files:**
-
-- `read_file`
-- `list_dir`
-- `file_search`
-- `semantic_search`
-- `grep_search`
-
-Using any of the above to read project source files when `mcp-context-cache` tools are available is **not allowed**.
-They may only be used if all MCP tools fail with an error.
-
-## MANDATORY procedure
-
-**Before making any other tool call at the start of a task:**
-
-1. Check whether the workspace contains a `contextcache.json` file.
-2. If it exists → call `get_context_from_config` with `{ "projectRoot": "<absolute-workspace-path>" }` immediately.
-3. If it does not exist and you need directory contents → call `get_directory_context`.
-4. If you need specific files by path → call `get_project_context` with a `paths` array.
-5. Only fall back to `read_file` if ALL three MCP tools return an error.
-
-## Tool reference
-
-- `get_context_from_config`  →  `{ "projectRoot": "<absolute-path>" }`
-- `get_project_context`      →  `{ "paths": ["rel/path.ts", ...], "projectRoot": "<absolute-path>" }`
-- `get_directory_context`    →  `{ "rootPath": "<absolute-path-to-dir>" }`
-
-## Handling BUNDLE_TRUNCATED
-
-If the response contains `BUNDLE_TRUNCATED`, call `get_project_context` with the listed omitted file paths.
-Do NOT switch to `read_file` to recover truncated files.
-```
-
-> The `applyTo: "**"` frontmatter tells VS Code Copilot to inject this file into every conversation regardless of the active workspace.
-
-#### VS Code — Per-project instructions
-
-Create `.github/copilot-instructions.md` at the project root:
-
-```markdown
-## PROHIBITED — do not use these tools to read project files
-
-**NEVER call `read_file`, `list_dir`, `file_search`, `semantic_search`, or `grep_search` to read project source files.**
-Only fall back to them if all MCP tools return an error.
-
-## MANDATORY first step
-
-This project has a `contextcache.json`. Call `get_context_from_config` before any other tool:
-
-```json
-{ "projectRoot": "<absolute-path-to-this-repo>" }
-```
-
-For module-level exploration use `get_directory_context`.
-For specific files use `get_project_context` with a `paths` array.
-```
-
-#### JetBrains — Global instructions (GitHub Copilot plugin)
-
-The GitHub Copilot plugin for JetBrains reads `.github/copilot-instructions.md` **per project** — there is no global instructions file equivalent to VS Code. For each project you want covered, add the same `.github/copilot-instructions.md` block shown above.
-
-To avoid repeating yourself, you can create a shared snippet and copy it via your project template or a `cookiecutter`/`degit` setup.
-
-#### JetBrains — Global system prompt (JetBrains AI Assistant)
-
-Go to **Settings → Tools → AI Assistant → System prompt** and add:
-
-```
-When working in any project that has a contextcache.json file, call the MCP tool
-get_context_from_config with the project root path before reading any individual files.
-Prefer get_directory_context over reading files one by one, and get_project_context
-over multiple read_file calls.
-```
-
----
-
-### Step 3 — Initialize your project
-
-Run in the project root to generate a `contextcache.json`:
-npx @jdug-jadodev/mcp-context-cache --init
-Or create `contextcache.json` manually:
-
-```json
-{
-  "modules": [
-    {
-      "name": "src",
-      "path": "src",
-      "includeInstructions": true,
-      "excludePatterns": ["**/*.test.ts", "**/*.spec.ts", "**/__mocks__/**"]
-    }
-  ],
-  "globalInstructions": ".github/copilot-instructions.md",
-  "maxTotalSizeKb": 2048,
-  "cache": {
-    "maxEntries": 5000,
-    "maxEntrySizeKb": 1024
-  },
-  "security": {
-    "allowedPaths": ["./"],
-    "deniedPaths": ["./node_modules", "./dist", "./secrets", "./.git"],
-    "deniedFiles": [".env", "credentials.json", "*.pem"],
-    "maxFileSizeKb": 500,
-    "allowedExtensions": [".ts", ".tsx", ".js", ".jsx", ".json", ".md", ".yaml", ".yml"]
-  }
-}
-```
-
-| Field | Description |
-|---|---|
-| `modules` | List of directories to bundle |
-| `modules[].path` | Path relative to project root |
-| `modules[].includeInstructions` | If `true`, prepends content of `globalInstructions` |
-| `modules[].excludePatterns` | Glob patterns to skip |
-| `globalInstructions` | Path to a Markdown file included at the top of bundles when `includeInstructions: true` |
-| `maxTotalSizeKb` | Max total bundle size in KB |
-| `cache.maxEntries` | Max number of files in the LRU cache |
-| `cache.maxEntrySizeKb` | Max individual file size to cache |
-| `security.allowedPaths` | Paths the server is allowed to read from |
-| `security.deniedPaths` | Paths always blocked |
-| `security.deniedFiles` | Filename patterns always blocked |
-| `security.maxFileSizeKb` | Max file size to serve |
-| `security.allowedExtensions` | Whitelist of file extensions |
-
----
-
-## MCP Tools
-
-### `get_context_from_config`
-
-Loads the full project context defined in `contextcache.json`. **Use this first.**
-
-```json
-{ "projectRoot": "/absolute/path/to/project" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `projectRoot` | string | yes | Directory containing `contextcache.json` |
-| `configPath` | string | no | Explicit path to `contextcache.json` |
-
-### `get_directory_context`
-
-Recursively loads all files from a directory.
-
-```json
-{ "rootPath": "/absolute/path/to/src/auth", "excludePatterns": ["*.test.ts"] }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `rootPath` | string | yes | Directory to scan |
-| `configPath` | string | no | Path to `contextcache.json` for security config |
-| `excludePatterns` | string[] | no | Additional glob patterns to exclude |
-
-### `get_project_context`
-
-Loads a specific list of files.
-```json
-{ "paths": ["src/auth/login.ts", "src/types.ts"], "projectRoot": "/absolute/path" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `paths` | string[] | yes | File paths to load |
-| `projectRoot` | string | no | Root for resolving relative paths |
-| `configPath` | string | no | Path to `contextcache.json` |
-
----
-
-## Output Format
-
-Each file in a bundle is wrapped with BUNDLE markers:
-
-```
-BUNDLE_START: <sha256-fingerprint>
-path/to/file.ts
-<complete file content>
-BUNDLE_END: path/to/file.ts
-```
-
-Files are always sorted alphabetically for deterministic output.
-
-### Handling `BUNDLE_TRUNCATED`
-
-When the total size exceeds `maxTotalSizeKb`, the response includes:
-
-```
-BUNDLE_TRUNCATED: size limit exceeded.
-Configured limit: 2048 KB
-Total size: 3100 KB
-Omitted files:
-  src/large-module/file-a.ts
-  src/large-module/file-b.ts
-```
-
-Call `get_project_context` with the omitted paths to retrieve them in a follow-up call.
-## Security
-
-The following are **always blocked** regardless of `contextcache.json`:
-
-- `.env`, `.env.*`, `credentials.json`, `*.pem`, `id_rsa`, `id_ed25519`
-- `*.key`, `private.key`, `secret*`, `secrets.json`, `token*`
-- `service-account.json`, `.npmrc`, `.pypirc`
-- All binary extensions (`.exe`, `.dll`, `.png`, `.zip`, `.wasm`, etc.)
-
-Paths outside `allowedPaths` are rejected. The server never follows symlinks outside the allowed tree.
-
----
-
-## Development
-
-```bash
-pnpm install
-pnpm build        # Compile TypeScript → dist/
-pnpm dev          # Run with tsx (no build step)
-pnpm test         # Vitest test suite
-```
-
----
-
-## License
-
-MIT
-```
-
----
-
-## 🕐 21/05/2026, 16:09:19
-
-### 📊 Resumen
-- **Total archivos:** 5
-- **📝 Nuevos:** 4
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +330
-- **Líneas eliminadas:** -28
-- **Balance neto:** +302 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README..md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +330 | -28 | +302 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (5)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-README..md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-</details>
-
-### 💻 Código Añadido
-
-**README.md** (+330 líneas)**
-
-```
-﻿﻿# mcp-context-cache
-MCP server for AI agent context caching. Efficiently loads, caches, and delivers project file context to AI agents using the Model Context Protocol (MCP).
-> **Without this server:** AI agents call `read_file` once per file — 30 files = 30 tool calls.  
-> **With this server:** one call to `get_context_from_config` returns all files bundled and cached.
-## Features
-
-- **LRU caching** — Files are hashed (SHA-256) and cached in memory. Unchanged files are never re-read from disk.
-- **Security pipeline** — 8-step validation prevents loading sensitive files (`.env`, `*.pem`, credentials, binaries, etc.).
-- **3 MCP tools** — Flexible context loading: by file list, directory, or config file.
-- **Smart truncation** — Respects configurable size limits and reports omitted files.
-- **Alphabetical ordering** — Deterministic output for stable AI agent responses.
-
----
-
-## Installation
-
-### Global Installation (Recommended)
-
-```bash
-npm install -g mcp-context-cache
-```
-Or with pnpm:
-pnpm add -g mcp-context-cache
-```
-Verify installation:
-```bash
-mcp-context-cache --version
-### Run without installing
-```bash
-npx mcp-context-cache --init
-```
----
-## Setup Guide
-### Step 1 — Register the MCP server in your IDE
-
-#### VS Code
-
-**Option A — Global (all workspaces):**  
-Edit `%APPDATA%\Code\User\mcp.json` on Windows or `~/.config/Code/User/mcp.json` on macOS/Linux:
-
-```json
-{
-  "servers": {
-		"mcp-context-cache": {
-			"type": "stdio",
-			"command": "node",
-			"args": [
-				"%APPDATA%\\Local\\pnpm\\global\\5\\.pnpm\\mcp-context-cache@1.0.0\\node_modules\\mcp-context-cache\\dist\\index.js"
-			]
-		}
-  }
-}
-```
-
-**Option B — Per workspace:**  
-Create `.vscode/mcp.json` at the project root:
-
-```json
-{
-  "servers": {
-    "mcp-context-cache": {
-      "type": "stdio",
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-#### JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
-
-Create `.mcp.json` at the project root:
-
-```json
-{
-  "mcpServers": {
-    "mcp-context-cache": {
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-> JetBrains AI Assistant picks up `.mcp.json` automatically from the project root since version 2024.3.
-
----
-
-### Step 2 — Add agent instructions to prefer MCP tools
-
-AI agents have built-in file-reading tools and will use them by default. You must explicitly instruct them to prefer the MCP tools instead.
-
-#### VS Code — Global instructions (applies to ALL workspaces)
-
-Create the file `%APPDATA%\Code\User\prompts\mcp-context-cache.instructions.md` on Windows  
-or `~/.config/Code/User/prompts/mcp-context-cache.instructions.md` on macOS/Linux:
-
-```markdown
----
-applyTo: "**"
----
-
-# Context Loading — mcp-context-cache
-
-The MCP server `mcp-context-cache` is available globally.
-
-## PROHIBITED tools for reading project files
-
-**NEVER call these built-in tools to read or explore project source files:**
-
-- `read_file`
-- `list_dir`
-- `file_search`
-- `semantic_search`
-- `grep_search`
-
-Using any of the above to read project source files when `mcp-context-cache` tools are available is **not allowed**.
-They may only be used if all MCP tools fail with an error.
-
-## MANDATORY procedure
-
-**Before making any other tool call at the start of a task:**
-
-1. Check whether the workspace contains a `contextcache.json` file.
-2. If it exists → call `get_context_from_config` with `{ "projectRoot": "<absolute-workspace-path>" }` immediately.
-3. If it does not exist and you need directory contents → call `get_directory_context`.
-4. If you need specific files by path → call `get_project_context` with a `paths` array.
-5. Only fall back to `read_file` if ALL three MCP tools return an error.
-
-## Tool reference
-
-- `get_context_from_config`  →  `{ "projectRoot": "<absolute-path>" }`
-- `get_project_context`      →  `{ "paths": ["rel/path.ts", ...], "projectRoot": "<absolute-path>" }`
-- `get_directory_context`    →  `{ "rootPath": "<absolute-path-to-dir>" }`
-
-## Handling BUNDLE_TRUNCATED
-
-If the response contains `BUNDLE_TRUNCATED`, call `get_project_context` with the listed omitted file paths.
-Do NOT switch to `read_file` to recover truncated files.
-```
-
-> The `applyTo: "**"` frontmatter tells VS Code Copilot to inject this file into every conversation regardless of the active workspace.
-
-#### VS Code — Per-project instructions
-
-Create `.github/copilot-instructions.md` at the project root:
-
-```markdown
-## PROHIBITED — do not use these tools to read project files
-
-**NEVER call `read_file`, `list_dir`, `file_search`, `semantic_search`, or `grep_search` to read project source files.**
-Only fall back to them if all MCP tools return an error.
-
-## MANDATORY first step
-
-This project has a `contextcache.json`. Call `get_context_from_config` before any other tool:
-
-```json
-{ "projectRoot": "<absolute-path-to-this-repo>" }
-```
-
-For module-level exploration use `get_directory_context`.
-For specific files use `get_project_context` with a `paths` array.
-```
-
-#### JetBrains — Global instructions (GitHub Copilot plugin)
-
-The GitHub Copilot plugin for JetBrains reads `.github/copilot-instructions.md` **per project** — there is no global instructions file equivalent to VS Code. For each project you want covered, add the same `.github/copilot-instructions.md` block shown above.
-
-To avoid repeating yourself, you can create a shared snippet and copy it via your project template or a `cookiecutter`/`degit` setup.
-
-#### JetBrains — Global system prompt (JetBrains AI Assistant)
-
-Go to **Settings → Tools → AI Assistant → System prompt** and add:
-
-```
-When working in any project that has a contextcache.json file, call the MCP tool
-get_context_from_config with the project root path before reading any individual files.
-Prefer get_directory_context over reading files one by one, and get_project_context
-over multiple read_file calls.
-```
-
----
-
-### Step 3 — Initialize your project
-
-Run in the project root to generate a `contextcache.json`:
-npx @jdug-jadodev/mcp-context-cache --init
-Or create `contextcache.json` manually:
-
-```json
-{
-  "modules": [
-    {
-      "name": "src",
-      "path": "src",
-      "includeInstructions": true,
-      "excludePatterns": ["**/*.test.ts", "**/*.spec.ts", "**/__mocks__/**"]
-    }
-  ],
-  "globalInstructions": ".github/copilot-instructions.md",
-  "maxTotalSizeKb": 2048,
-  "cache": {
-    "maxEntries": 5000,
-    "maxEntrySizeKb": 1024
-  },
-  "security": {
-    "allowedPaths": ["./"],
-    "deniedPaths": ["./node_modules", "./dist", "./secrets", "./.git"],
-    "deniedFiles": [".env", "credentials.json", "*.pem"],
-    "maxFileSizeKb": 500,
-    "allowedExtensions": [".ts", ".tsx", ".js", ".jsx", ".json", ".md", ".yaml", ".yml"]
-  }
-}
-```
-
-| Field | Description |
-|---|---|
-| `modules` | List of directories to bundle |
-| `modules[].path` | Path relative to project root |
-| `modules[].includeInstructions` | If `true`, prepends content of `globalInstructions` |
-| `modules[].excludePatterns` | Glob patterns to skip |
-| `globalInstructions` | Path to a Markdown file included at the top of bundles when `includeInstructions: true` |
-| `maxTotalSizeKb` | Max total bundle size in KB |
-| `cache.maxEntries` | Max number of files in the LRU cache |
-| `cache.maxEntrySizeKb` | Max individual file size to cache |
-| `security.allowedPaths` | Paths the server is allowed to read from |
-| `security.deniedPaths` | Paths always blocked |
-| `security.deniedFiles` | Filename patterns always blocked |
-| `security.maxFileSizeKb` | Max file size to serve |
-| `security.allowedExtensions` | Whitelist of file extensions |
-
----
-
-## MCP Tools
-
-### `get_context_from_config`
-
-Loads the full project context defined in `contextcache.json`. **Use this first.**
-
-```json
-{ "projectRoot": "/absolute/path/to/project" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `projectRoot` | string | yes | Directory containing `contextcache.json` |
-| `configPath` | string | no | Explicit path to `contextcache.json` |
-
-### `get_directory_context`
-
-Recursively loads all files from a directory.
-
-```json
-{ "rootPath": "/absolute/path/to/src/auth", "excludePatterns": ["*.test.ts"] }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `rootPath` | string | yes | Directory to scan |
-| `configPath` | string | no | Path to `contextcache.json` for security config |
-| `excludePatterns` | string[] | no | Additional glob patterns to exclude |
-
-### `get_project_context`
-
-Loads a specific list of files.
-```json
-{ "paths": ["src/auth/login.ts", "src/types.ts"], "projectRoot": "/absolute/path" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `paths` | string[] | yes | File paths to load |
-| `projectRoot` | string | no | Root for resolving relative paths |
-| `configPath` | string | no | Path to `contextcache.json` |
-
----
-
-## Output Format
-
-Each file in a bundle is wrapped with BUNDLE markers:
-
-```
-BUNDLE_START: <sha256-fingerprint>
-path/to/file.ts
-<complete file content>
-BUNDLE_END: path/to/file.ts
-```
-
-Files are always sorted alphabetically for deterministic output.
-
-### Handling `BUNDLE_TRUNCATED`
-
-When the total size exceeds `maxTotalSizeKb`, the response includes:
-
-```
-BUNDLE_TRUNCATED: size limit exceeded.
-Configured limit: 2048 KB
-Total size: 3100 KB
-Omitted files:
-  src/large-module/file-a.ts
-  src/large-module/file-b.ts
-```
-
-Call `get_project_context` with the omitted paths to retrieve them in a follow-up call.
-## Security
-
-The following are **always blocked** regardless of `contextcache.json`:
-
-- `.env`, `.env.*`, `credentials.json`, `*.pem`, `id_rsa`, `id_ed25519`
-- `*.key`, `private.key`, `secret*`, `secrets.json`, `token*`
-- `service-account.json`, `.npmrc`, `.pypirc`
-- All binary extensions (`.exe`, `.dll`, `.png`, `.zip`, `.wasm`, etc.)
-
-Paths outside `allowedPaths` are rejected. The server never follows symlinks outside the allowed tree.
-
----
-
-## Development
-
-```bash
-pnpm install
-pnpm build        # Compile TypeScript → dist/
-pnpm dev          # Run with tsx (no build step)
-pnpm test         # Vitest test suite
-```
-
----
-
-## License
-
-MIT
-```
-
----
-
-## 🕐 21/05/2026, 16:09:22
+## 🕐 21/05/2026, 18:33:30
 
 ### 📊 Resumen
 - **Total archivos:** 6
-- **📝 Nuevos:** 4
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 1
+- **📝 Nuevos:** 6
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
 - **Líneas añadidas:** +0
-- **Líneas eliminadas:** -48
-- **Balance neto:** -48 líneas
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
 
 ### 📝 Detalle por archivo
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README..md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +0 | -48 | -48 |
-| 🗑️ | `README.md` | +0 | eliminado | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
 
 ### 📁 Lista completa
 
@@ -1902,1189 +209,12530 @@ MIT
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-README..md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-**🗑️ Eliminados:**
-```
-README.md
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
 ```
 
 </details>
 
 ---
 
-## 🕐 21/05/2026, 16:09:33
+## 🕐 21/05/2026, 18:33:34
 
 ### 📊 Resumen
-- **Total archivos:** 4
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
+- **Total archivos:** 7
+- **📝 Nuevos:** 7
+- **✏️ Modificados:** 0
 - **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +44
-- **Líneas eliminadas:** -33
-- **Balance neto:** +11 líneas
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
 
 ### 📝 Detalle por archivo
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +44 | -33 | +11 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
 
 ### 📁 Lista completa
 
 <details>
-<summary>Ver todos los archivos (4)</summary>
+<summary>Ver todos los archivos (7)</summary>
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-contextcache.json
-scripts/daemon-test.mjs
+src/domain/entities/project-context.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:37
+
+### 📊 Resumen
+- **Total archivos:** 8
+- **📝 Nuevos:** 8
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (8)</summary>
+
+**🆕 Nuevos:**
+```
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:40
+
+### 📊 Resumen
+- **Total archivos:** 9
+- **📝 Nuevos:** 9
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (9)</summary>
+
+**🆕 Nuevos:**
+```
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:44
+
+### 📊 Resumen
+- **Total archivos:** 10
+- **📝 Nuevos:** 10
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (10)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-project-context.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:47
+
+### 📊 Resumen
+- **Total archivos:** 11
+- **📝 Nuevos:** 11
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (11)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:50
+
+### 📊 Resumen
+- **Total archivos:** 12
+- **📝 Nuevos:** 12
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (12)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:53
+
+### 📊 Resumen
+- **Total archivos:** 13
+- **📝 Nuevos:** 13
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (13)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/file-repository.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:56
+
+### 📊 Resumen
+- **Total archivos:** 14
+- **📝 Nuevos:** 14
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (14)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/file-repository.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:33:59
+
+### 📊 Resumen
+- **Total archivos:** 15
+- **📝 Nuevos:** 15
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (15)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:04
+
+### 📊 Resumen
+- **Total archivos:** 16
+- **📝 Nuevos:** 16
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (16)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/logger.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:08
+
+### 📊 Resumen
+- **Total archivos:** 17
+- **📝 Nuevos:** 17
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (17)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:11
+
+### 📊 Resumen
+- **Total archivos:** 18
+- **📝 Nuevos:** 18
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (18)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:15
+
+### 📊 Resumen
+- **Total archivos:** 19
+- **📝 Nuevos:** 19
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (19)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:20
+
+### 📊 Resumen
+- **Total archivos:** 20
+- **📝 Nuevos:** 20
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (20)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:26
+
+### 📊 Resumen
+- **Total archivos:** 21
+- **📝 Nuevos:** 21
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (21)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:31
+
+### 📊 Resumen
+- **Total archivos:** 22
+- **📝 Nuevos:** 22
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (22)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:35
+
+### 📊 Resumen
+- **Total archivos:** 23
+- **📝 Nuevos:** 23
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (23)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:42
+
+### 📊 Resumen
+- **Total archivos:** 24
+- **📝 Nuevos:** 24
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (24)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:34:51
+
+### 📊 Resumen
+- **Total archivos:** 25
+- **📝 Nuevos:** 25
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (25)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:00
+
+### 📊 Resumen
+- **Total archivos:** 26
+- **📝 Nuevos:** 26
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (26)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:07
+
+### 📊 Resumen
+- **Total archivos:** 27
+- **📝 Nuevos:** 27
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (27)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:13
+
+### 📊 Resumen
+- **Total archivos:** 28
+- **📝 Nuevos:** 28
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (28)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:17
+
+### 📊 Resumen
+- **Total archivos:** 29
+- **📝 Nuevos:** 29
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (29)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:26
+
+### 📊 Resumen
+- **Total archivos:** 30
+- **📝 Nuevos:** 30
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (30)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:33
+
+### 📊 Resumen
+- **Total archivos:** 31
+- **📝 Nuevos:** 31
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (31)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:39
+
+### 📊 Resumen
+- **Total archivos:** 32
+- **📝 Nuevos:** 32
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (32)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:45
+
+### 📊 Resumen
+- **Total archivos:** 33
+- **📝 Nuevos:** 33
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (33)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:51
+
+### 📊 Resumen
+- **Total archivos:** 34
+- **📝 Nuevos:** 34
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (34)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:35:57
+
+### 📊 Resumen
+- **Total archivos:** 35
+- **📝 Nuevos:** 35
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (35)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:36:04
+
+### 📊 Resumen
+- **Total archivos:** 36
+- **📝 Nuevos:** 36
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (36)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:36:11
+
+### 📊 Resumen
+- **Total archivos:** 37
+- **📝 Nuevos:** 37
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (37)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:36:17
+
+### 📊 Resumen
+- **Total archivos:** 38
+- **📝 Nuevos:** 38
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (38)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:36:24
+
+### 📊 Resumen
+- **Total archivos:** 39
+- **📝 Nuevos:** 39
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (39)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:37:21
+
+### 📊 Resumen
+- **Total archivos:** 40
+- **📝 Nuevos:** 40
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (40)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:37:25
+
+### 📊 Resumen
+- **Total archivos:** 41
+- **📝 Nuevos:** 41
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (41)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/security/security-error-messages.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:37:31
+
+### 📊 Resumen
+- **Total archivos:** 42
+- **📝 Nuevos:** 42
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (42)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:37:39
+
+### 📊 Resumen
+- **Total archivos:** 43
+- **📝 Nuevos:** 43
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (43)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:37:43
+
+### 📊 Resumen
+- **Total archivos:** 44
+- **📝 Nuevos:** 44
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (44)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/fingerprinting/fingerprint-error-messages.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:37:49
+
+### 📊 Resumen
+- **Total archivos:** 45
+- **📝 Nuevos:** 45
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (45)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/fingerprinting/fingerprint-error-messages.ts
+src/infrastructure/fingerprinting/sha256-fingerprint.service.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:37:53
+
+### 📊 Resumen
+- **Total archivos:** 46
+- **📝 Nuevos:** 46
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (46)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/fingerprinting/fingerprint-error-messages.ts
+src/infrastructure/fingerprinting/sha256-fingerprint.service.ts
+src/infrastructure/formatters/bundle-format-error-messages.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:38:01
+
+### 📊 Resumen
+- **Total archivos:** 47
+- **📝 Nuevos:** 47
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (47)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/fingerprinting/fingerprint-error-messages.ts
+src/infrastructure/fingerprinting/sha256-fingerprint.service.ts
+src/infrastructure/formatters/bundle-format-error-messages.ts
+src/infrastructure/formatters/bundle.formatter.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:38:05
+
+### 📊 Resumen
+- **Total archivos:** 48
+- **📝 Nuevos:** 48
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (48)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/file-discovery/file-discovery-error-messages.ts
+src/infrastructure/fingerprinting/fingerprint-error-messages.ts
+src/infrastructure/fingerprinting/sha256-fingerprint.service.ts
+src/infrastructure/formatters/bundle-format-error-messages.ts
+src/infrastructure/formatters/bundle.formatter.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 21/05/2026, 18:38:16
+
+### 📊 Resumen
+- **Total archivos:** 49
+- **📝 Nuevos:** 49
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/controllers/mcp-server.controller.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (49)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/controllers/mcp-server.controller.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/file-discovery/file-discovery-error-messages.ts
+src/infrastructure/fingerprinting/fingerprint-error-messages.ts
+src/infrastructure/fingerprinting/sha256-fingerprint.service.ts
+src/infrastructure/formatters/bundle-format-error-messages.ts
+src/infrastructure/formatters/bundle.formatter.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 22/05/2026, 09:57:19
+
+### 📊 Resumen
+- **Total archivos:** 48
+- **📝 Nuevos:** 48
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security.validator.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (48)</summary>
+
+**🆕 Nuevos:**
+```
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/infrastructure/adapters/external/logger-error-messages.ts
+src/infrastructure/adapters/external/logger.adapter.ts
+src/infrastructure/adapters/external/logger.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.entity.ts
+src/infrastructure/adapters/persistence/cache/cache-entry.mapper.ts
+src/infrastructure/adapters/persistence/cache/lru-cache.adapter.ts
+src/infrastructure/adapters/persistence/config/config-file.repository.ts
+src/infrastructure/adapters/persistence/config/config-repository-error-messages.ts
+src/infrastructure/adapters/persistence/config/config.entity.ts
+src/infrastructure/adapters/persistence/config/config.mapper.ts
+src/infrastructure/adapters/persistence/file/file-repository-error-messages.ts
+src/infrastructure/adapters/persistence/file/file.entity.ts
+src/infrastructure/adapters/persistence/file/file.mapper.ts
+src/infrastructure/adapters/persistence/file/file.repository.ts
+src/infrastructure/file-discovery/file-discovery-error-messages.ts
+src/infrastructure/fingerprinting/fingerprint-error-messages.ts
+src/infrastructure/fingerprinting/sha256-fingerprint.service.ts
+src/infrastructure/formatters/bundle-format-error-messages.ts
+src/infrastructure/formatters/bundle.formatter.ts
+src/infrastructure/security/security-check.rules.ts
+src/infrastructure/security/security-error-messages.ts
+src/infrastructure/security/security.validator.ts
+```
+
+</details>
+
+---
+
+## 🕐 22/05/2026, 09:59:12
+
+### 📊 Resumen
+- **Total archivos:** 48
+- **📝 Nuevos:** 48
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (48)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 22/05/2026, 10:51:05
+
+### 📊 Resumen
+- **Total archivos:** 49
+- **📝 Nuevos:** 49
+- **✏️ Modificados:** 0
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +0
+- **Líneas eliminadas:** -0
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `remove-comments.mjs` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (49)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+remove-comments.mjs
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+```
+
+</details>
+
+---
+
+## 🕐 22/05/2026, 10:57:47
+
+### 📊 Resumen
+- **Total archivos:** 61
+- **📝 Nuevos:** 49
+- **✏️ Modificados:** 12
+- **🗑️ Eliminados:** 0
+- **Líneas añadidas:** +46
+- **Líneas eliminadas:** -46
+- **Balance neto:** 0 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `remove-comments.mjs` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/security/security-guard.ts` | +10 | -10 | 0 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +9 | -9 | 0 |
+| ✏️ | `src/cache/lru-cache.ts` | +4 | -4 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/config/config-loader.ts` | +1 | -1 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/server.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-directory-context.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-project-context.ts` | +1 | -1 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (61)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+remove-comments.mjs
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
 ```
 
 **✏️ Modificados:**
 ```
-README.md
+src/types.ts
+src/security/security-guard.ts
+src/tools/get-context-from-config.ts
+src/cache/lru-cache.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/config/config-loader.ts
+src/index.ts
+src/init/init-command.ts
+src/server.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
 ```
 
 </details>
 
 ### 💻 Código Añadido
 
-**README.md** (+44 líneas)**
+**src/cache/lru-cache.ts** (+4 líneas)**
 
 ```
-# mcp-context-cache
-Proyecto: MCP Context Cache
-Descripción
------------
-`mcp-context-cache` es una herramienta ligera que centraliza y sirve el contexto de proyectos (archivos, metadatos y bundles) para agentes de IA y procesos automatizados, mejorando la velocidad y precisión de las respuestas.
-Características principales
--------------------------
-- Carga y formatea contextos de proyecto desde `contextcache.json`.
-- APIs para consultar directorios y archivos específicos del proyecto.
-- Soporte para bundles parciales y recuperación de archivos omitidos.
-- Tests incluidos para las utilidades principales.
-Requisitos
----------
-- Node.js 16+ o superior
-- pnpm (recomendado) o npm
-Instalación
-----------
-1. Clonar el repositorio:
-   git clone <repositorio>
-2. Instalar dependencias:
-   pnpm install
-Comandos útiles
---------------
-- Construir el proyecto:
-  pnpm build
-- Ejecutar tests:
-  pnpm test
-Estructura del proyecto
------------------------
-- `src/`: código fuente del servidor y herramientas.
-- `docs/`: documentación y especificaciones (ver `CONTEXTCACHE_SPEC.md`).
-- `tests/`: pruebas unitarias.
-Cómo contribuir
----------------
-1. Abre un issue describiendo la mejora o bug.
-2. Crea una rama nueva para tu trabajo.
-3. Envía un pull request con pruebas cuando corresponda.
-Licencia
---------
-Este proyecto está bajo la licencia indicada en el fichero `LICENSE`.
 
-Más información
----------------
-Consulta la documentación en `docs/` y los tests en `tests/` para ejemplos y uso avanzado.
+    
+    
+      
+```
+
+**src/config/config-loader.ts** (+1 línea)**
+
+```
+
+```
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/security/security-guard.ts** (+10 líneas)**
+
+```
+
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/server.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-context-from-config.ts** (+9 líneas)**
+
+```
+
+      
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/tools/get-directory-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-project-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
 ```
 
 ---
 
-## 🕐 21/05/2026, 16:10:09
+## 🕐 22/05/2026, 10:59:04
 
 ### 📊 Resumen
-- **Total archivos:** 6
-- **📝 Nuevos:** 4
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 1
-- **Líneas añadidas:** +0
-- **Líneas eliminadas:** -48
-- **Balance neto:** -48 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README..md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +0 | -48 | -48 |
-| 🗑️ | `README.md` | +0 | eliminado | 0 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (6)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-README..md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-**🗑️ Eliminados:**
-```
-README.md
-```
-
-</details>
-
----
-
-## 🕐 21/05/2026, 16:10:10
-
-### 📊 Resumen
-- **Total archivos:** 6
-- **📝 Nuevos:** 4
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 1
-- **Líneas añadidas:** +0
-- **Líneas eliminadas:** -48
-- **Balance neto:** -48 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README.es.md` | nuevo | -0 | 0 |
-| 🆕 | `contextcache.json` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +0 | -48 | -48 |
-| 🗑️ | `README.md` | +0 | eliminado | 0 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (6)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-README.es.md
-contextcache.json
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-**🗑️ Eliminados:**
-```
-README.md
-```
-
-</details>
-
----
-
-## 🕐 21/05/2026, 16:10:14
-
-### 📊 Resumen
-- **Total archivos:** 5
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 1
-- **Líneas añadidas:** +0
-- **Líneas eliminadas:** -48
-- **Balance neto:** -48 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README.es.md` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +0 | -48 | -48 |
-| 🗑️ | `README.md` | +0 | eliminado | 0 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (5)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-README.es.md
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-**🗑️ Eliminados:**
-```
-README.md
-```
-
-</details>
-
----
-
-## 🕐 21/05/2026, 16:10:20
-
-### 📊 Resumen
-- **Total archivos:** 6
-- **📝 Nuevos:** 4
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 1
-- **Líneas añadidas:** +0
-- **Líneas eliminadas:** -48
-- **Balance neto:** -48 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README.es.md` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| 🆕 | `tu-org-mcp-context-cache-1.0.0.tgz` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +0 | -48 | -48 |
-| 🗑️ | `README.md` | +0 | eliminado | 0 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (6)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-README.es.md
-scripts/daemon-test.mjs
-tu-org-mcp-context-cache-1.0.0.tgz
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-**🗑️ Eliminados:**
-```
-README.md
-```
-
-</details>
-
----
-
-## 🕐 21/05/2026, 16:10:24
-
-### 📊 Resumen
-- **Total archivos:** 5
-- **📝 Nuevos:** 3
-- **✏️ Modificados:** 1
-- **🗑️ Eliminados:** 1
-- **Líneas añadidas:** +0
-- **Líneas eliminadas:** -48
-- **Balance neto:** -48 líneas
-
-### 📝 Detalle por archivo
-
-| Estado | Archivo | Añadidas | Eliminadas | Neto |
-|--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `README.es.md` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +0 | -48 | -48 |
-| 🗑️ | `README.md` | +0 | eliminado | 0 |
-
-### 📁 Lista completa
-
-<details>
-<summary>Ver todos los archivos (5)</summary>
-
-**🆕 Nuevos:**
-```
-PROJECT_REPORT.md
-README.es.md
-scripts/daemon-test.mjs
-```
-
-**✏️ Modificados:**
-```
-README.md
-```
-
-**🗑️ Eliminados:**
-```
-README.md
-```
-
-</details>
-
----
-
-## 🕐 21/05/2026, 16:10:39
-
-### 📊 Resumen
-- **Total archivos:** 3
-- **📝 Nuevos:** 2
-- **✏️ Modificados:** 1
+- **Total archivos:** 60
+- **📝 Nuevos:** 48
+- **✏️ Modificados:** 12
 - **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +44
-- **Líneas eliminadas:** -33
-- **Balance neto:** +11 líneas
+- **Líneas añadidas:** +46
+- **Líneas eliminadas:** -46
+- **Balance neto:** 0 líneas
 
 ### 📝 Detalle por archivo
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +44 | -33 | +11 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/security/security-guard.ts` | +10 | -10 | 0 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +9 | -9 | 0 |
+| ✏️ | `src/cache/lru-cache.ts` | +4 | -4 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/config/config-loader.ts` | +1 | -1 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/server.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-directory-context.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-project-context.ts` | +1 | -1 | 0 |
 
 ### 📁 Lista completa
 
 <details>
-<summary>Ver todos los archivos (3)</summary>
+<summary>Ver todos los archivos (60)</summary>
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-scripts/daemon-test.mjs
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
 ```
 
 **✏️ Modificados:**
 ```
-README.md
+src/types.ts
+src/security/security-guard.ts
+src/tools/get-context-from-config.ts
+src/cache/lru-cache.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/config/config-loader.ts
+src/index.ts
+src/init/init-command.ts
+src/server.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
 ```
 
 </details>
 
 ### 💻 Código Añadido
 
-**README.md** (+44 líneas)**
+**src/cache/lru-cache.ts** (+4 líneas)**
 
 ```
-# mcp-context-cache
-Proyecto: MCP Context Cache
-Descripción
------------
-`mcp-context-cache` es una herramienta ligera que centraliza y sirve el contexto de proyectos (archivos, metadatos y bundles) para agentes de IA y procesos automatizados, mejorando la velocidad y precisión de las respuestas.
-Características principales
--------------------------
-- Carga y formatea contextos de proyecto desde `contextcache.json`.
-- APIs para consultar directorios y archivos específicos del proyecto.
-- Soporte para bundles parciales y recuperación de archivos omitidos.
-- Tests incluidos para las utilidades principales.
-Requisitos
----------
-- Node.js 16+ o superior
-- pnpm (recomendado) o npm
-Instalación
-----------
-1. Clonar el repositorio:
-   git clone <repositorio>
-2. Instalar dependencias:
-   pnpm install
-Comandos útiles
---------------
-- Construir el proyecto:
-  pnpm build
-- Ejecutar tests:
-  pnpm test
-Estructura del proyecto
------------------------
-- `src/`: código fuente del servidor y herramientas.
-- `docs/`: documentación y especificaciones (ver `CONTEXTCACHE_SPEC.md`).
-- `tests/`: pruebas unitarias.
-Cómo contribuir
----------------
-1. Abre un issue describiendo la mejora o bug.
-2. Crea una rama nueva para tu trabajo.
-3. Envía un pull request con pruebas cuando corresponda.
-Licencia
---------
-Este proyecto está bajo la licencia indicada en el fichero `LICENSE`.
 
-Más información
----------------
-Consulta la documentación en `docs/` y los tests en `tests/` para ejemplos y uso avanzado.
+    
+    
+      
+```
+
+**src/config/config-loader.ts** (+1 línea)**
+
+```
+
+```
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/security/security-guard.ts** (+10 líneas)**
+
+```
+
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/server.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-context-from-config.ts** (+9 líneas)**
+
+```
+
+      
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/tools/get-directory-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-project-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
 ```
 
 ---
 
-## 🕐 21/05/2026, 16:10:59
+## 🕐 22/05/2026, 11:18:55
 
 ### 📊 Resumen
-- **Total archivos:** 3
-- **📝 Nuevos:** 2
-- **✏️ Modificados:** 1
+- **Total archivos:** 60
+- **📝 Nuevos:** 48
+- **✏️ Modificados:** 12
 - **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +329
-- **Líneas eliminadas:** -27
-- **Balance neto:** +302 líneas
+- **Líneas añadidas:** +48
+- **Líneas eliminadas:** -48
+- **Balance neto:** 0 líneas
 
 ### 📝 Detalle por archivo
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +329 | -27 | +302 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +11 | -11 | 0 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/security/security-guard.ts` | +10 | -10 | 0 |
+| ✏️ | `src/cache/lru-cache.ts` | +4 | -4 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/config/config-loader.ts` | +1 | -1 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/server.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-directory-context.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-project-context.ts` | +1 | -1 | 0 |
 
 ### 📁 Lista completa
 
 <details>
-<summary>Ver todos los archivos (3)</summary>
+<summary>Ver todos los archivos (60)</summary>
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-scripts/daemon-test.mjs
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/ports/in/get-context-from-config.port.ts
+src/application/ports/in/get-directory-context.port.ts
+src/application/ports/in/get-project-context.port.ts
+src/application/ports/out/bundle-formatter.port.ts
+src/application/ports/out/cache.port.ts
+src/application/ports/out/config-repository.port.ts
+src/application/ports/out/file-repository.port.ts
+src/application/ports/out/fingerprint-service.port.ts
+src/application/ports/out/logger.port.ts
+src/application/ports/out/security-validator.port.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
 ```
 
 **✏️ Modificados:**
 ```
-README.md
+src/tools/get-context-from-config.ts
+src/types.ts
+src/security/security-guard.ts
+src/cache/lru-cache.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/config/config-loader.ts
+src/index.ts
+src/init/init-command.ts
+src/server.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
 ```
 
 </details>
 
 ### 💻 Código Añadido
 
-**README.md** (+329 líneas)**
+**src/cache/lru-cache.ts** (+4 líneas)**
 
 ```
-MCP server for AI agent context caching. Efficiently loads, caches, and delivers project file context to AI agents using the Model Context Protocol (MCP).
-> **Without this server:** AI agents call `read_file` once per file — 30 files = 30 tool calls.  
-> **With this server:** one call to `get_context_from_config` returns all files bundled and cached.
-## Features
 
-- **LRU caching** — Files are hashed (SHA-256) and cached in memory. Unchanged files are never re-read from disk.
-- **Security pipeline** — 8-step validation prevents loading sensitive files (`.env`, `*.pem`, credentials, binaries, etc.).
-- **3 MCP tools** — Flexible context loading: by file list, directory, or config file.
-- **Smart truncation** — Respects configurable size limits and reports omitted files.
-- **Alphabetical ordering** — Deterministic output for stable AI agent responses.
-
----
-
-## Installation
-
-### Global Installation (Recommended)
-
-```bash
-npm install -g mcp-context-cache
-```
-Or with pnpm:
-pnpm add -g mcp-context-cache
-```
-Verify installation:
-```bash
-mcp-context-cache --version
-### Run without installing
-```bash
-npx mcp-context-cache --init
-```
----
-## Setup Guide
-### Step 1 — Register the MCP server in your IDE
-
-#### VS Code
-
-**Option A — Global (all workspaces):**  
-Edit `%APPDATA%\Code\User\mcp.json` on Windows or `~/.config/Code/User/mcp.json` on macOS/Linux:
-
-```json
-{
-  "servers": {
-		"mcp-context-cache": {
-			"type": "stdio",
-			"command": "node",
-			"args": [
-				"%APPDATA%\\Local\\pnpm\\global\\5\\.pnpm\\mcp-context-cache@1.0.0\\node_modules\\mcp-context-cache\\dist\\index.js"
-			]
-		}
-  }
-}
+    
+    
+      
 ```
 
-**Option B — Per workspace:**  
-Create `.vscode/mcp.json` at the project root:
-
-```json
-{
-  "servers": {
-    "mcp-context-cache": {
-      "type": "stdio",
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-#### JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
-
-Create `.mcp.json` at the project root:
-
-```json
-{
-  "mcpServers": {
-    "mcp-context-cache": {
-      "command": "mcp-context-cache"
-    }
-  }
-}
-```
-
-> JetBrains AI Assistant picks up `.mcp.json` automatically from the project root since version 2024.3.
-
----
-
-### Step 2 — Add agent instructions to prefer MCP tools
-
-AI agents have built-in file-reading tools and will use them by default. You must explicitly instruct them to prefer the MCP tools instead.
-
-#### VS Code — Global instructions (applies to ALL workspaces)
-
-Create the file `%APPDATA%\Code\User\prompts\mcp-context-cache.instructions.md` on Windows  
-or `~/.config/Code/User/prompts/mcp-context-cache.instructions.md` on macOS/Linux:
-
-```markdown
----
-applyTo: "**"
----
-
-# Context Loading — mcp-context-cache
-
-The MCP server `mcp-context-cache` is available globally.
-
-## PROHIBITED tools for reading project files
-
-**NEVER call these built-in tools to read or explore project source files:**
-
-- `read_file`
-- `list_dir`
-- `file_search`
-- `semantic_search`
-- `grep_search`
-
-Using any of the above to read project source files when `mcp-context-cache` tools are available is **not allowed**.
-They may only be used if all MCP tools fail with an error.
-
-## MANDATORY procedure
-
-**Before making any other tool call at the start of a task:**
-
-1. Check whether the workspace contains a `contextcache.json` file.
-2. If it exists → call `get_context_from_config` with `{ "projectRoot": "<absolute-workspace-path>" }` immediately.
-3. If it does not exist and you need directory contents → call `get_directory_context`.
-4. If you need specific files by path → call `get_project_context` with a `paths` array.
-5. Only fall back to `read_file` if ALL three MCP tools return an error.
-
-## Tool reference
-
-- `get_context_from_config`  →  `{ "projectRoot": "<absolute-path>" }`
-- `get_project_context`      →  `{ "paths": ["rel/path.ts", ...], "projectRoot": "<absolute-path>" }`
-- `get_directory_context`    →  `{ "rootPath": "<absolute-path-to-dir>" }`
-
-## Handling BUNDLE_TRUNCATED
-
-If the response contains `BUNDLE_TRUNCATED`, call `get_project_context` with the listed omitted file paths.
-Do NOT switch to `read_file` to recover truncated files.
-```
-
-> The `applyTo: "**"` frontmatter tells VS Code Copilot to inject this file into every conversation regardless of the active workspace.
-
-#### VS Code — Per-project instructions
-
-Create `.github/copilot-instructions.md` at the project root:
-
-```markdown
-## PROHIBITED — do not use these tools to read project files
-
-**NEVER call `read_file`, `list_dir`, `file_search`, `semantic_search`, or `grep_search` to read project source files.**
-Only fall back to them if all MCP tools return an error.
-
-## MANDATORY first step
-
-This project has a `contextcache.json`. Call `get_context_from_config` before any other tool:
-
-```json
-{ "projectRoot": "<absolute-path-to-this-repo>" }
-```
-
-For module-level exploration use `get_directory_context`.
-For specific files use `get_project_context` with a `paths` array.
-```
-
-#### JetBrains — Global instructions (GitHub Copilot plugin)
-
-The GitHub Copilot plugin for JetBrains reads `.github/copilot-instructions.md` **per project** — there is no global instructions file equivalent to VS Code. For each project you want covered, add the same `.github/copilot-instructions.md` block shown above.
-
-To avoid repeating yourself, you can create a shared snippet and copy it via your project template or a `cookiecutter`/`degit` setup.
-
-#### JetBrains — Global system prompt (JetBrains AI Assistant)
-
-Go to **Settings → Tools → AI Assistant → System prompt** and add:
+**src/config/config-loader.ts** (+1 línea)**
 
 ```
-When working in any project that has a contextcache.json file, call the MCP tool
-get_context_from_config with the project root path before reading any individual files.
-Prefer get_directory_context over reading files one by one, and get_project_context
-over multiple read_file calls.
+
+```
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/security/security-guard.ts** (+10 líneas)**
+
+```
+
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/server.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-context-from-config.ts** (+11 líneas)**
+
+```
+
+import type { BundleResult } from '../types.js';
+import { checkFile } from '../security/security-guard.js';
+      
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/tools/get-directory-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-project-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
 ```
 
 ---
 
-### Step 3 — Initialize your project
-
-Run in the project root to generate a `contextcache.json`:
-npx @jdug-jadodev/mcp-context-cache --init
-Or create `contextcache.json` manually:
-
-```json
-{
-  "modules": [
-    {
-      "name": "src",
-      "path": "src",
-      "includeInstructions": true,
-      "excludePatterns": ["**/*.test.ts", "**/*.spec.ts", "**/__mocks__/**"]
-    }
-  ],
-  "globalInstructions": ".github/copilot-instructions.md",
-  "maxTotalSizeKb": 2048,
-  "cache": {
-    "maxEntries": 5000,
-    "maxEntrySizeKb": 1024
-  },
-  "security": {
-    "allowedPaths": ["./"],
-    "deniedPaths": ["./node_modules", "./dist", "./secrets", "./.git"],
-    "deniedFiles": [".env", "credentials.json", "*.pem"],
-    "maxFileSizeKb": 500,
-    "allowedExtensions": [".ts", ".tsx", ".js", ".jsx", ".json", ".md", ".yaml", ".yml"]
-  }
-}
-```
-
-| Field | Description |
-|---|---|
-| `modules` | List of directories to bundle |
-| `modules[].path` | Path relative to project root |
-| `modules[].includeInstructions` | If `true`, prepends content of `globalInstructions` |
-| `modules[].excludePatterns` | Glob patterns to skip |
-| `globalInstructions` | Path to a Markdown file included at the top of bundles when `includeInstructions: true` |
-| `maxTotalSizeKb` | Max total bundle size in KB |
-| `cache.maxEntries` | Max number of files in the LRU cache |
-| `cache.maxEntrySizeKb` | Max individual file size to cache |
-| `security.allowedPaths` | Paths the server is allowed to read from |
-| `security.deniedPaths` | Paths always blocked |
-| `security.deniedFiles` | Filename patterns always blocked |
-| `security.maxFileSizeKb` | Max file size to serve |
-| `security.allowedExtensions` | Whitelist of file extensions |
-
----
-
-## MCP Tools
-
-### `get_context_from_config`
-
-Loads the full project context defined in `contextcache.json`. **Use this first.**
-
-```json
-{ "projectRoot": "/absolute/path/to/project" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `projectRoot` | string | yes | Directory containing `contextcache.json` |
-| `configPath` | string | no | Explicit path to `contextcache.json` |
-
-### `get_directory_context`
-
-Recursively loads all files from a directory.
-
-```json
-{ "rootPath": "/absolute/path/to/src/auth", "excludePatterns": ["*.test.ts"] }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `rootPath` | string | yes | Directory to scan |
-| `configPath` | string | no | Path to `contextcache.json` for security config |
-| `excludePatterns` | string[] | no | Additional glob patterns to exclude |
-
-### `get_project_context`
-
-Loads a specific list of files.
-```json
-{ "paths": ["src/auth/login.ts", "src/types.ts"], "projectRoot": "/absolute/path" }
-```
-
-| Parameter | Type | Required | Description |
-|---|---|---|---|
-| `paths` | string[] | yes | File paths to load |
-| `projectRoot` | string | no | Root for resolving relative paths |
-| `configPath` | string | no | Path to `contextcache.json` |
-
----
-
-## Output Format
-
-Each file in a bundle is wrapped with BUNDLE markers:
-
-```
-BUNDLE_START: <sha256-fingerprint>
-path/to/file.ts
-<complete file content>
-BUNDLE_END: path/to/file.ts
-```
-
-Files are always sorted alphabetically for deterministic output.
-
-### Handling `BUNDLE_TRUNCATED`
-
-When the total size exceeds `maxTotalSizeKb`, the response includes:
-
-```
-BUNDLE_TRUNCATED: size limit exceeded.
-Configured limit: 2048 KB
-Total size: 3100 KB
-Omitted files:
-  src/large-module/file-a.ts
-  src/large-module/file-b.ts
-```
-
-Call `get_project_context` with the omitted paths to retrieve them in a follow-up call.
-## Security
-
-The following are **always blocked** regardless of `contextcache.json`:
-
-- `.env`, `.env.*`, `credentials.json`, `*.pem`, `id_rsa`, `id_ed25519`
-- `*.key`, `private.key`, `secret*`, `secrets.json`, `token*`
-- `service-account.json`, `.npmrc`, `.pypirc`
-- All binary extensions (`.exe`, `.dll`, `.png`, `.zip`, `.wasm`, etc.)
-
-Paths outside `allowedPaths` are rejected. The server never follows symlinks outside the allowed tree.
-
----
-
-## Development
-
-```bash
-pnpm install
-pnpm build        # Compile TypeScript → dist/
-pnpm dev          # Run with tsx (no build step)
-pnpm test         # Vitest test suite
-```
-
----
-
-## License
-
-MIT
-```
-
----
-
-## 🕐 21/05/2026, 16:20:39
+## 🕐 22/05/2026, 11:20:26
 
 ### 📊 Resumen
-- **Total archivos:** 3
-- **📝 Nuevos:** 2
-- **✏️ Modificados:** 1
+- **Total archivos:** 60
+- **📝 Nuevos:** 48
+- **✏️ Modificados:** 12
 - **🗑️ Eliminados:** 0
-- **Líneas añadidas:** +323
-- **Líneas eliminadas:** -28
-- **Balance neto:** +295 líneas
+- **Líneas añadidas:** +48
+- **Líneas eliminadas:** -48
+- **Balance neto:** 0 líneas
 
 ### 📝 Detalle por archivo
 
 | Estado | Archivo | Añadidas | Eliminadas | Neto |
 |--------|---------|----------|------------|------|
-| 🆕 | `PROJECT_REPORT.md` | nuevo | -0 | 0 |
-| 🆕 | `scripts/daemon-test.mjs` | nuevo | -0 | 0 |
-| ✏️ | `README.md` | +323 | -28 | +295 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +11 | -11 | 0 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/security/security-guard.ts` | +10 | -10 | 0 |
+| ✏️ | `src/cache/lru-cache.ts` | +4 | -4 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/config/config-loader.ts` | +1 | -1 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/server.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-directory-context.ts` | +1 | -1 | 0 |
+| ✏️ | `src/tools/get-project-context.ts` | +1 | -1 | 0 |
 
 ### 📁 Lista completa
 
 <details>
-<summary>Ver todos los archivos (3)</summary>
+<summary>Ver todos los archivos (60)</summary>
 
 **🆕 Nuevos:**
 ```
-PROJECT_REPORT.md
-scripts/daemon-test.mjs
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
 ```
 
 **✏️ Modificados:**
 ```
-README.md
+src/tools/get-context-from-config.ts
+src/types.ts
+src/security/security-guard.ts
+src/cache/lru-cache.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/config/config-loader.ts
+src/index.ts
+src/init/init-command.ts
+src/server.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
 ```
 
 </details>
 
 ### 💻 Código Añadido
 
-**README.md** (+323 líneas)**
+**src/cache/lru-cache.ts** (+4 líneas)**
 
 ```
-# mcp-context-cache
-> Caché de contexto para agentes de IA. Carga, almacena y entrega el contexto de archivos del proyecto de forma eficiente usando el **Protocolo de Contexto de Modelos (MCP)**.
+
+    
+    
+      
+```
+
+**src/config/config-loader.ts** (+1 línea)**
+
+```
+
+```
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/security/security-guard.ts** (+10 líneas)**
+
+```
+
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/server.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-context-from-config.ts** (+11 líneas)**
+
+```
+
+import type { BundleResult } from '../types.js';
+import { checkFile } from '../security/security-guard.js';
+      console.debug('No instruction file found at', candidate);
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/tools/get-directory-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-project-context.ts** (+1 línea)**
+
+```
+
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
+
 ---
 
-## ¿Por qué usarlo?
+## 🕐 22/05/2026, 11:21:08
 
-| Sin este servidor | Con este servidor |
-|---|---|
-| El agente llama a `read_file` una vez por archivo | Una sola llamada devuelve todo el proyecto |
-| 30 archivos = **30 tool calls** | 30 archivos = **1 tool call** |
+### 📊 Resumen
+- **Total archivos:** 62
+- **📝 Nuevos:** 49
+- **✏️ Modificados:** 12
+- **🗑️ Eliminados:** 1
+- **Líneas añadidas:** +50
+- **Líneas eliminadas:** -194
+- **Balance neto:** -144 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/config/config-loader.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/config/config-loader.ts` | +0 | -144 | -144 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +12 | -12 | 0 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/security/security-guard.ts` | +10 | -10 | 0 |
+| ✏️ | `src/cache/lru-cache.ts` | +4 | -4 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/tools/get-directory-context.ts` | +2 | -2 | 0 |
+| ✏️ | `src/tools/get-project-context.ts` | +2 | -2 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/server.ts` | +1 | -1 | 0 |
+| 🗑️ | `src/config/config-loader.ts` | +0 | eliminado | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (62)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+src/infrastructure/config/config-loader.ts
+```
+
+**✏️ Modificados:**
+```
+src/config/config-loader.ts
+src/tools/get-context-from-config.ts
+src/types.ts
+src/security/security-guard.ts
+src/cache/lru-cache.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+src/index.ts
+src/init/init-command.ts
+src/server.ts
+```
+
+**🗑️ Eliminados:**
+```
+src/config/config-loader.ts
+```
+
+</details>
+
+### 💻 Código Añadido
+
+**src/cache/lru-cache.ts** (+4 líneas)**
+
+```
+
+    
+    
+      
+```
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/security/security-guard.ts** (+10 líneas)**
+
+```
+
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/server.ts** (+1 línea)**
+
+```
+
+```
+
+**src/tools/get-context-from-config.ts** (+12 líneas)**
+
+```
+
+import type { BundleResult } from '../types.js';
+import { checkFile } from '../security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+      console.debug('No instruction file found at', candidate);
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/tools/get-directory-context.ts** (+2 líneas)**
+
+```
+
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+```
+
+**src/tools/get-project-context.ts** (+2 líneas)**
+
+```
+
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
 
 ---
 
-## Características
+## 🕐 22/05/2026, 11:21:14
 
-- **Caché LRU** — Los archivos se hashean con SHA-256 y se almacenan en memoria. Los archivos sin cambios nunca se vuelven a leer del disco.
-- **Pipeline de seguridad** — 8 pasos de validación bloquean archivos sensibles (`.env`, `*.pem`, credenciales, binarios, etc.).
-- **3 herramientas MCP** — Carga de contexto flexible: por lista de archivos, directorio o archivo de configuración.
-- **Truncado inteligente** — Respeta límites de tamaño configurables y reporta los archivos omitidos.
-- **Orden alfabético** — Salida determinista para respuestas estables del agente de IA.
+### 📊 Resumen
+- **Total archivos:** 64
+- **📝 Nuevos:** 50
+- **✏️ Modificados:** 12
+- **🗑️ Eliminados:** 2
+- **Líneas añadidas:** +50
+- **Líneas eliminadas:** -245
+- **Balance neto:** -195 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/cache/lru-cache.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/config/config-loader.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/config/config-loader.ts` | +0 | -144 | -144 |
+| ✏️ | `src/cache/lru-cache.ts` | +0 | -51 | -51 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +13 | -13 | 0 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/security/security-guard.ts` | +10 | -10 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/tools/get-directory-context.ts` | +3 | -3 | 0 |
+| ✏️ | `src/tools/get-project-context.ts` | +3 | -3 | 0 |
+| ✏️ | `src/server.ts` | +2 | -2 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| 🗑️ | `src/cache/lru-cache.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/config/config-loader.ts` | +0 | eliminado | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (64)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+src/infrastructure/cache/lru-cache.ts
+src/infrastructure/config/config-loader.ts
+```
+
+**✏️ Modificados:**
+```
+src/config/config-loader.ts
+src/cache/lru-cache.ts
+src/tools/get-context-from-config.ts
+src/types.ts
+src/security/security-guard.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+src/server.ts
+src/index.ts
+src/init/init-command.ts
+```
+
+**🗑️ Eliminados:**
+```
+src/cache/lru-cache.ts
+src/config/config-loader.ts
+```
+
+</details>
+
+### 💻 Código Añadido
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/security/security-guard.ts** (+10 líneas)**
+
+```
+
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/server.ts** (+2 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+```
+
+**src/tools/get-context-from-config.ts** (+13 líneas)**
+
+```
+
+import type { BundleResult } from '../types.js';
+import { LRUCache } from '../infrastructure/cache/lru-cache.js';
+import { checkFile } from '../security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+      console.debug('No instruction file found at', candidate);
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/tools/get-directory-context.ts** (+3 líneas)**
+
+```
+
+import { LRUCache } from '../infrastructure/cache/lru-cache.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+```
+
+**src/tools/get-project-context.ts** (+3 líneas)**
+
+```
+
+import { LRUCache } from '../infrastructure/cache/lru-cache.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
 
 ---
 
-## Instalación
+## 🕐 22/05/2026, 11:21:32
 
-### Instalación global (recomendada)
+### 📊 Resumen
+- **Total archivos:** 66
+- **📝 Nuevos:** 51
+- **✏️ Modificados:** 12
+- **🗑️ Eliminados:** 3
+- **Líneas añadidas:** +42
+- **Líneas eliminadas:** -389
+- **Balance neto:** -347 líneas
 
-```bash
-npm install -g mcp-context-cache
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/cache/lru-cache.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/config/config-loader.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-guard.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/security/security-guard.ts` | +0 | -152 | -152 |
+| ✏️ | `src/config/config-loader.ts` | +0 | -144 | -144 |
+| ✏️ | `src/cache/lru-cache.ts` | +0 | -51 | -51 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +13 | -13 | 0 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/tools/get-directory-context.ts` | +4 | -4 | 0 |
+| ✏️ | `src/tools/get-project-context.ts` | +4 | -4 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/server.ts` | +2 | -2 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| 🗑️ | `src/cache/lru-cache.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/config/config-loader.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/security/security-guard.ts` | +0 | eliminado | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (66)</summary>
+
+**🆕 Nuevos:**
 ```
-Con pnpm:
-pnpm add -g mcp-context-cache
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+src/infrastructure/cache/lru-cache.ts
+src/infrastructure/config/config-loader.ts
+src/infrastructure/security/security-guard.ts
 ```
 
-Verificar la instalación:
-
-```bash
-mcp-context-cache --version
+**✏️ Modificados:**
+```
+src/security/security-guard.ts
+src/config/config-loader.ts
+src/cache/lru-cache.ts
+src/tools/get-context-from-config.ts
+src/types.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/server.ts
+src/index.ts
+src/init/init-command.ts
 ```
 
-### Sin instalar
+**🗑️ Eliminados:**
+```
+src/cache/lru-cache.ts
+src/config/config-loader.ts
+src/security/security-guard.ts
+```
 
-```bash
-npx mcp-context-cache --init
+</details>
+
+### 💻 Código Añadido
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/server.ts** (+2 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+```
+
+**src/tools/get-context-from-config.ts** (+13 líneas)**
+
+```
+
+import type { BundleResult } from '../types.js';
+import { LRUCache } from '../infrastructure/cache/lru-cache.js';
+import { checkFile } from '../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+      console.debug('No instruction file found at', candidate);
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/tools/get-directory-context.ts** (+4 líneas)**
+
+```
+
+import { LRUCache } from '../infrastructure/cache/lru-cache.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+```
+
+**src/tools/get-project-context.ts** (+4 líneas)**
+
+```
+
+import { LRUCache } from '../infrastructure/cache/lru-cache.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../infrastructure/config/config-loader.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
 ```
 
 ---
 
-## Guía de configuración
+## 🕐 22/05/2026, 11:21:44
 
-### Paso 1 — Registra el servidor MCP en tu IDE
+### 📊 Resumen
+- **Total archivos:** 72
+- **📝 Nuevos:** 54
+- **✏️ Modificados:** 12
+- **🗑️ Eliminados:** 6
+- **Líneas añadidas:** +21
+- **Líneas eliminadas:** -729
+- **Balance neto:** -708 líneas
 
-#### VS Code
+### 📝 Detalle por archivo
 
-**Opción A — Global (todos los workspaces):**
-Edita `~/.config/Code/User/mcp.json` en macOS/Linux o `%APPDATA%\Code\User\mcp.json` en Windows:
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-context-from-config.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-directory-context.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-project-context.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/cache/lru-cache.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/config/config-loader.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-guard.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +0 | -168 | -168 |
+| ✏️ | `src/security/security-guard.ts` | +0 | -152 | -152 |
+| ✏️ | `src/config/config-loader.ts` | +0 | -144 | -144 |
+| ✏️ | `src/tools/get-directory-context.ts` | +0 | -102 | -102 |
+| ✏️ | `src/tools/get-project-context.ts` | +0 | -91 | -91 |
+| ✏️ | `src/cache/lru-cache.ts` | +0 | -51 | -51 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/server.ts` | +2 | -2 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| 🗑️ | `src/cache/lru-cache.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/config/config-loader.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/security/security-guard.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-context-from-config.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-directory-context.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-project-context.ts` | +0 | eliminado | 0 |
 
-```json
-{
-  "servers": {
-    "mcp-context-cache": {
-      "type": "stdio",
-      "command": "mcp-context-cache"
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (72)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/tools/get-context-from-config.ts
+src/application/tools/get-directory-context.ts
+src/application/tools/get-project-context.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+src/infrastructure/cache/lru-cache.ts
+src/infrastructure/config/config-loader.ts
+src/infrastructure/security/security-guard.ts
+```
+
+**✏️ Modificados:**
+```
+src/tools/get-context-from-config.ts
+src/security/security-guard.ts
+src/config/config-loader.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+src/cache/lru-cache.ts
+src/types.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/server.ts
+src/index.ts
+src/init/init-command.ts
+```
+
+**🗑️ Eliminados:**
+```
+src/cache/lru-cache.ts
+src/config/config-loader.ts
+src/security/security-guard.ts
+src/tools/get-context-from-config.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+```
+
+</details>
+
+### 💻 Código Añadido
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/server.ts** (+2 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
+
+---
+
+## 🕐 22/05/2026, 11:21:44
+
+### 📊 Resumen
+- **Total archivos:** 72
+- **📝 Nuevos:** 54
+- **✏️ Modificados:** 12
+- **🗑️ Eliminados:** 6
+- **Líneas añadidas:** +24
+- **Líneas eliminadas:** -732
+- **Balance neto:** -708 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-context-from-config.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-directory-context.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-project-context.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/cache/lru-cache.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/config/config-loader.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-guard.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +0 | -168 | -168 |
+| ✏️ | `src/security/security-guard.ts` | +0 | -152 | -152 |
+| ✏️ | `src/config/config-loader.ts` | +0 | -144 | -144 |
+| ✏️ | `src/tools/get-directory-context.ts` | +0 | -102 | -102 |
+| ✏️ | `src/tools/get-project-context.ts` | +0 | -91 | -91 |
+| ✏️ | `src/cache/lru-cache.ts` | +0 | -51 | -51 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/server.ts` | +5 | -5 | 0 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +3 | -3 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| 🗑️ | `src/cache/lru-cache.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/config/config-loader.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/security/security-guard.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-context-from-config.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-directory-context.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-project-context.ts` | +0 | eliminado | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (72)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/tools/get-context-from-config.ts
+src/application/tools/get-directory-context.ts
+src/application/tools/get-project-context.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+src/infrastructure/cache/lru-cache.ts
+src/infrastructure/config/config-loader.ts
+src/infrastructure/security/security-guard.ts
+```
+
+**✏️ Modificados:**
+```
+src/tools/get-context-from-config.ts
+src/security/security-guard.ts
+src/config/config-loader.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+src/cache/lru-cache.ts
+src/types.ts
+src/server.ts
+src/formatter/bundle-formatter.ts
+src/logger/logger.ts
+src/index.ts
+src/init/init-command.ts
+```
+
+**🗑️ Eliminados:**
+```
+src/cache/lru-cache.ts
+src/config/config-loader.ts
+src/security/security-guard.ts
+src/tools/get-context-from-config.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+```
+
+</details>
+
+### 💻 Código Añadido
+
+**src/formatter/bundle-formatter.ts** (+3 líneas)**
+
+```
+
+  formattedBlock: string; 
+  
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/server.ts** (+5 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+import { getProjectContext, getProjectContextMcpResponse } from './application/tools/get-project-context.js';
+import { getDirectoryContext, getDirectoryContextMcpResponse } from './application/tools/get-directory-context.js';
+import { getContextFromConfig, getContextFromConfigMcpResponse } from './application/tools/get-context-from-config.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
+
+---
+
+## 🕐 22/05/2026, 11:22:27
+
+### 📊 Resumen
+- **Total archivos:** 74
+- **📝 Nuevos:** 55
+- **✏️ Modificados:** 12
+- **🗑️ Eliminados:** 7
+- **Líneas añadidas:** +21
+- **Líneas eliminadas:** -805
+- **Balance neto:** -784 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/external/logger.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/formatters/bundle.formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-check.rules.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security-error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `.infrastructure-wip/security/security.validator.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/bundle-result.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/dtos/file-metadata.dto.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/formatter/bundle-formatter.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/bundle-result.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/mappers/file-metadata.mapper.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-context-from-config.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-directory-context.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/tools/get-project-context.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-context-from-config.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-directory-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/application/use-cases/get-project-context.use-case.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/cache-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/project-context.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/entities/security-config.entity.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/error-messages.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/errors/errors.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/bundle-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/cache-entry.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/file-metadata.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/models/security-check-result.model.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-context-from-config.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-directory-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/in/get-project-context.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/bundle-formatter.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/cache.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/config-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/file-repository.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/fingerprint-service.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/logger.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/domain/ports/out/security-validator.port.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/cache/lru-cache.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/config/config-loader.ts` | nuevo | -0 | 0 |
+| 🆕 | `src/infrastructure/security/security-guard.ts` | nuevo | -0 | 0 |
+| ✏️ | `src/tools/get-context-from-config.ts` | +0 | -168 | -168 |
+| ✏️ | `src/security/security-guard.ts` | +0 | -152 | -152 |
+| ✏️ | `src/config/config-loader.ts` | +0 | -144 | -144 |
+| ✏️ | `src/tools/get-directory-context.ts` | +0 | -102 | -102 |
+| ✏️ | `src/tools/get-project-context.ts` | +0 | -91 | -91 |
+| ✏️ | `src/formatter/bundle-formatter.ts` | +0 | -76 | -76 |
+| ✏️ | `src/cache/lru-cache.ts` | +0 | -51 | -51 |
+| ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✏️ | `src/server.ts` | +5 | -5 | 0 |
+| ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| 🗑️ | `src/cache/lru-cache.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/config/config-loader.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/formatter/bundle-formatter.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/security/security-guard.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-context-from-config.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-directory-context.ts` | +0 | eliminado | 0 |
+| 🗑️ | `src/tools/get-project-context.ts` | +0 | eliminado | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (74)</summary>
+
+**🆕 Nuevos:**
+```
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+.infrastructure-wip/security/security-check.rules.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/dtos/bundle-result.dto.ts
+src/application/dtos/file-metadata.dto.ts
+src/application/formatter/bundle-formatter.ts
+src/application/mappers/bundle-result.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/tools/get-context-from-config.ts
+src/application/tools/get-directory-context.ts
+src/application/tools/get-project-context.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+src/application/use-cases/get-directory-context.use-case.ts
+src/application/use-cases/get-project-context.use-case.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/entities/project-context.entity.ts
+src/domain/entities/security-config.entity.ts
+src/domain/errors/error-messages.ts
+src/domain/errors/errors.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/cache-entry.model.ts
+src/domain/models/file-metadata.model.ts
+src/domain/models/security-check-result.model.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+src/infrastructure/cache/lru-cache.ts
+src/infrastructure/config/config-loader.ts
+src/infrastructure/security/security-guard.ts
+```
+
+**✏️ Modificados:**
+```
+src/tools/get-context-from-config.ts
+src/security/security-guard.ts
+src/config/config-loader.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+src/formatter/bundle-formatter.ts
+src/cache/lru-cache.ts
+src/types.ts
+src/server.ts
+src/logger/logger.ts
+src/index.ts
+src/init/init-command.ts
+```
+
+**🗑️ Eliminados:**
+```
+src/cache/lru-cache.ts
+src/config/config-loader.ts
+src/formatter/bundle-formatter.ts
+src/security/security-guard.ts
+src/tools/get-context-from-config.ts
+src/tools/get-directory-context.ts
+src/tools/get-project-context.ts
+```
+
+</details>
+
+### 💻 Código Añadido
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/server.ts** (+5 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+import { getProjectContext, getProjectContextMcpResponse } from './application/tools/get-project-context.js';
+import { getDirectoryContext, getDirectoryContextMcpResponse } from './application/tools/get-directory-context.js';
+import { getContextFromConfig, getContextFromConfigMcpResponse } from './application/tools/get-context-from-config.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
+
+---
+
+## 🕐 22/05/2026, 11:23:17
+
+### 📊 Resumen
+- **Total archivos:** 60
+- **📝 Nuevos:** 0
+- **✏️ Modificados:** 60
+- **🗑️ Eliminados:** 0
+- **✅ En staging:** 53 (listos para commit)
+- **Líneas añadidas:** +1521
+- **Líneas eliminadas:** -69
+- **Balance neto:** +1452 líneas
+
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | +136 | -0 | +136 |
+| ✅ ✏️ | `.infrastructure-wip/security/security.validator.ts` | +116 | -0 | +116 |
+| ✅ ✏️ | `src/application/use-cases/get-context-from-config.use-case.ts` | +106 | -0 | +106 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger.adapter.ts` | +101 | -0 | +101 |
+| ✅ ✏️ | `.infrastructure-wip/formatters/bundle.formatter.ts` | +94 | -0 | +94 |
+| ✅ ✏️ | `src/application/use-cases/get-directory-context.use-case.ts` | +84 | -0 | +84 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | +82 | -0 | +82 |
+| ✅ ✏️ | `src/application/use-cases/get-project-context.use-case.ts` | +80 | -0 | +80 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | +70 | -0 | +70 |
+| ✅ ✏️ | `.infrastructure-wip/security/security-check.rules.ts` | +69 | -0 | +69 |
+| ✅ ✏️ | `src/domain/errors/errors.ts` | +60 | -0 | +60 |
+| ✅ ✏️ | `src/domain/errors/error-messages.ts` | +44 | -0 | +44 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | +34 | -0 | +34 |
+| ✅ ✏️ | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | +27 | -0 | +27 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | +26 | -0 | +26 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | +24 | -0 | +24 |
+| ✅ ✏️ | `src/application/mappers/file-metadata.mapper.ts` | +23 | -0 | +23 |
+| ✅ ✏️ | `src/application/mappers/bundle-result.mapper.ts` | +22 | -0 | +22 |
+| ✅ ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | +16 | -0 | +16 |
+| ✅ ✏️ | `src/domain/models/security-check-result.model.ts` | +15 | -0 | +15 |
+| ✅ ✏️ | `.infrastructure-wip/security/security-error-messages.ts` | +14 | -0 | +14 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger.entity.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `src/domain/entities/project-context.entity.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | +11 | -0 | +11 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | +11 | -0 | +11 |
+| ✅ ✏️ | `src/server.ts` | +5 | -5 | 0 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `src/domain/ports/out/logger.port.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `src/domain/ports/out/security-validator.port.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/bundle-formatter.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/cache.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/file-repository.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/entities/security-config.entity.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/domain/models/bundle-result.model.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/domain/models/file-metadata.model.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/application/dtos/file-metadata.dto.ts` | +6 | -0 | +6 |
+| ✅ ✏️ | `src/domain/ports/in/get-context-from-config.port.ts` | +6 | -0 | +6 |
+| ✅ ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✅ ✏️ | `src/application/dtos/bundle-result.dto.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/models/cache-entry.model.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/in/get-directory-context.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/in/get-project-context.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/out/config-repository.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/entities/cache-config.entity.ts` | +4 | -0 | +4 |
+| ✅ ✏️ | `src/domain/ports/out/fingerprint-service.port.ts` | +3 | -0 | +3 |
+| ✅ ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✅ ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/{ => application}/tools/get-context-from-config.ts` | +14 | -14 | 0 |
+| ✏️ | `src/{ => infrastructure}/security/security-guard.ts` | +11 | -11 | 0 |
+| ✏️ | `src/{ => application}/tools/get-directory-context.ts` | +6 | -6 | 0 |
+| ✏️ | `src/{ => application}/tools/get-project-context.ts` | +6 | -6 | 0 |
+| ✏️ | `src/{ => infrastructure}/cache/lru-cache.ts` | +5 | -5 | 0 |
+| ✏️ | `src/{ => application}/formatter/bundle-formatter.ts` | +4 | -4 | 0 |
+| ✏️ | `src/{ => infrastructure}/config/config-loader.ts` | +2 | -2 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (60)</summary>
+
+**✅ Modificados (staged):**
+```
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+src/application/use-cases/get-directory-context.use-case.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+src/application/use-cases/get-project-context.use-case.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/security/security-check.rules.ts
+src/domain/errors/errors.ts
+src/domain/errors/error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/mappers/bundle-result.mapper.ts
+src/types.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+src/domain/models/security-check-result.model.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+src/domain/entities/project-context.entity.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+src/server.ts
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/entities/security-config.entity.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/file-metadata.model.ts
+src/application/dtos/file-metadata.dto.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/logger/logger.ts
+src/application/dtos/bundle-result.dto.ts
+src/domain/models/cache-entry.model.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/index.ts
+src/init/init-command.ts
+```
+
+**✏️ Modificados:**
+```
+src/{ => application}/tools/get-context-from-config.ts
+src/{ => infrastructure}/security/security-guard.ts
+src/{ => application}/tools/get-directory-context.ts
+src/{ => application}/tools/get-project-context.ts
+src/{ => infrastructure}/cache/lru-cache.ts
+src/{ => application}/formatter/bundle-formatter.ts
+src/{ => infrastructure}/config/config-loader.ts
+```
+
+</details>
+
+### 💻 Código Añadido
+
+**.infrastructure-wip/adapters/external/logger-error-messages.ts** (+9 líneas)**
+
+```
+/**
+ * Logger Error Messages
+ */
+
+export const LOGGER_ERROR_MESSAGES = {
+  LOG_DIR_CREATION_ERROR: 'Error creating log directory',
+  LOG_FILE_WRITE_ERROR: 'Error writing to log file',
+  LOGGER_INITIALIZATION_ERROR: 'Error initializing logger',
+} as const;
+```
+
+**.infrastructure-wip/adapters/external/logger.adapter.ts** (+101 líneas)**
+
+```
+/**
+ * Logger Adapter - Implementation of LoggerPort
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import * as os from 'os';
+import { LoggerPort, LogLevel } from '../../../../application/ports/out/logger.port.js';
+import { LOGGER_ERROR_MESSAGES } from './logger-error-messages.js';
+
+export class LoggerAdapter implements LoggerPort {
+  private logDir: string;
+  private logFile: string;
+  private currentLogLevel: LogLevel = 'info';
+
+  constructor(logLevel: LogLevel = 'info') {
+    this.currentLogLevel = logLevel;
+    const homeDir = os.homedir();
+    this.logDir = path.join(homeDir, '.mcp-context-cache', 'logs');
+    this.logFile = path.join(this.logDir, 'server.log');
+    this.ensureLogDirectory();
+  }
+
+  log(level: LogLevel, message: string, data?: unknown): void {
+    if (this.shouldLog(level)) {
+      const timestamp = new Date().toISOString();
+      const logMessage = this.formatLogMessage(level, message, timestamp, data);
+
+      // Log to console
+      this.logToConsole(level, logMessage);
+
+      // Log to file
+      this.logToFile(logMessage);
+    }
+  }
+
+  error(message: string, data?: unknown): void {
+    this.log('error', message, data);
+  }
+
+  warn(message: string, data?: unknown): void {
+    this.log('warn', message, data);
+  }
+
+  info(message: string, data?: unknown): void {
+    this.log('info', message, data);
+  }
+
+  debug(message: string, data?: unknown): void {
+    this.log('debug', message, data);
+  }
+
+  private shouldLog(level: LogLevel): boolean {
+    const levels: LogLevel[] = ['error', 'warn', 'info', 'debug'];
+    const currentIndex = levels.indexOf(this.currentLogLevel);
+    const levelIndex = levels.indexOf(level);
+    return levelIndex <= currentIndex;
+  }
+
+  private formatLogMessage(level: LogLevel, message: string, timestamp: string, data?: unknown): string {
+    const dataString = data ? ` | ${JSON.stringify(data)}` : '';
+    return `[${timestamp}] [${level.toUpperCase()}] ${message}${dataString}`;
+  }
+
+  private logToConsole(level: LogLevel, message: string): void {
+    switch (level) {
+      case 'error':
+        console.error(message);
+        break;
+      case 'warn':
+        console.warn(message);
+        break;
+      case 'info':
+        console.log(message);
+        break;
+      case 'debug':
+        console.log(message);
+        break;
+    }
+  }
+
+  private logToFile(message: string): void {
+    try {
+      fs.appendFileSync(this.logFile, message + '\n', 'utf-8');
+    } catch (error) {
+      console.error(`${LOGGER_ERROR_MESSAGES.LOG_FILE_WRITE_ERROR}: ${(error as Error).message}`);
+    }
+  }
+
+  private ensureLogDirectory(): void {
+    try {
+      if (!fs.existsSync(this.logDir)) {
+        fs.mkdirSync(this.logDir, { recursive: true });
+      }
+    } catch (error) {
+      console.error(
+        `${LOGGER_ERROR_MESSAGES.LOG_DIR_CREATION_ERROR}: ${(error as Error).message}`,
+      );
     }
   }
 }
 ```
 
-**Opción B — Por workspace:**
-Crea `.vscode/mcp.json` en la raíz del proyecto:
+**.infrastructure-wip/adapters/external/logger.entity.ts** (+12 líneas)**
 
-```json
-{
-  "servers": {
-    "mcp-context-cache": {
-      "type": "stdio",
-      "command": "mcp-context-cache"
+```
+/**
+ * Logger Entity - Infrastructure representation of logger
+ */
+
+export type LogLevel = 'error' | 'warn' | 'info' | 'debug';
+
+export interface LogEntry {
+  level: LogLevel;
+  message: string;
+  timestamp: string;
+  data?: unknown;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts** (+9 líneas)**
+
+```
+/**
+ * Cache Entry Entity - Infrastructure representation of a cache entry
+ */
+
+export interface CacheEntryEntity {
+  fingerprint: string;
+  block: string;
+  timestamp?: number;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts** (+24 líneas)**
+
+```
+/**
+ * Cache Entry Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { CacheEntryEntity } from './cache-entry.entity.js';
+import { CacheEntry } from '../../../../domain/models/cache-entry.model.js';
+
+export class CacheEntryMapper {
+  static toDomain(entity: CacheEntryEntity): CacheEntry {
+    return {
+      fingerprint: entity.fingerprint,
+      block: entity.block,
+      timestamp: entity.timestamp,
+    };
+  }
+
+  static toEntity(domain: CacheEntry): CacheEntryEntity {
+    return {
+      fingerprint: domain.fingerprint,
+      block: domain.block,
+      timestamp: domain.timestamp,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts** (+70 líneas)**
+
+```
+/**
+ * LRU Cache Adapter - Implementation of CachePort using LRU cache strategy
+ */
+
+import { CachePort } from '../../../../application/ports/out/cache.port.js';
+import { CacheEntry } from '../../../../domain/models/cache-entry.model.js';
+
+export interface LRUCacheOptions {
+  maxEntries?: number;
+  maxEntrySizeKb?: number;
+}
+
+export class LRUCacheAdapter implements CachePort {
+  private cache: Map<string, CacheEntry>;
+  private accessOrder: string[] = [];
+  private readonly maxEntries: number;
+  private readonly maxEntrySizeKb: number;
+
+  constructor(options: LRUCacheOptions = {}) {
+    this.maxEntries = options.maxEntries || 5000;
+    this.maxEntrySizeKb = options.maxEntrySizeKb || 1024;
+    this.cache = new Map();
+  }
+
+  get(key: string): CacheEntry | undefined {
+    if (!this.cache.has(key)) {
+      return undefined;
+    }
+
+    // Move to end (most recently used)
+    this.accessOrder = this.accessOrder.filter((k) => k !== key);
+    this.accessOrder.push(key);
+
+    return this.cache.get(key);
+  }
+
+  set(key: string, value: CacheEntry): void {
+    // Check size limit
+    const entrySizeKb = Buffer.byteLength(value.block) / 1024;
+    if (entrySizeKb > this.maxEntrySizeKb) {
+      return; // Don't cache if too large
+    }
+
+    // Remove if exists to update order
+    if (this.cache.has(key)) {
+      this.accessOrder = this.accessOrder.filter((k) => k !== key);
+    }
+
+    // Check if we need to evict
+    while (this.cache.size >= this.maxEntries && this.cache.size > 0) {
+      const lruKey = this.accessOrder.shift();
+      if (lruKey) {
+        this.cache.delete(lruKey);
+      }
+    }
+
+    // Add new entry
+    this.cache.set(key, value);
+    this.accessOrder.push(key);
+  }
+
+  clear(): void {
+    this.cache.clear();
+    this.accessOrder = [];
+  }
+
+  has(key: string): boolean {
+    return this.cache.has(key);
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config-file.repository.ts** (+82 líneas)**
+
+```
+/**
+ * Config File Repository Adapter - Implementation of ConfigRepositoryPort
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import { z } from 'zod';
+import { ConfigRepositoryPort } from '../../../../application/ports/out/config-repository.port.js';
+import { ProjectContext } from '../../../../domain/entities/project-context.entity.js';
+import { ConfigLoadError } from '../../../../domain/errors/errors.js';
+import { CONFIG_REPOSITORY_ERROR_MESSAGES } from './config-repository-error-messages.js';
+import { ConfigEntity } from './config.entity.js';
+import { ConfigMapper } from './config.mapper.js';
+
+// Zod schema for validation
+const ModuleConfigSchema = z.object({
+  name: z.string(),
+  path: z.string(),
+  includeInstructions: z.boolean().optional(),
+  excludePatterns: z.array(z.string()).optional(),
+});
+
+const ConfigFileSchema = z.object({
+  modules: z.array(ModuleConfigSchema),
+  globalInstructions: z.string().optional(),
+  maxTotalSizeKb: z.number().positive(),
+  cache: z.object({
+    maxEntries: z.number().optional(),
+    maxEntrySizeKb: z.number().optional(),
+  }).optional(),
+  security: z.any().optional(),
+});
+
+export class ConfigFileRepositoryAdapter implements ConfigRepositoryPort {
+  async loadConfig(projectRoot: string): Promise<ProjectContext> {
+    try {
+      const configPath = path.join(projectRoot, 'contextcache.json');
+
+      if (!fs.existsSync(configPath)) {
+        throw new ConfigLoadError(
+          `${CONFIG_REPOSITORY_ERROR_MESSAGES.FILE_NOT_FOUND} ${configPath}`,
+        );
+      }
+
+      const fileContent = fs.readFileSync(configPath, 'utf-8');
+      let rawConfig: unknown;
+
+      try {
+        rawConfig = JSON.parse(fileContent);
+      } catch (error) {
+        throw new ConfigLoadError(CONFIG_REPOSITORY_ERROR_MESSAGES.INVALID_JSON, {
+          filePath: configPath,
+        });
+      }
+
+      // Validate with Zod
+      let validatedConfig: z.infer<typeof ConfigFileSchema>;
+      try {
+        validatedConfig = ConfigFileSchema.parse(rawConfig);
+      } catch (error) {
+        const zodError = error as z.ZodError;
+        throw new ConfigLoadError(CONFIG_REPOSITORY_ERROR_MESSAGES.INVALID_STRUCTURE, {
+          errors: zodError.errors,
+        });
+      }
+
+      // Map to entity and then to domain
+      const entity: ConfigEntity = {
+        modules: validatedConfig.modules,
+        globalInstructions: validatedConfig.globalInstructions,
+        maxTotalSizeKb: validatedConfig.maxTotalSizeKb,
+      };
+
+      return ConfigMapper.toDomain(entity);
+    } catch (error) {
+      if (error instanceof ConfigLoadError) {
+        throw error;
+      }
+      throw new ConfigLoadError(`Error loading configuration: ${(error as Error).message}`);
     }
   }
 }
 ```
 
-#### JetBrains (IntelliJ, WebStorm, PyCharm, etc.)
+**.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts** (+12 líneas)**
 
-Crea `.mcp.json` en la raíz del proyecto:
+```
+/**
+ * Config Repository Error Messages
+ */
 
-```json
-{
-  "mcpServers": {
-    "mcp-context-cache": {
-      "command": "mcp-context-cache"
+export const CONFIG_REPOSITORY_ERROR_MESSAGES = {
+  FILE_NOT_FOUND: 'Configuration file not found at',
+  INVALID_JSON: 'Invalid JSON in configuration file',
+  INVALID_STRUCTURE: 'Invalid configuration structure',
+  MISSING_MODULES: 'Missing required field: modules',
+  MISSING_MAX_SIZE: 'Missing required field: maxTotalSizeKb',
+  INVALID_MODULE: 'Invalid module configuration',
+} as const;
+```
+
+**.infrastructure-wip/adapters/persistence/config/config.entity.ts** (+16 líneas)**
+
+```
+/**
+ * Config Entity - Infrastructure representation of project configuration
+ */
+
+export interface ModuleConfigEntity {
+  name: string;
+  path: string;
+  includeInstructions?: boolean;
+  excludePatterns?: string[];
+}
+
+export interface ConfigEntity {
+  modules: ModuleConfigEntity[];
+  globalInstructions?: string;
+  maxTotalSizeKb: number;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config.mapper.ts** (+34 líneas)**
+
+```
+/**
+ * Config Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { ConfigEntity } from './config.entity.js';
+import { ProjectContext, ModuleConfig } from '../../../../domain/entities/project-context.entity.js';
+
+export class ConfigMapper {
+  static toDomain(entity: ConfigEntity): ProjectContext {
+    return {
+      modules: entity.modules.map((m: any) => ({
+        name: m.name,
+        path: m.path,
+        includeInstructions: m.includeInstructions,
+        excludePatterns: m.excludePatterns,
+      })),
+      globalInstructions: entity.globalInstructions,
+      maxTotalSizeKb: entity.maxTotalSizeKb,
+    };
+  }
+
+  static toEntity(domain: ProjectContext): ConfigEntity {
+    return {
+      modules: domain.modules.map((m: ModuleConfig) => ({
+        name: m.name,
+        path: m.path,
+        includeInstructions: m.includeInstructions,
+        excludePatterns: m.excludePatterns,
+      })),
+      globalInstructions: domain.globalInstructions,
+      maxTotalSizeKb: domain.maxTotalSizeKb,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts** (+11 líneas)**
+
+```
+/**
+ * File Repository Error Messages
+ */
+
+export const FILE_REPOSITORY_ERROR_MESSAGES = {
+  FILE_NOT_FOUND: 'File not found',
+  FILE_READ_ERROR: 'Error reading file',
+  INVALID_PATH: 'Invalid file path',
+  ACCESS_DENIED: 'Access denied to file',
+  PATH_TRAVERSAL_ATTEMPT: 'Path traversal attempt detected',
+} as const;
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.entity.ts** (+11 líneas)**
+
+```
+/**
+ * File Entity - Infrastructure representation of a file
+ */
+
+export interface FileEntity {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+  content?: string;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.mapper.ts** (+26 líneas)**
+
+```
+/**
+ * File Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { FileEntity } from './file.entity.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+
+export class FileMapper {
+  static toDomain(entity: FileEntity): FileMetadata {
+    return {
+      absolutePath: entity.absolutePath,
+      relativePath: entity.relativePath,
+      size: entity.size,
+      extension: entity.extension,
+    };
+  }
+
+  static toEntity(domain: FileMetadata): FileEntity {
+    return {
+      absolutePath: domain.absolutePath,
+      relativePath: domain.relativePath,
+      size: domain.size,
+      extension: domain.extension,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.repository.ts** (+136 líneas)**
+
+```
+/**
+ * File Repository Adapter - Implementation of FileRepositoryPort using filesystem
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import fg from 'fast-glob';
+import { FileRepositoryPort } from '../../../../application/ports/out/file-repository.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { FileReadError } from '../../../../domain/errors/errors.js';
+import { FILE_REPOSITORY_ERROR_MESSAGES } from './file-repository-error-messages.js';
+import { FileEntity } from './file.entity.js';
+import { FileMapper } from './file.mapper.js';
+
+export class FileRepositoryAdapter implements FileRepositoryPort {
+  async readFile(filePath: string): Promise<string> {
+    try {
+      this.validatePath(filePath);
+      return fs.readFileSync(filePath, 'utf-8');
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `${FILE_REPOSITORY_ERROR_MESSAGES.FILE_READ_ERROR}: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  async getFileMetadata(filePath: string): Promise<FileMetadata> {
+    try {
+      this.validatePath(filePath);
+
+      if (!fs.existsSync(filePath)) {
+        throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.FILE_NOT_FOUND, filePath);
+      }
+
+      const stats = fs.statSync(filePath);
+      const extension = path.extname(filePath);
+
+      const entity: FileEntity = {
+        absolutePath: filePath,
+        relativePath: path.relative(process.cwd(), filePath),
+        size: stats.size,
+        extension,
+      };
+
+      return FileMapper.toDomain(entity);
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `Error getting file metadata: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  async discoverFiles(rootPath: string, excludePatterns?: string[]): Promise<FileMetadata[]> {
+    try {
+      this.validatePath(rootPath);
+
+      if (!fs.existsSync(rootPath)) {
+        throw new FileReadError(`Directory not found: ${rootPath}`, rootPath);
+      }
+
+      const pattern = path.join(rootPath, '**', '*');
+      const ignorePatterns = excludePatterns?.map((p) => `!${path.join(rootPath, p)}`) || [];
+
+      const files = await fg([pattern, ...ignorePatterns], {
+        dot: false,
+        onlyFiles: true,
+      });
+
+      return files.map((filePath: string) => {
+        const stats = fs.statSync(filePath);
+        const extension = path.extname(filePath);
+
+        const entity: FileEntity = {
+          absolutePath: filePath,
+          relativePath: path.relative(rootPath, filePath),
+          size: stats.size,
+          extension,
+        };
+
+        return FileMapper.toDomain(entity);
+      });
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `Error discovering files: ${(error as Error).message}`,
+        rootPath,
+      );
+    }
+  }
+
+  async getFilesByPaths(paths: string[]): Promise<FileMetadata[]> {
+    try {
+      const fileMetadata: FileMetadata[] = [];
+
+      for (const filePath of paths) {
+        try {
+          const metadata = await this.getFileMetadata(filePath);
+          fileMetadata.push(metadata);
+        } catch (error) {
+          // Log but continue with other files
+          console.warn(`Could not get metadata for ${filePath}: ${(error as Error).message}`);
+        }
+      }
+
+      return fileMetadata;
+    } catch (error) {
+      throw new FileReadError(
+        `Error getting files by paths: ${(error as Error).message}`,
+        paths.join(','),
+      );
+    }
+  }
+
+  private validatePath(filePath: string): void {
+    if (!filePath || typeof filePath !== 'string') {
+      throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.INVALID_PATH, filePath);
+    }
+
+    const resolvedPath = path.resolve(filePath);
+    const basePath = path.resolve(process.cwd());
+
+    if (!resolvedPath.startsWith(basePath)) {
+      throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.PATH_TRAVERSAL_ATTEMPT, filePath);
     }
   }
 }
 ```
 
-> JetBrains AI Assistant detecta `.mcp.json` automáticamente desde la versión 2024.3.
+**.infrastructure-wip/file-discovery/file-discovery-error-messages.ts** (+9 líneas)**
 
----
+```
+/**
+ * File Discovery Error Messages
+ */
 
-### Paso 2 — Instrucciones al agente para preferir las herramientas MCP
-
-Los agentes de IA usan sus herramientas nativas por defecto. Debes indicarles explícitamente que prefieran las del servidor MCP.
-
-#### VS Code — Instrucciones globales
-
-Crea el archivo `~/.config/Code/User/prompts/mcp-context-cache.instructions.md`:
-
-```markdown
----
-applyTo: "**"
----
-
-# Carga de contexto — mcp-context-cache
-
-## HERRAMIENTAS PROHIBIDAS
-
-NUNCA uses estas herramientas para leer archivos del proyecto:
-
-- `read_file`
-- `list_dir`
-- `file_search`
-- `semantic_search`
-- `grep_search`
-
-Solo se permite usarlas si TODAS las herramientas MCP fallan con error.
-
-## PROCEDIMIENTO OBLIGATORIO
-
-Antes de cualquier otra llamada al inicio de una tarea:
-
-1. Verifica si el workspace contiene un archivo `contextcache.json`.
-2. Si existe → llama a `get_context_from_config` con `{ "projectRoot": "<ruta-absoluta>" }`.
-3. Si no existe y necesitas un directorio → llama a `get_directory_context`.
-4. Para archivos específicos → llama a `get_project_context` con un array `paths`.
-5. Solo usa `read_file` si las tres herramientas MCP devuelven error.
-
-## Referencia de herramientas
-
-- `get_context_from_config`  →  `{ "projectRoot": "<ruta-absoluta>" }`
-- `get_project_context`      →  `{ "paths": ["rel/ruta.ts", ...], "projectRoot": "<ruta-absoluta>" }`
-- `get_directory_context`    →  `{ "rootPath": "<ruta-absoluta-al-directorio>" }`
+export const FILE_DISCOVERY_ERROR_MESSAGES = {
+  DISCOVERY_ERROR: 'Error discovering files',
+  INVALID_PATTERN: 'Invalid glob pattern',
+  DIRECTORY_NOT_FOUND: 'Directory not found',
+} as const;
 ```
 
-> El frontmatter `applyTo: "**"` le indica a VS Code Copilot que inyecte este archivo en cada conversación.
+**.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts** (+8 líneas)**
 
-#### VS Code — Por proyecto
-Crea `.github/copilot-instructions.md` en la raíz del proyecto:
-
-```markdown
-## PROHIBIDO — no uses estas herramientas para leer archivos
-
-NUNCA llames a `read_file`, `list_dir`, `file_search`, `semantic_search` o `grep_search`.
-Solo recurre a ellas si todas las herramientas MCP devuelven error.
-
-## PRIMER PASO OBLIGATORIO
-
-Este proyecto tiene un `contextcache.json`. Llama a `get_context_from_config` antes de cualquier otra herramienta:
-
-{ "projectRoot": "<ruta-absoluta-a-este-repo>" }
-#### JetBrains — Prompt de sistema global (AI Assistant)
-
-Ve a **Settings → Tools → AI Assistant → System prompt** y agrega:
 ```
-Al trabajar en cualquier proyecto que tenga un archivo contextcache.json, llama a la herramienta MCP
-get_context_from_config con la ruta raíz del proyecto antes de leer archivos individuales.
-Prefiere get_directory_context sobre leer archivos uno por uno, y get_project_context
-sobre múltiples llamadas a read_file.
-```
----
-### Paso 3 — Inicializa tu proyecto
-Ejecuta en la raíz del proyecto para generar un `contextcache.json`:
-npx @jdug-jadodev/mcp-context-cache --init
+/**
+ * Fingerprint Error Messages
+ */
+
+export const FINGERPRINT_ERROR_MESSAGES = {
+  COMPUTATION_ERROR: 'Error computing fingerprint',
+  INVALID_INPUT: 'Invalid input for fingerprinting',
+} as const;
 ```
 
-O créalo manualmente:
+**.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts** (+27 líneas)**
 
-```json
-{
-  "modules": [
-    {
-      "name": "src",
-      "path": "src",
-      "includeInstructions": true,
-      "excludePatterns": ["**/*.test.ts", "**/*.spec.ts", "**/__mocks__/**"]
+```
+/**
+ * SHA256 Fingerprint Service - Implementation of FingerprintServicePort
+ */
+
+import * as crypto from 'crypto';
+import * as fs from 'fs';
+import { FingerprintServicePort } from '../../../../application/ports/out/fingerprint-service.port.js';
+import { FingerprintError } from '../../../../domain/errors/errors.js';
+import { FINGERPRINT_ERROR_MESSAGES } from './fingerprint-error-messages.js';
+
+export class SHA256FingerprintService implements FingerprintServicePort {
+  async computeFingerprint(filePath: string): Promise<string> {
+    try {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      return this.hashContent(content);
+    } catch (error) {
+      throw new FingerprintError(
+        `${FINGERPRINT_ERROR_MESSAGES.COMPUTATION_ERROR}: ${(error as Error).message}`,
+        filePath,
+      );
     }
-  ],
-  "globalInstructions": ".github/copilot-instructions.md",
-  "maxTotalSizeKb": 2048,
-  "cache": {
-    "maxEntries": 5000,
-    "maxEntrySizeKb": 1024
-  },
-  "security": {
-    "allowedPaths": ["./"],
-    "deniedPaths": ["./node_modules", "./dist", "./secrets", "./.git"],
-    "deniedFiles": [".env", "credentials.json", "*.pem"],
-    "maxFileSizeKb": 500,
-    "allowedExtensions": [".ts", ".tsx", ".js", ".jsx", ".json", ".md", ".yaml", ".yml"]
+  }
+
+  private hashContent(content: string): string {
+    return crypto.createHash('sha256').update(content).digest('hex');
   }
 }
-#### Referencia de campos
-| Campo | Descripción |
-|---|---|
-| `modules` | Lista de directorios a empaquetar |
-| `modules[].path` | Ruta relativa a la raíz del proyecto |
-| `modules[].includeInstructions` | Si es `true`, antepone el contenido de `globalInstructions` |
-| `modules[].excludePatterns` | Patrones glob a omitir |
-| `globalInstructions` | Ruta al Markdown incluido al inicio del bundle cuando `includeInstructions: true` |
-| `maxTotalSizeKb` | Tamaño máximo total del bundle en KB |
-| `cache.maxEntries` | Número máximo de archivos en la caché LRU |
-| `cache.maxEntrySizeKb` | Tamaño máximo de archivo individual en caché |
-| `security.allowedPaths` | Rutas desde las que el servidor puede leer |
-| `security.deniedPaths` | Rutas siempre bloqueadas |
-| `security.deniedFiles` | Patrones de nombres de archivo siempre bloqueados |
-| `security.maxFileSizeKb` | Tamaño máximo de archivo a servir |
-| `security.allowedExtensions` | Lista blanca de extensiones de archivo |
-## Herramientas MCP
-
-### `get_context_from_config`
-
-Carga el contexto completo del proyecto definido en `contextcache.json`. **Úsala siempre primero.**
-
-```json
-{ "projectRoot": "/ruta/absoluta/al/proyecto" }
 ```
 
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `projectRoot` | string | sí | Directorio que contiene `contextcache.json` |
-| `configPath` | string | no | Ruta explícita a `contextcache.json` |
+**.infrastructure-wip/formatters/bundle-format-error-messages.ts** (+9 líneas)**
+
+```
+/**
+ * Bundle Formatter Error Messages
+ */
+
+export const BUNDLE_FORMATTER_ERROR_MESSAGES = {
+  FORMAT_ERROR: 'Error formatting bundle',
+  SIZE_CALCULATION_ERROR: 'Error calculating bundle size',
+  INVALID_FILES: 'Invalid files for formatting',
+} as const;
+```
+
+**.infrastructure-wip/formatters/bundle.formatter.ts** (+94 líneas)**
+
+```
+/**
+ * Bundle Formatter Adapter - Implementation of BundleFormatterPort
+ */
+
+import { BundleFormatterPort } from '../../../../application/ports/out/bundle-formatter.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { BundleFormattingError } from '../../../../domain/errors/errors.js';
+import { BUNDLE_FORMATTER_ERROR_MESSAGES } from './bundle-format-error-messages.js';
+
+interface FileWithContent {
+  metadata: FileMetadata;
+  content: string;
+}
+
+export class BundleFormatterAdapter implements BundleFormatterPort {
+  async formatFiles(
+    files: FileWithContent[],
+    maxTotalSizeKb: number,
+  ): Promise<{ content: string; isTruncated: boolean; omittedFiles?: string[] }> {
+    try {
+      // Sort files by relative path
+      const sortedFiles = files.sort((a, b) =>
+        a.metadata.relativePath.localeCompare(b.metadata.relativePath),
+      );
+
+      const blocks: string[] = [];
+      const omittedFiles: string[] = [];
+      let totalSizeKb = 0;
+      const maxSizeBytes = maxTotalSizeKb * 1024;
+
+      for (const file of sortedFiles) {
+        const block = this.createFileBlock(file.metadata, file.content);
+        const blockSizeBytes = Buffer.byteLength(block);
+        const newTotalSize = totalSizeKb * 1024 + blockSizeBytes;
+
+        if (newTotalSize <= maxSizeBytes) {
+          blocks.push(block);
+          totalSizeKb = newTotalSize / 1024;
+        } else {
+          omittedFiles.push(file.metadata.relativePath);
+        }
+      }
+
+      // Add truncation notice if needed
+      let content = blocks.join('\n\n');
+      let isTruncated = false;
+
+      if (omittedFiles.length > 0) {
+        isTruncated = true;
+        const truncationMessage = this.createTruncationMessage(omittedFiles);
+        content += '\n\n' + truncationMessage;
+      }
+
+      return {
+        content,
+        isTruncated,
+        omittedFiles: isTruncated ? omittedFiles : undefined,
+      };
+    } catch (error) {
+      throw new BundleFormattingError(
+        `${BUNDLE_FORMATTER_ERROR_MESSAGES.FORMAT_ERROR}: ${(error as Error).message}`,
+      );
+    }
+  }
+
+  private createFileBlock(metadata: FileMetadata, content: string): string {
+    const SHA256 = this.calculateSHA256(content);
+    return (
+      `BUNDLE_START: ${SHA256}\n` +
+      `${metadata.relativePath}\n` +
+      `${content}\n` +
+      `BUNDLE_END: ${metadata.relativePath}`
+    );
+  }
+
+  private createTruncationMessage(omittedFiles: string[]): string {
+    const fileList = omittedFiles.map((f) => `  - ${f}`).join('\n');
+    return (
+      `BUNDLE_TRUNCATED\n\nThe following files were omitted due to size limit:\n${fileList}`
+    );
+  }
+
+  private calculateSHA256(content: string): string {
+    // For now, just return a simple hash representation
+    // In production, this would use proper crypto
+    let hash = 0;
+    for (let i = 0; i < content.length; i++) {
+      const char = content.charCodeAt(i);
+      hash = (hash << 5) - hash + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return Math.abs(hash).toString(16).padStart(64, '0');
+  }
+}
+```
+
+**.infrastructure-wip/security/security-check.rules.ts** (+69 líneas)**
+
+```
+/**
+ * Security Check Rules - Hardcoded security rules
+ */
+
+// Files that should never be included (hardcoded blacklist)
+export const HARDCODED_BLACKLIST = [
+  /\.env/i,
+  /\.env\.local/i,
+  /\.env\.production/i,
+  /\.env\.development/i,
+  /\.pem$/i,
+  /\.key$/i,
+  /\.p12$/i,
+  /\.pfx$/i,
+  /private[_-]?key/i,
+  /\.aws\/credentials/i,
+  /\.ssh\/id_/i,
+  /aws_access_key_id/i,
+  /aws_secret_access_key/i,
+  /password/i,
+  /secret/i,
+  /token/i,
+  /oauth/i,
+];
+
+// Binary file extensions that should be excluded
+export const BINARY_EXTENSIONS = [
+  '.exe',
+  '.dll',
+  '.so',
+  '.dylib',
+  '.bin',
+  '.png',
+  '.jpg',
+  '.jpeg',
+  '.gif',
+  '.bmp',
+  '.ico',
+  '.svg',
+  '.zip',
+  '.tar',
+  '.gz',
+  '.rar',
+  '.7z',
+  '.pdf',
+  '.doc',
+  '.docx',
+  '.xls',
+  '.xlsx',
+  '.ppt',
+  '.pptx',
+  '.mp3',
+  '.mp4',
+  '.avi',
+  '.mov',
+  '.webp',
+  '.woff',
+  '.woff2',
+  '.ttf',
+  '.otf',
+];
+
+export function matchesBlacklist(filename: string): boolean {
+  return HARDCODED_BLACKLIST.some((pattern) => pattern.test(filename));
+}
+
+export function isBinaryExtension(extension: string): boolean {
+  return BINARY_EXTENSIONS.includes(extension.toLowerCase());
+}
+```
+
+**.infrastructure-wip/security/security-error-messages.ts** (+14 líneas)**
+
+```
+/**
+ * Security Error Messages
+ */
+
+export const SECURITY_ERROR_MESSAGES = {
+  BLACKLIST_MATCH: 'File matches blacklist pattern',
+  BINARY_EXTENSION: 'Binary file extensions are not allowed',
+  DENIED_PATH: 'File path is in denied paths list',
+  NOT_ALLOWED_PATH: 'File path is not in allowed paths',
+  DENIED_FILENAME: 'Filename matches denied pattern',
+  EXTENSION_NOT_ALLOWED: 'File extension is not in allowed extensions list',
+  FILE_SIZE_EXCEEDED: 'File size exceeds maximum allowed size',
+  EXCLUDED_BY_PATTERN: 'File is excluded by configured exclude pattern',
+} as const;
+```
+
+**.infrastructure-wip/security/security.validator.ts** (+116 líneas)**
+
+```
+/**
+ * Security Validator Adapter - Implementation of SecurityValidatorPort
+ */
+
+import * as path from 'path';
+import { SecurityValidatorPort } from '../../../../application/ports/out/security-validator.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { SecurityCheckResult, DenialReason } from '../../../../domain/models/security-check-result.model.js';
+import { SecurityConfig } from '../../../../domain/entities/security-config.entity.js';
+import { SECURITY_ERROR_MESSAGES } from './security-error-messages.js';
+import { matchesBlacklist, isBinaryExtension } from './security-check.rules.js';
+
+export class SecurityValidatorAdapter implements SecurityValidatorPort {
+  validate(fileMetadata: FileMetadata, securityConfig: SecurityConfig): SecurityCheckResult {
+    // Step 1: Check hardcoded blacklist
+    if (matchesBlacklist(fileMetadata.absolutePath)) {
+      return this.denyAccess('BLACKLIST', SECURITY_ERROR_MESSAGES.BLACKLIST_MATCH);
+    }
+
+    // Step 2: Check for binary extensions
+    if (isBinaryExtension(fileMetadata.extension)) {
+      return this.denyAccess('BINARY_EXTENSION', SECURITY_ERROR_MESSAGES.BINARY_EXTENSION);
+    }
+
+    // Step 3: Check denied paths
+    if (this.isInDeniedPaths(fileMetadata.absolutePath, securityConfig.deniedPaths)) {
+      return this.denyAccess('DENIED_PATH', SECURITY_ERROR_MESSAGES.DENIED_PATH);
+    }
+
+    // Step 4: Check allowed paths (if configured)
+    if (
+      securityConfig.allowedPaths &&
+      securityConfig.allowedPaths.length > 0 &&
+      !this.isInAllowedPaths(fileMetadata.absolutePath, securityConfig.allowedPaths)
+    ) {
+      return this.denyAccess('NOT_ALLOWED_PATH', SECURITY_ERROR_MESSAGES.NOT_ALLOWED_PATH);
+    }
+
+    // Step 5: Check denied filenames
+    const fileName = path.basename(fileMetadata.absolutePath);
+    if (this.isInDeniedFiles(fileName, securityConfig.deniedFiles)) {
+      return this.denyAccess('DENIED_FILE', SECURITY_ERROR_MESSAGES.DENIED_FILENAME);
+    }
+
+    // Step 6: Check allowed extensions (if configured)
+    if (
+      securityConfig.allowedExtensions &&
+      securityConfig.allowedExtensions.length > 0 &&
+      !this.isExtensionAllowed(fileMetadata.extension, securityConfig.allowedExtensions)
+    ) {
+      return this.denyAccess(
+        'EXTENSION_NOT_ALLOWED',
+        SECURITY_ERROR_MESSAGES.EXTENSION_NOT_ALLOWED,
+      );
+    }
+
+    // Step 7: Check file size
+    if (
+      securityConfig.maxFileSizeKb &&
+      fileMetadata.size / 1024 > securityConfig.maxFileSizeKb
+    ) {
+      return this.denyAccess('SIZE_EXCEEDED', SECURITY_ERROR_MESSAGES.FILE_SIZE_EXCEEDED);
+    }
+
+    // Step 8: All checks passed
+    return { isAllowed: true };
+  }
+
+  private isInDeniedPaths(filePath: string, deniedPaths?: string[]): boolean {
+    if (!deniedPaths || deniedPaths.length === 0) {
+      return false;
+    }
+
+    const normalizedFilePath = path.normalize(filePath);
+    return deniedPaths.some((deniedPath) => {
+      const normalizedDeniedPath = path.normalize(deniedPath);
+      return normalizedFilePath.includes(normalizedDeniedPath);
+    });
+  }
+
+  private isInAllowedPaths(filePath: string, allowedPaths: string[]): boolean {
+    const normalizedFilePath = path.normalize(filePath);
+    return allowedPaths.some((allowedPath) => {
+      const normalizedAllowedPath = path.normalize(allowedPath);
+      return normalizedFilePath.startsWith(normalizedAllowedPath);
+    });
+  }
+
+  private isInDeniedFiles(fileName: string, deniedFiles?: string[]): boolean {
+    if (!deniedFiles || deniedFiles.length === 0) {
+      return false;
+    }
+
+    return deniedFiles.some((deniedFile) => {
+      // Support glob-like patterns
+      if (deniedFile.includes('*')) {
+        const regex = new RegExp(deniedFile.replace(/\*/g, '.*'));
+        return regex.test(fileName);
+      }
+      return fileName === deniedFile;
+    });
+  }
+
+  private isExtensionAllowed(extension: string, allowedExtensions: string[]): boolean {
+    const normalizedExtension = extension.toLowerCase();
+    return allowedExtensions.some((allowed) => allowed.toLowerCase() === normalizedExtension);
+  }
+
+  private denyAccess(reason: DenialReason, message: string): SecurityCheckResult {
+    return {
+      isAllowed: false,
+      reason,
+      message,
+    };
+  }
+}
+```
+
+**src/application/dtos/bundle-result.dto.ts** (+5 líneas)**
+
+```
+export interface BundleResultDto {
+  content: string;
+  truncated: boolean;
+  omittedFiles: string[];
+}
+```
+
+**src/application/dtos/file-metadata.dto.ts** (+6 líneas)**
+
+```
+export interface FileMetadataDto {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+}
+```
+
+**src/application/formatter/bundle-formatter.ts** (+4 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+  formattedBlock: string; 
+  
+```
+
+**src/application/mappers/bundle-result.mapper.ts** (+22 líneas)**
+
+```
+import { BundleResult } from "../../types.js";
+import { BundleResultDto } from "../dtos/bundle-result.dto.js";
+
+export class BundleResultMapper {
+  static toDomain(dto: BundleResultDto): BundleResult {
+    return {
+      content: dto.content,
+      truncated: dto.truncated,
+      omittedFiles: dto.omittedFiles,
+      filesIncluded: 0,
+      filesOmitted: 0,
+    };
+  }
+
+  static toDto(domain: BundleResult): BundleResultDto {
+    return {
+      content: domain.content,
+      truncated: domain.truncated,
+      omittedFiles: domain.omittedFiles,
+    };
+  }
+}
+```
+
+**src/application/mappers/file-metadata.mapper.ts** (+23 líneas)**
+
+```
+import { FileMetadata } from "../../domain/models/file-metadata.model.js";
+import { FileMetadataDto } from "../dtos/file-metadata.dto.js";
+
+
+export class FileMetadataMapper {
+  static toDomain(dto: FileMetadataDto): FileMetadata {
+    return {
+      absolutePath: dto.absolutePath,
+      relativePath: dto.relativePath,
+      size: dto.size,
+      extension: dto.extension,
+    };
+  }
+
+  static toDto(domain: FileMetadata): FileMetadataDto {
+    return {
+      absolutePath: domain.absolutePath,
+      relativePath: domain.relativePath,
+      size: domain.size,
+      extension: domain.extension,
+    };
+  }
+}
+```
+
+**src/application/tools/get-context-from-config.ts** (+14 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+      console.debug('No instruction file found at', candidate);
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/application/tools/get-directory-context.ts** (+6 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+```
+
+**src/application/tools/get-project-context.ts** (+6 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+```
+
+**src/application/use-cases/get-context-from-config.use-case.ts** (+106 líneas)**
+
+```
+import * as path from 'path';
+import { SecurityConfig, BundleResult } from '../../types.js';
+import { BundleFormatterPort } from '../../domain/ports/out/bundle-formatter.port.js';
+import { CachePort } from '../../domain/ports/out/cache.port.js';
+import { ConfigRepositoryPort } from '../../domain/ports/out/config-repository.port.js';
+import { FileRepositoryPort } from '../../domain/ports/out/file-repository.port.js';
+import { FingerprintServicePort } from '../../domain/ports/out/fingerprint-service.port.js';
+import { LoggerPort } from '../../domain/ports/out/logger.port.js';
+import { SecurityValidatorPort } from '../../domain/ports/out/security-validator.port.js';
+
+export class GetContextFromConfigUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private configRepository: ConfigRepositoryPort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    projectRoot: string,
+    securityConfig: SecurityConfig,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetContextFromConfigUseCase.execute started', { projectRoot });
+
+    try {
+      
+      const config = await this.configRepository.loadConfig(projectRoot);
+
+      
+      const allFileMetadata: Array<{ absolutePath: string; relativePath: string; size: number; extension: string }> = [];
+
+      for (const module of config.modules) {
+        const modulePath = path.join(projectRoot, module.path);
+        const moduleFiles = await this.fileRepository.discoverFiles(
+          modulePath,
+          module.excludePatterns,
+        );
+
+        allFileMetadata.push(...moduleFiles);
+      }
+
+      
+      if (config.globalInstructions) {
+        const instructionsPath = path.join(projectRoot, config.globalInstructions);
+        try {
+          const metadata = await this.fileRepository.getFileMetadata(instructionsPath);
+          allFileMetadata.push(metadata);
+        } catch (error) {
+          this.logger.warn(`Could not load global instructions file: ${instructionsPath}`);
+        }
+      }
+
+      
+      const secureFiles = allFileMetadata.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        config.maxTotalSizeKb,
+      );
+
+      this.logger.info('GetContextFromConfigUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: allFileMetadata.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetContextFromConfigUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/application/use-cases/get-directory-context.use-case.ts** (+84 líneas)**
+
+```
+import { SecurityConfig, BundleResult } from "../../types.js";
+import { BundleFormatterPort } from "../../domain/ports/out/bundle-formatter.port.js";
+import { CachePort } from "../../domain/ports/out/cache.port.js";
+import { FileRepositoryPort } from "../../domain/ports/out/file-repository.port.js";
+import { FingerprintServicePort } from "../../domain/ports/out/fingerprint-service.port.js";
+import { LoggerPort } from "../../domain/ports/out/logger.port.js";
+import { SecurityValidatorPort } from "../../domain/ports/out/security-validator.port.js";
+
+export class GetDirectoryContextUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    rootPath: string,
+    excludePatterns: string[] | undefined,
+    securityConfig: SecurityConfig,
+    maxTotalSizeKb: number,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetDirectoryContextUseCase.execute started', { rootPath });
+
+    try {
+      
+      const fileMetadataList = await this.fileRepository.discoverFiles(
+        rootPath,
+        excludePatterns,
+      );
+
+      
+      const secureFiles = fileMetadataList.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        maxTotalSizeKb,
+      );
+
+      this.logger.info('GetDirectoryContextUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: fileMetadataList.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetDirectoryContextUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/application/use-cases/get-project-context.use-case.ts** (+80 líneas)**
+
+```
+import { BundleResult, SecurityConfig } from "../../types.js";
+import { BundleFormatterPort } from "../../domain/ports/out/bundle-formatter.port.js";
+import { CachePort } from "../../domain/ports/out/cache.port.js";
+import { FileRepositoryPort } from "../../domain/ports/out/file-repository.port.js";
+import { FingerprintServicePort } from "../../domain/ports/out/fingerprint-service.port.js";
+import { LoggerPort } from "../../domain/ports/out/logger.port.js";
+import { SecurityValidatorPort } from "../../domain/ports/out/security-validator.port.js";
+
+export class GetProjectContextUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    paths: string[],
+    securityConfig: SecurityConfig,
+    maxTotalSizeKb: number,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetProjectContextUseCase.execute started', { paths });
+
+    try {
+      
+      const fileMetadataList = await this.fileRepository.getFilesByPaths(paths);
+
+      
+      const secureFiles = fileMetadataList.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        maxTotalSizeKb,
+      );
+
+      this.logger.info('GetProjectContextUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: fileMetadataList.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetProjectContextUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/domain/entities/cache-config.entity.ts** (+4 líneas)**
+
+```
+export interface CacheConfig {
+  maxEntries?: number;
+  maxEntrySizeKb?: number;
+}
+```
+
+**src/domain/entities/project-context.entity.ts** (+12 líneas)**
+
+```
+export interface ModuleConfig {
+  name: string;
+  path: string;
+  includeInstructions?: boolean;
+  excludePatterns?: string[];
+}
+
+export interface ProjectContext {
+  modules: ModuleConfig[];
+  globalInstructions?: string;
+  maxTotalSizeKb: number;
+}
+```
+
+**src/domain/entities/security-config.entity.ts** (+7 líneas)**
+
+```
+export interface SecurityConfig {
+  allowedPaths?: string[];
+  deniedPaths?: string[];
+  deniedFiles?: string[];
+  maxFileSizeKb?: number;
+  allowedExtensions?: string[];
+}
+```
+
+**src/domain/errors/error-messages.ts** (+44 líneas)**
+
+```
+export const ERROR_MESSAGES = {
+  
+  CONFIG_FILE_NOT_FOUND: 'Configuration file not found',
+  CONFIG_INVALID_JSON: 'Invalid JSON in configuration file',
+  CONFIG_INVALID_STRUCTURE: 'Invalid configuration structure',
+  CONFIG_INVALID_MODULES: 'Invalid modules configuration',
+  CONFIG_INVALID_SECURITY: 'Invalid security configuration',
+  CONFIG_MISSING_REQUIRED_FIELD: 'Missing required field in configuration',
+
+  
+  SECURITY_FILE_DENIED_BLACKLIST: 'File denied by blacklist',
+  SECURITY_FILE_BINARY_EXTENSION: 'Binary files are not allowed',
+  SECURITY_FILE_DENIED_PATH: 'File path is denied',
+  SECURITY_FILE_NOT_ALLOWED_PATH: 'File path is not in allowed paths',
+  SECURITY_FILE_DENIED_NAME: 'Filename is denied',
+  SECURITY_FILE_EXTENSION_NOT_ALLOWED: 'File extension is not allowed',
+  SECURITY_FILE_SIZE_EXCEEDED: 'File size exceeds maximum allowed',
+  SECURITY_FILE_EXCLUDED_BY_PATTERN: 'File excluded by pattern',
+
+  
+  FILE_NOT_FOUND: 'File not found',
+  FILE_READ_ERROR: 'Error reading file',
+  FILE_EMPTY: 'File is empty',
+
+  
+  FINGERPRINT_COMPUTATION_ERROR: 'Error computing file fingerprint',
+
+  
+  BUNDLE_FORMAT_ERROR: 'Error formatting bundle',
+
+  
+  FILE_DISCOVERY_ERROR: 'Error discovering files',
+  INVALID_GLOB_PATTERN: 'Invalid glob pattern',
+
+  
+  CACHE_ERROR: 'Cache operation error',
+
+  
+  LOGGER_ERROR: 'Logger initialization error',
+
+  
+  UNEXPECTED_ERROR: 'An unexpected error occurred',
+  INVALID_ARGUMENT: 'Invalid argument provided',
+} as const;
+```
+
+**src/domain/errors/errors.ts** (+60 líneas)**
+
+```
+export class ApplicationError extends Error {
+  constructor(
+    public code: string,
+    message: string,
+    public statusCode: number = 500,
+    public details?: Record<string, unknown>,
+  ) {
+    super(message);
+    this.name = this.constructor.name;
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
+export class ConfigLoadError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('CONFIG_LOAD_ERROR', message, 400, details);
+  }
+}
+
+export class SecurityCheckError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('SECURITY_CHECK_ERROR', message, 403, details);
+  }
+}
+
+export class FileReadError extends ApplicationError {
+  constructor(message: string, filePath: string) {
+    super('FILE_READ_ERROR', message, 500, { filePath });
+  }
+}
+
+export class FingerprintError extends ApplicationError {
+  constructor(message: string, filePath: string) {
+    super('FINGERPRINT_ERROR', message, 500, { filePath });
+  }
+}
+
+export class BundleFormattingError extends ApplicationError {
+  constructor(message: string) {
+    super('BUNDLE_FORMAT_ERROR', message, 500);
+  }
+}
+
+export class FileDiscoveryError extends ApplicationError {
+  constructor(message: string, pattern?: string) {
+    super('FILE_DISCOVERY_ERROR', message, 500, { pattern });
+  }
+}
+
+export class CacheError extends ApplicationError {
+  constructor(message: string) {
+    super('CACHE_ERROR', message, 500);
+  }
+}
+
+export class ValidationError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('VALIDATION_ERROR', message, 400, details);
+  }
+}
+```
+
+**src/domain/models/bundle-result.model.ts** (+7 líneas)**
+
+```
+export interface BundleResult {
+  content: string;
+  isTruncated: boolean;
+  omittedFiles?: string[];
+  cacheHits?: number;
+  cacheMisses?: number;
+}
+```
+
+**src/domain/models/cache-entry.model.ts** (+5 líneas)**
+
+```
+export interface CacheEntry {
+  fingerprint: string;
+  block: string;
+  timestamp?: number;
+}
+```
+
+**src/domain/models/file-metadata.model.ts** (+7 líneas)**
+
+```
+export interface FileMetadata {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+  fingerprint?: string;
+}
+```
+
+**src/domain/models/security-check-result.model.ts** (+15 líneas)**
+
+```
+export type DenialReason =
+  | 'BLACKLIST'
+  | 'BINARY_EXTENSION'
+  | 'DENIED_PATH'
+  | 'NOT_ALLOWED_PATH'
+  | 'DENIED_FILE'
+  | 'EXTENSION_NOT_ALLOWED'
+  | 'SIZE_EXCEEDED'
+  | 'EXCLUDED_BY_PATTERN';
+
+export interface SecurityCheckResult {
+  isAllowed: boolean;
+  reason?: DenialReason;
+  message?: string;
+}
+```
+
+**src/domain/ports/in/get-context-from-config.port.ts** (+6 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+
+export interface GetContextFromConfigPort {
+  execute(projectRoot: string): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/in/get-directory-context.port.ts** (+5 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+export interface GetDirectoryContextPort {
+  execute(rootPath: string, excludePatterns?: string[]): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/in/get-project-context.port.ts** (+5 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+export interface GetProjectContextPort {
+  execute(paths: string[]): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/out/bundle-formatter.port.ts** (+8 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+
+export interface BundleFormatterPort {
+  formatFiles(
+    files: Array<{ metadata: FileMetadata; content: string }>,
+    maxTotalSizeKb: number,
+  ): Promise<{ content: string; isTruncated: boolean; omittedFiles?: string[] }>;
+}
+```
+
+**src/domain/ports/out/cache.port.ts** (+8 líneas)**
+
+```
+import { CacheEntry } from "../../../types.js";
+
+export interface CachePort {
+  get(key: string): CacheEntry | undefined;
+  set(key: string, value: CacheEntry): void;
+  clear(): void;
+  has(key: string): boolean;
+}
+```
+
+**src/domain/ports/out/config-repository.port.ts** (+5 líneas)**
+
+```
+import { ProjectContext } from "../../entities/project-context.entity.js";
+
+export interface ConfigRepositoryPort {
+  loadConfig(projectRoot: string): Promise<ProjectContext>;
+}
+```
+
+**src/domain/ports/out/file-repository.port.ts** (+8 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+
+export interface FileRepositoryPort {
+  readFile(filePath: string): Promise<string>;
+  getFileMetadata(filePath: string): Promise<FileMetadata>;
+  discoverFiles(rootPath: string, excludePatterns?: string[]): Promise<FileMetadata[]>;
+  getFilesByPaths(paths: string[]): Promise<FileMetadata[]>;
+}
+```
+
+**src/domain/ports/out/fingerprint-service.port.ts** (+3 líneas)**
+
+```
+export interface FingerprintServicePort {
+  computeFingerprint(content: string): Promise<string>;
+}
+```
+
+**src/domain/ports/out/logger.port.ts** (+9 líneas)**
+
+```
+export type LogLevel = 'error' | 'warn' | 'info' | 'debug';
+
+export interface LoggerPort {
+  log(level: LogLevel, message: string, data?: unknown): void;
+  error(message: string, data?: unknown): void;
+  warn(message: string, data?: unknown): void;
+  info(message: string, data?: unknown): void;
+  debug(message: string, data?: unknown): void;
+}
+```
+
+**src/domain/ports/out/security-validator.port.ts** (+9 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+import { SecurityCheckResult, SecurityConfig } from "../../../types.js";
+
+export interface SecurityValidatorPort {
+  validate(
+    fileMetadata: FileMetadata,
+    securityConfig: SecurityConfig,
+  ): SecurityCheckResult;
+}
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/infrastructure/cache/lru-cache.ts** (+5 líneas)**
+
+```
+
+import type { CacheEntry, LRUCacheOptions } from '../../types.js';
+    
+    
+      
+```
+
+**src/infrastructure/config/config-loader.ts** (+2 líneas)**
+
+```
+
+import type { ProjectConfig, SecurityConfig } from '../../types.js';
+```
+
+**src/infrastructure/security/security-guard.ts** (+11 líneas)**
+
+```
+
+import type { SecurityCheckResult, SecurityConfig, DenialReason } from '../../types.js';
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/server.ts** (+5 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+import { getProjectContext, getProjectContextMcpResponse } from './application/tools/get-project-context.js';
+import { getDirectoryContext, getDirectoryContextMcpResponse } from './application/tools/get-directory-context.js';
+import { getContextFromConfig, getContextFromConfigMcpResponse } from './application/tools/get-context-from-config.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
 
 ---
 
-### `get_directory_context`
+## 🕐 22/05/2026, 11:24:25
 
-Carga recursivamente todos los archivos de un directorio.
+### 📊 Resumen
+- **Total archivos:** 61
+- **📝 Nuevos:** 1
+- **✏️ Modificados:** 60
+- **🗑️ Eliminados:** 0
+- **✅ En staging:** 53 (listos para commit)
+- **Líneas añadidas:** +1521
+- **Líneas eliminadas:** -69
+- **Balance neto:** +1452 líneas
 
-```json
-{ "rootPath": "/ruta/absoluta/al/directorio", "excludePatterns": ["*.test.ts"] }
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| 🆕 | `.commit-plan.md` | nuevo | -0 | 0 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | +136 | -0 | +136 |
+| ✅ ✏️ | `.infrastructure-wip/security/security.validator.ts` | +116 | -0 | +116 |
+| ✅ ✏️ | `src/application/use-cases/get-context-from-config.use-case.ts` | +106 | -0 | +106 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger.adapter.ts` | +101 | -0 | +101 |
+| ✅ ✏️ | `.infrastructure-wip/formatters/bundle.formatter.ts` | +94 | -0 | +94 |
+| ✅ ✏️ | `src/application/use-cases/get-directory-context.use-case.ts` | +84 | -0 | +84 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | +82 | -0 | +82 |
+| ✅ ✏️ | `src/application/use-cases/get-project-context.use-case.ts` | +80 | -0 | +80 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | +70 | -0 | +70 |
+| ✅ ✏️ | `.infrastructure-wip/security/security-check.rules.ts` | +69 | -0 | +69 |
+| ✅ ✏️ | `src/domain/errors/errors.ts` | +60 | -0 | +60 |
+| ✅ ✏️ | `src/domain/errors/error-messages.ts` | +44 | -0 | +44 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | +34 | -0 | +34 |
+| ✅ ✏️ | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | +27 | -0 | +27 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | +26 | -0 | +26 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | +24 | -0 | +24 |
+| ✅ ✏️ | `src/application/mappers/file-metadata.mapper.ts` | +23 | -0 | +23 |
+| ✅ ✏️ | `src/application/mappers/bundle-result.mapper.ts` | +22 | -0 | +22 |
+| ✅ ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | +16 | -0 | +16 |
+| ✅ ✏️ | `src/domain/models/security-check-result.model.ts` | +15 | -0 | +15 |
+| ✅ ✏️ | `.infrastructure-wip/security/security-error-messages.ts` | +14 | -0 | +14 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger.entity.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `src/domain/entities/project-context.entity.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | +11 | -0 | +11 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | +11 | -0 | +11 |
+| ✅ ✏️ | `src/server.ts` | +5 | -5 | 0 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `src/domain/ports/out/logger.port.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `src/domain/ports/out/security-validator.port.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/bundle-formatter.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/cache.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/file-repository.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/entities/security-config.entity.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/domain/models/bundle-result.model.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/domain/models/file-metadata.model.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/application/dtos/file-metadata.dto.ts` | +6 | -0 | +6 |
+| ✅ ✏️ | `src/domain/ports/in/get-context-from-config.port.ts` | +6 | -0 | +6 |
+| ✅ ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✅ ✏️ | `src/application/dtos/bundle-result.dto.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/models/cache-entry.model.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/in/get-directory-context.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/in/get-project-context.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/out/config-repository.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/entities/cache-config.entity.ts` | +4 | -0 | +4 |
+| ✅ ✏️ | `src/domain/ports/out/fingerprint-service.port.ts` | +3 | -0 | +3 |
+| ✅ ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✅ ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/{ => application}/tools/get-context-from-config.ts` | +14 | -14 | 0 |
+| ✏️ | `src/{ => infrastructure}/security/security-guard.ts` | +11 | -11 | 0 |
+| ✏️ | `src/{ => application}/tools/get-directory-context.ts` | +6 | -6 | 0 |
+| ✏️ | `src/{ => application}/tools/get-project-context.ts` | +6 | -6 | 0 |
+| ✏️ | `src/{ => infrastructure}/cache/lru-cache.ts` | +5 | -5 | 0 |
+| ✏️ | `src/{ => application}/formatter/bundle-formatter.ts` | +4 | -4 | 0 |
+| ✏️ | `src/{ => infrastructure}/config/config-loader.ts` | +2 | -2 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (61)</summary>
+
+**🆕 Nuevos:**
+```
+.commit-plan.md
 ```
 
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `rootPath` | string | sí | Directorio a escanear |
-| `configPath` | string | no | Ruta a `contextcache.json` para la configuración de seguridad |
-| `excludePatterns` | string[] | no | Patrones glob adicionales a excluir |
+**✅ Modificados (staged):**
+```
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+src/application/use-cases/get-directory-context.use-case.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+src/application/use-cases/get-project-context.use-case.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/security/security-check.rules.ts
+src/domain/errors/errors.ts
+src/domain/errors/error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/mappers/bundle-result.mapper.ts
+src/types.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+src/domain/models/security-check-result.model.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+src/domain/entities/project-context.entity.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+src/server.ts
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/entities/security-config.entity.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/file-metadata.model.ts
+src/application/dtos/file-metadata.dto.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/logger/logger.ts
+src/application/dtos/bundle-result.dto.ts
+src/domain/models/cache-entry.model.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/index.ts
+src/init/init-command.ts
+```
+
+**✏️ Modificados:**
+```
+src/{ => application}/tools/get-context-from-config.ts
+src/{ => infrastructure}/security/security-guard.ts
+src/{ => application}/tools/get-directory-context.ts
+src/{ => application}/tools/get-project-context.ts
+src/{ => infrastructure}/cache/lru-cache.ts
+src/{ => application}/formatter/bundle-formatter.ts
+src/{ => infrastructure}/config/config-loader.ts
+```
+
+</details>
+
+### 💻 Código Añadido
+
+**.infrastructure-wip/adapters/external/logger-error-messages.ts** (+9 líneas)**
+
+```
+/**
+ * Logger Error Messages
+ */
+
+export const LOGGER_ERROR_MESSAGES = {
+  LOG_DIR_CREATION_ERROR: 'Error creating log directory',
+  LOG_FILE_WRITE_ERROR: 'Error writing to log file',
+  LOGGER_INITIALIZATION_ERROR: 'Error initializing logger',
+} as const;
+```
+
+**.infrastructure-wip/adapters/external/logger.adapter.ts** (+101 líneas)**
+
+```
+/**
+ * Logger Adapter - Implementation of LoggerPort
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import * as os from 'os';
+import { LoggerPort, LogLevel } from '../../../../application/ports/out/logger.port.js';
+import { LOGGER_ERROR_MESSAGES } from './logger-error-messages.js';
+
+export class LoggerAdapter implements LoggerPort {
+  private logDir: string;
+  private logFile: string;
+  private currentLogLevel: LogLevel = 'info';
+
+  constructor(logLevel: LogLevel = 'info') {
+    this.currentLogLevel = logLevel;
+    const homeDir = os.homedir();
+    this.logDir = path.join(homeDir, '.mcp-context-cache', 'logs');
+    this.logFile = path.join(this.logDir, 'server.log');
+    this.ensureLogDirectory();
+  }
+
+  log(level: LogLevel, message: string, data?: unknown): void {
+    if (this.shouldLog(level)) {
+      const timestamp = new Date().toISOString();
+      const logMessage = this.formatLogMessage(level, message, timestamp, data);
+
+      // Log to console
+      this.logToConsole(level, logMessage);
+
+      // Log to file
+      this.logToFile(logMessage);
+    }
+  }
+
+  error(message: string, data?: unknown): void {
+    this.log('error', message, data);
+  }
+
+  warn(message: string, data?: unknown): void {
+    this.log('warn', message, data);
+  }
+
+  info(message: string, data?: unknown): void {
+    this.log('info', message, data);
+  }
+
+  debug(message: string, data?: unknown): void {
+    this.log('debug', message, data);
+  }
+
+  private shouldLog(level: LogLevel): boolean {
+    const levels: LogLevel[] = ['error', 'warn', 'info', 'debug'];
+    const currentIndex = levels.indexOf(this.currentLogLevel);
+    const levelIndex = levels.indexOf(level);
+    return levelIndex <= currentIndex;
+  }
+
+  private formatLogMessage(level: LogLevel, message: string, timestamp: string, data?: unknown): string {
+    const dataString = data ? ` | ${JSON.stringify(data)}` : '';
+    return `[${timestamp}] [${level.toUpperCase()}] ${message}${dataString}`;
+  }
+
+  private logToConsole(level: LogLevel, message: string): void {
+    switch (level) {
+      case 'error':
+        console.error(message);
+        break;
+      case 'warn':
+        console.warn(message);
+        break;
+      case 'info':
+        console.log(message);
+        break;
+      case 'debug':
+        console.log(message);
+        break;
+    }
+  }
+
+  private logToFile(message: string): void {
+    try {
+      fs.appendFileSync(this.logFile, message + '\n', 'utf-8');
+    } catch (error) {
+      console.error(`${LOGGER_ERROR_MESSAGES.LOG_FILE_WRITE_ERROR}: ${(error as Error).message}`);
+    }
+  }
+
+  private ensureLogDirectory(): void {
+    try {
+      if (!fs.existsSync(this.logDir)) {
+        fs.mkdirSync(this.logDir, { recursive: true });
+      }
+    } catch (error) {
+      console.error(
+        `${LOGGER_ERROR_MESSAGES.LOG_DIR_CREATION_ERROR}: ${(error as Error).message}`,
+      );
+    }
+  }
+}
+```
+
+**.infrastructure-wip/adapters/external/logger.entity.ts** (+12 líneas)**
+
+```
+/**
+ * Logger Entity - Infrastructure representation of logger
+ */
+
+export type LogLevel = 'error' | 'warn' | 'info' | 'debug';
+
+export interface LogEntry {
+  level: LogLevel;
+  message: string;
+  timestamp: string;
+  data?: unknown;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts** (+9 líneas)**
+
+```
+/**
+ * Cache Entry Entity - Infrastructure representation of a cache entry
+ */
+
+export interface CacheEntryEntity {
+  fingerprint: string;
+  block: string;
+  timestamp?: number;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts** (+24 líneas)**
+
+```
+/**
+ * Cache Entry Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { CacheEntryEntity } from './cache-entry.entity.js';
+import { CacheEntry } from '../../../../domain/models/cache-entry.model.js';
+
+export class CacheEntryMapper {
+  static toDomain(entity: CacheEntryEntity): CacheEntry {
+    return {
+      fingerprint: entity.fingerprint,
+      block: entity.block,
+      timestamp: entity.timestamp,
+    };
+  }
+
+  static toEntity(domain: CacheEntry): CacheEntryEntity {
+    return {
+      fingerprint: domain.fingerprint,
+      block: domain.block,
+      timestamp: domain.timestamp,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts** (+70 líneas)**
+
+```
+/**
+ * LRU Cache Adapter - Implementation of CachePort using LRU cache strategy
+ */
+
+import { CachePort } from '../../../../application/ports/out/cache.port.js';
+import { CacheEntry } from '../../../../domain/models/cache-entry.model.js';
+
+export interface LRUCacheOptions {
+  maxEntries?: number;
+  maxEntrySizeKb?: number;
+}
+
+export class LRUCacheAdapter implements CachePort {
+  private cache: Map<string, CacheEntry>;
+  private accessOrder: string[] = [];
+  private readonly maxEntries: number;
+  private readonly maxEntrySizeKb: number;
+
+  constructor(options: LRUCacheOptions = {}) {
+    this.maxEntries = options.maxEntries || 5000;
+    this.maxEntrySizeKb = options.maxEntrySizeKb || 1024;
+    this.cache = new Map();
+  }
+
+  get(key: string): CacheEntry | undefined {
+    if (!this.cache.has(key)) {
+      return undefined;
+    }
+
+    // Move to end (most recently used)
+    this.accessOrder = this.accessOrder.filter((k) => k !== key);
+    this.accessOrder.push(key);
+
+    return this.cache.get(key);
+  }
+
+  set(key: string, value: CacheEntry): void {
+    // Check size limit
+    const entrySizeKb = Buffer.byteLength(value.block) / 1024;
+    if (entrySizeKb > this.maxEntrySizeKb) {
+      return; // Don't cache if too large
+    }
+
+    // Remove if exists to update order
+    if (this.cache.has(key)) {
+      this.accessOrder = this.accessOrder.filter((k) => k !== key);
+    }
+
+    // Check if we need to evict
+    while (this.cache.size >= this.maxEntries && this.cache.size > 0) {
+      const lruKey = this.accessOrder.shift();
+      if (lruKey) {
+        this.cache.delete(lruKey);
+      }
+    }
+
+    // Add new entry
+    this.cache.set(key, value);
+    this.accessOrder.push(key);
+  }
+
+  clear(): void {
+    this.cache.clear();
+    this.accessOrder = [];
+  }
+
+  has(key: string): boolean {
+    return this.cache.has(key);
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config-file.repository.ts** (+82 líneas)**
+
+```
+/**
+ * Config File Repository Adapter - Implementation of ConfigRepositoryPort
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import { z } from 'zod';
+import { ConfigRepositoryPort } from '../../../../application/ports/out/config-repository.port.js';
+import { ProjectContext } from '../../../../domain/entities/project-context.entity.js';
+import { ConfigLoadError } from '../../../../domain/errors/errors.js';
+import { CONFIG_REPOSITORY_ERROR_MESSAGES } from './config-repository-error-messages.js';
+import { ConfigEntity } from './config.entity.js';
+import { ConfigMapper } from './config.mapper.js';
+
+// Zod schema for validation
+const ModuleConfigSchema = z.object({
+  name: z.string(),
+  path: z.string(),
+  includeInstructions: z.boolean().optional(),
+  excludePatterns: z.array(z.string()).optional(),
+});
+
+const ConfigFileSchema = z.object({
+  modules: z.array(ModuleConfigSchema),
+  globalInstructions: z.string().optional(),
+  maxTotalSizeKb: z.number().positive(),
+  cache: z.object({
+    maxEntries: z.number().optional(),
+    maxEntrySizeKb: z.number().optional(),
+  }).optional(),
+  security: z.any().optional(),
+});
+
+export class ConfigFileRepositoryAdapter implements ConfigRepositoryPort {
+  async loadConfig(projectRoot: string): Promise<ProjectContext> {
+    try {
+      const configPath = path.join(projectRoot, 'contextcache.json');
+
+      if (!fs.existsSync(configPath)) {
+        throw new ConfigLoadError(
+          `${CONFIG_REPOSITORY_ERROR_MESSAGES.FILE_NOT_FOUND} ${configPath}`,
+        );
+      }
+
+      const fileContent = fs.readFileSync(configPath, 'utf-8');
+      let rawConfig: unknown;
+
+      try {
+        rawConfig = JSON.parse(fileContent);
+      } catch (error) {
+        throw new ConfigLoadError(CONFIG_REPOSITORY_ERROR_MESSAGES.INVALID_JSON, {
+          filePath: configPath,
+        });
+      }
+
+      // Validate with Zod
+      let validatedConfig: z.infer<typeof ConfigFileSchema>;
+      try {
+        validatedConfig = ConfigFileSchema.parse(rawConfig);
+      } catch (error) {
+        const zodError = error as z.ZodError;
+        throw new ConfigLoadError(CONFIG_REPOSITORY_ERROR_MESSAGES.INVALID_STRUCTURE, {
+          errors: zodError.errors,
+        });
+      }
+
+      // Map to entity and then to domain
+      const entity: ConfigEntity = {
+        modules: validatedConfig.modules,
+        globalInstructions: validatedConfig.globalInstructions,
+        maxTotalSizeKb: validatedConfig.maxTotalSizeKb,
+      };
+
+      return ConfigMapper.toDomain(entity);
+    } catch (error) {
+      if (error instanceof ConfigLoadError) {
+        throw error;
+      }
+      throw new ConfigLoadError(`Error loading configuration: ${(error as Error).message}`);
+    }
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts** (+12 líneas)**
+
+```
+/**
+ * Config Repository Error Messages
+ */
+
+export const CONFIG_REPOSITORY_ERROR_MESSAGES = {
+  FILE_NOT_FOUND: 'Configuration file not found at',
+  INVALID_JSON: 'Invalid JSON in configuration file',
+  INVALID_STRUCTURE: 'Invalid configuration structure',
+  MISSING_MODULES: 'Missing required field: modules',
+  MISSING_MAX_SIZE: 'Missing required field: maxTotalSizeKb',
+  INVALID_MODULE: 'Invalid module configuration',
+} as const;
+```
+
+**.infrastructure-wip/adapters/persistence/config/config.entity.ts** (+16 líneas)**
+
+```
+/**
+ * Config Entity - Infrastructure representation of project configuration
+ */
+
+export interface ModuleConfigEntity {
+  name: string;
+  path: string;
+  includeInstructions?: boolean;
+  excludePatterns?: string[];
+}
+
+export interface ConfigEntity {
+  modules: ModuleConfigEntity[];
+  globalInstructions?: string;
+  maxTotalSizeKb: number;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config.mapper.ts** (+34 líneas)**
+
+```
+/**
+ * Config Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { ConfigEntity } from './config.entity.js';
+import { ProjectContext, ModuleConfig } from '../../../../domain/entities/project-context.entity.js';
+
+export class ConfigMapper {
+  static toDomain(entity: ConfigEntity): ProjectContext {
+    return {
+      modules: entity.modules.map((m: any) => ({
+        name: m.name,
+        path: m.path,
+        includeInstructions: m.includeInstructions,
+        excludePatterns: m.excludePatterns,
+      })),
+      globalInstructions: entity.globalInstructions,
+      maxTotalSizeKb: entity.maxTotalSizeKb,
+    };
+  }
+
+  static toEntity(domain: ProjectContext): ConfigEntity {
+    return {
+      modules: domain.modules.map((m: ModuleConfig) => ({
+        name: m.name,
+        path: m.path,
+        includeInstructions: m.includeInstructions,
+        excludePatterns: m.excludePatterns,
+      })),
+      globalInstructions: domain.globalInstructions,
+      maxTotalSizeKb: domain.maxTotalSizeKb,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts** (+11 líneas)**
+
+```
+/**
+ * File Repository Error Messages
+ */
+
+export const FILE_REPOSITORY_ERROR_MESSAGES = {
+  FILE_NOT_FOUND: 'File not found',
+  FILE_READ_ERROR: 'Error reading file',
+  INVALID_PATH: 'Invalid file path',
+  ACCESS_DENIED: 'Access denied to file',
+  PATH_TRAVERSAL_ATTEMPT: 'Path traversal attempt detected',
+} as const;
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.entity.ts** (+11 líneas)**
+
+```
+/**
+ * File Entity - Infrastructure representation of a file
+ */
+
+export interface FileEntity {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+  content?: string;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.mapper.ts** (+26 líneas)**
+
+```
+/**
+ * File Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { FileEntity } from './file.entity.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+
+export class FileMapper {
+  static toDomain(entity: FileEntity): FileMetadata {
+    return {
+      absolutePath: entity.absolutePath,
+      relativePath: entity.relativePath,
+      size: entity.size,
+      extension: entity.extension,
+    };
+  }
+
+  static toEntity(domain: FileMetadata): FileEntity {
+    return {
+      absolutePath: domain.absolutePath,
+      relativePath: domain.relativePath,
+      size: domain.size,
+      extension: domain.extension,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.repository.ts** (+136 líneas)**
+
+```
+/**
+ * File Repository Adapter - Implementation of FileRepositoryPort using filesystem
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import fg from 'fast-glob';
+import { FileRepositoryPort } from '../../../../application/ports/out/file-repository.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { FileReadError } from '../../../../domain/errors/errors.js';
+import { FILE_REPOSITORY_ERROR_MESSAGES } from './file-repository-error-messages.js';
+import { FileEntity } from './file.entity.js';
+import { FileMapper } from './file.mapper.js';
+
+export class FileRepositoryAdapter implements FileRepositoryPort {
+  async readFile(filePath: string): Promise<string> {
+    try {
+      this.validatePath(filePath);
+      return fs.readFileSync(filePath, 'utf-8');
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `${FILE_REPOSITORY_ERROR_MESSAGES.FILE_READ_ERROR}: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  async getFileMetadata(filePath: string): Promise<FileMetadata> {
+    try {
+      this.validatePath(filePath);
+
+      if (!fs.existsSync(filePath)) {
+        throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.FILE_NOT_FOUND, filePath);
+      }
+
+      const stats = fs.statSync(filePath);
+      const extension = path.extname(filePath);
+
+      const entity: FileEntity = {
+        absolutePath: filePath,
+        relativePath: path.relative(process.cwd(), filePath),
+        size: stats.size,
+        extension,
+      };
+
+      return FileMapper.toDomain(entity);
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `Error getting file metadata: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  async discoverFiles(rootPath: string, excludePatterns?: string[]): Promise<FileMetadata[]> {
+    try {
+      this.validatePath(rootPath);
+
+      if (!fs.existsSync(rootPath)) {
+        throw new FileReadError(`Directory not found: ${rootPath}`, rootPath);
+      }
+
+      const pattern = path.join(rootPath, '**', '*');
+      const ignorePatterns = excludePatterns?.map((p) => `!${path.join(rootPath, p)}`) || [];
+
+      const files = await fg([pattern, ...ignorePatterns], {
+        dot: false,
+        onlyFiles: true,
+      });
+
+      return files.map((filePath: string) => {
+        const stats = fs.statSync(filePath);
+        const extension = path.extname(filePath);
+
+        const entity: FileEntity = {
+          absolutePath: filePath,
+          relativePath: path.relative(rootPath, filePath),
+          size: stats.size,
+          extension,
+        };
+
+        return FileMapper.toDomain(entity);
+      });
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `Error discovering files: ${(error as Error).message}`,
+        rootPath,
+      );
+    }
+  }
+
+  async getFilesByPaths(paths: string[]): Promise<FileMetadata[]> {
+    try {
+      const fileMetadata: FileMetadata[] = [];
+
+      for (const filePath of paths) {
+        try {
+          const metadata = await this.getFileMetadata(filePath);
+          fileMetadata.push(metadata);
+        } catch (error) {
+          // Log but continue with other files
+          console.warn(`Could not get metadata for ${filePath}: ${(error as Error).message}`);
+        }
+      }
+
+      return fileMetadata;
+    } catch (error) {
+      throw new FileReadError(
+        `Error getting files by paths: ${(error as Error).message}`,
+        paths.join(','),
+      );
+    }
+  }
+
+  private validatePath(filePath: string): void {
+    if (!filePath || typeof filePath !== 'string') {
+      throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.INVALID_PATH, filePath);
+    }
+
+    const resolvedPath = path.resolve(filePath);
+    const basePath = path.resolve(process.cwd());
+
+    if (!resolvedPath.startsWith(basePath)) {
+      throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.PATH_TRAVERSAL_ATTEMPT, filePath);
+    }
+  }
+}
+```
+
+**.infrastructure-wip/file-discovery/file-discovery-error-messages.ts** (+9 líneas)**
+
+```
+/**
+ * File Discovery Error Messages
+ */
+
+export const FILE_DISCOVERY_ERROR_MESSAGES = {
+  DISCOVERY_ERROR: 'Error discovering files',
+  INVALID_PATTERN: 'Invalid glob pattern',
+  DIRECTORY_NOT_FOUND: 'Directory not found',
+} as const;
+```
+
+**.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts** (+8 líneas)**
+
+```
+/**
+ * Fingerprint Error Messages
+ */
+
+export const FINGERPRINT_ERROR_MESSAGES = {
+  COMPUTATION_ERROR: 'Error computing fingerprint',
+  INVALID_INPUT: 'Invalid input for fingerprinting',
+} as const;
+```
+
+**.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts** (+27 líneas)**
+
+```
+/**
+ * SHA256 Fingerprint Service - Implementation of FingerprintServicePort
+ */
+
+import * as crypto from 'crypto';
+import * as fs from 'fs';
+import { FingerprintServicePort } from '../../../../application/ports/out/fingerprint-service.port.js';
+import { FingerprintError } from '../../../../domain/errors/errors.js';
+import { FINGERPRINT_ERROR_MESSAGES } from './fingerprint-error-messages.js';
+
+export class SHA256FingerprintService implements FingerprintServicePort {
+  async computeFingerprint(filePath: string): Promise<string> {
+    try {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      return this.hashContent(content);
+    } catch (error) {
+      throw new FingerprintError(
+        `${FINGERPRINT_ERROR_MESSAGES.COMPUTATION_ERROR}: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  private hashContent(content: string): string {
+    return crypto.createHash('sha256').update(content).digest('hex');
+  }
+}
+```
+
+**.infrastructure-wip/formatters/bundle-format-error-messages.ts** (+9 líneas)**
+
+```
+/**
+ * Bundle Formatter Error Messages
+ */
+
+export const BUNDLE_FORMATTER_ERROR_MESSAGES = {
+  FORMAT_ERROR: 'Error formatting bundle',
+  SIZE_CALCULATION_ERROR: 'Error calculating bundle size',
+  INVALID_FILES: 'Invalid files for formatting',
+} as const;
+```
+
+**.infrastructure-wip/formatters/bundle.formatter.ts** (+94 líneas)**
+
+```
+/**
+ * Bundle Formatter Adapter - Implementation of BundleFormatterPort
+ */
+
+import { BundleFormatterPort } from '../../../../application/ports/out/bundle-formatter.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { BundleFormattingError } from '../../../../domain/errors/errors.js';
+import { BUNDLE_FORMATTER_ERROR_MESSAGES } from './bundle-format-error-messages.js';
+
+interface FileWithContent {
+  metadata: FileMetadata;
+  content: string;
+}
+
+export class BundleFormatterAdapter implements BundleFormatterPort {
+  async formatFiles(
+    files: FileWithContent[],
+    maxTotalSizeKb: number,
+  ): Promise<{ content: string; isTruncated: boolean; omittedFiles?: string[] }> {
+    try {
+      // Sort files by relative path
+      const sortedFiles = files.sort((a, b) =>
+        a.metadata.relativePath.localeCompare(b.metadata.relativePath),
+      );
+
+      const blocks: string[] = [];
+      const omittedFiles: string[] = [];
+      let totalSizeKb = 0;
+      const maxSizeBytes = maxTotalSizeKb * 1024;
+
+      for (const file of sortedFiles) {
+        const block = this.createFileBlock(file.metadata, file.content);
+        const blockSizeBytes = Buffer.byteLength(block);
+        const newTotalSize = totalSizeKb * 1024 + blockSizeBytes;
+
+        if (newTotalSize <= maxSizeBytes) {
+          blocks.push(block);
+          totalSizeKb = newTotalSize / 1024;
+        } else {
+          omittedFiles.push(file.metadata.relativePath);
+        }
+      }
+
+      // Add truncation notice if needed
+      let content = blocks.join('\n\n');
+      let isTruncated = false;
+
+      if (omittedFiles.length > 0) {
+        isTruncated = true;
+        const truncationMessage = this.createTruncationMessage(omittedFiles);
+        content += '\n\n' + truncationMessage;
+      }
+
+      return {
+        content,
+        isTruncated,
+        omittedFiles: isTruncated ? omittedFiles : undefined,
+      };
+    } catch (error) {
+      throw new BundleFormattingError(
+        `${BUNDLE_FORMATTER_ERROR_MESSAGES.FORMAT_ERROR}: ${(error as Error).message}`,
+      );
+    }
+  }
+
+  private createFileBlock(metadata: FileMetadata, content: string): string {
+    const SHA256 = this.calculateSHA256(content);
+    return (
+      `BUNDLE_START: ${SHA256}\n` +
+      `${metadata.relativePath}\n` +
+      `${content}\n` +
+      `BUNDLE_END: ${metadata.relativePath}`
+    );
+  }
+
+  private createTruncationMessage(omittedFiles: string[]): string {
+    const fileList = omittedFiles.map((f) => `  - ${f}`).join('\n');
+    return (
+      `BUNDLE_TRUNCATED\n\nThe following files were omitted due to size limit:\n${fileList}`
+    );
+  }
+
+  private calculateSHA256(content: string): string {
+    // For now, just return a simple hash representation
+    // In production, this would use proper crypto
+    let hash = 0;
+    for (let i = 0; i < content.length; i++) {
+      const char = content.charCodeAt(i);
+      hash = (hash << 5) - hash + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return Math.abs(hash).toString(16).padStart(64, '0');
+  }
+}
+```
+
+**.infrastructure-wip/security/security-check.rules.ts** (+69 líneas)**
+
+```
+/**
+ * Security Check Rules - Hardcoded security rules
+ */
+
+// Files that should never be included (hardcoded blacklist)
+export const HARDCODED_BLACKLIST = [
+  /\.env/i,
+  /\.env\.local/i,
+  /\.env\.production/i,
+  /\.env\.development/i,
+  /\.pem$/i,
+  /\.key$/i,
+  /\.p12$/i,
+  /\.pfx$/i,
+  /private[_-]?key/i,
+  /\.aws\/credentials/i,
+  /\.ssh\/id_/i,
+  /aws_access_key_id/i,
+  /aws_secret_access_key/i,
+  /password/i,
+  /secret/i,
+  /token/i,
+  /oauth/i,
+];
+
+// Binary file extensions that should be excluded
+export const BINARY_EXTENSIONS = [
+  '.exe',
+  '.dll',
+  '.so',
+  '.dylib',
+  '.bin',
+  '.png',
+  '.jpg',
+  '.jpeg',
+  '.gif',
+  '.bmp',
+  '.ico',
+  '.svg',
+  '.zip',
+  '.tar',
+  '.gz',
+  '.rar',
+  '.7z',
+  '.pdf',
+  '.doc',
+  '.docx',
+  '.xls',
+  '.xlsx',
+  '.ppt',
+  '.pptx',
+  '.mp3',
+  '.mp4',
+  '.avi',
+  '.mov',
+  '.webp',
+  '.woff',
+  '.woff2',
+  '.ttf',
+  '.otf',
+];
+
+export function matchesBlacklist(filename: string): boolean {
+  return HARDCODED_BLACKLIST.some((pattern) => pattern.test(filename));
+}
+
+export function isBinaryExtension(extension: string): boolean {
+  return BINARY_EXTENSIONS.includes(extension.toLowerCase());
+}
+```
+
+**.infrastructure-wip/security/security-error-messages.ts** (+14 líneas)**
+
+```
+/**
+ * Security Error Messages
+ */
+
+export const SECURITY_ERROR_MESSAGES = {
+  BLACKLIST_MATCH: 'File matches blacklist pattern',
+  BINARY_EXTENSION: 'Binary file extensions are not allowed',
+  DENIED_PATH: 'File path is in denied paths list',
+  NOT_ALLOWED_PATH: 'File path is not in allowed paths',
+  DENIED_FILENAME: 'Filename matches denied pattern',
+  EXTENSION_NOT_ALLOWED: 'File extension is not in allowed extensions list',
+  FILE_SIZE_EXCEEDED: 'File size exceeds maximum allowed size',
+  EXCLUDED_BY_PATTERN: 'File is excluded by configured exclude pattern',
+} as const;
+```
+
+**.infrastructure-wip/security/security.validator.ts** (+116 líneas)**
+
+```
+/**
+ * Security Validator Adapter - Implementation of SecurityValidatorPort
+ */
+
+import * as path from 'path';
+import { SecurityValidatorPort } from '../../../../application/ports/out/security-validator.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { SecurityCheckResult, DenialReason } from '../../../../domain/models/security-check-result.model.js';
+import { SecurityConfig } from '../../../../domain/entities/security-config.entity.js';
+import { SECURITY_ERROR_MESSAGES } from './security-error-messages.js';
+import { matchesBlacklist, isBinaryExtension } from './security-check.rules.js';
+
+export class SecurityValidatorAdapter implements SecurityValidatorPort {
+  validate(fileMetadata: FileMetadata, securityConfig: SecurityConfig): SecurityCheckResult {
+    // Step 1: Check hardcoded blacklist
+    if (matchesBlacklist(fileMetadata.absolutePath)) {
+      return this.denyAccess('BLACKLIST', SECURITY_ERROR_MESSAGES.BLACKLIST_MATCH);
+    }
+
+    // Step 2: Check for binary extensions
+    if (isBinaryExtension(fileMetadata.extension)) {
+      return this.denyAccess('BINARY_EXTENSION', SECURITY_ERROR_MESSAGES.BINARY_EXTENSION);
+    }
+
+    // Step 3: Check denied paths
+    if (this.isInDeniedPaths(fileMetadata.absolutePath, securityConfig.deniedPaths)) {
+      return this.denyAccess('DENIED_PATH', SECURITY_ERROR_MESSAGES.DENIED_PATH);
+    }
+
+    // Step 4: Check allowed paths (if configured)
+    if (
+      securityConfig.allowedPaths &&
+      securityConfig.allowedPaths.length > 0 &&
+      !this.isInAllowedPaths(fileMetadata.absolutePath, securityConfig.allowedPaths)
+    ) {
+      return this.denyAccess('NOT_ALLOWED_PATH', SECURITY_ERROR_MESSAGES.NOT_ALLOWED_PATH);
+    }
+
+    // Step 5: Check denied filenames
+    const fileName = path.basename(fileMetadata.absolutePath);
+    if (this.isInDeniedFiles(fileName, securityConfig.deniedFiles)) {
+      return this.denyAccess('DENIED_FILE', SECURITY_ERROR_MESSAGES.DENIED_FILENAME);
+    }
+
+    // Step 6: Check allowed extensions (if configured)
+    if (
+      securityConfig.allowedExtensions &&
+      securityConfig.allowedExtensions.length > 0 &&
+      !this.isExtensionAllowed(fileMetadata.extension, securityConfig.allowedExtensions)
+    ) {
+      return this.denyAccess(
+        'EXTENSION_NOT_ALLOWED',
+        SECURITY_ERROR_MESSAGES.EXTENSION_NOT_ALLOWED,
+      );
+    }
+
+    // Step 7: Check file size
+    if (
+      securityConfig.maxFileSizeKb &&
+      fileMetadata.size / 1024 > securityConfig.maxFileSizeKb
+    ) {
+      return this.denyAccess('SIZE_EXCEEDED', SECURITY_ERROR_MESSAGES.FILE_SIZE_EXCEEDED);
+    }
+
+    // Step 8: All checks passed
+    return { isAllowed: true };
+  }
+
+  private isInDeniedPaths(filePath: string, deniedPaths?: string[]): boolean {
+    if (!deniedPaths || deniedPaths.length === 0) {
+      return false;
+    }
+
+    const normalizedFilePath = path.normalize(filePath);
+    return deniedPaths.some((deniedPath) => {
+      const normalizedDeniedPath = path.normalize(deniedPath);
+      return normalizedFilePath.includes(normalizedDeniedPath);
+    });
+  }
+
+  private isInAllowedPaths(filePath: string, allowedPaths: string[]): boolean {
+    const normalizedFilePath = path.normalize(filePath);
+    return allowedPaths.some((allowedPath) => {
+      const normalizedAllowedPath = path.normalize(allowedPath);
+      return normalizedFilePath.startsWith(normalizedAllowedPath);
+    });
+  }
+
+  private isInDeniedFiles(fileName: string, deniedFiles?: string[]): boolean {
+    if (!deniedFiles || deniedFiles.length === 0) {
+      return false;
+    }
+
+    return deniedFiles.some((deniedFile) => {
+      // Support glob-like patterns
+      if (deniedFile.includes('*')) {
+        const regex = new RegExp(deniedFile.replace(/\*/g, '.*'));
+        return regex.test(fileName);
+      }
+      return fileName === deniedFile;
+    });
+  }
+
+  private isExtensionAllowed(extension: string, allowedExtensions: string[]): boolean {
+    const normalizedExtension = extension.toLowerCase();
+    return allowedExtensions.some((allowed) => allowed.toLowerCase() === normalizedExtension);
+  }
+
+  private denyAccess(reason: DenialReason, message: string): SecurityCheckResult {
+    return {
+      isAllowed: false,
+      reason,
+      message,
+    };
+  }
+}
+```
+
+**src/application/dtos/bundle-result.dto.ts** (+5 líneas)**
+
+```
+export interface BundleResultDto {
+  content: string;
+  truncated: boolean;
+  omittedFiles: string[];
+}
+```
+
+**src/application/dtos/file-metadata.dto.ts** (+6 líneas)**
+
+```
+export interface FileMetadataDto {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+}
+```
+
+**src/application/formatter/bundle-formatter.ts** (+4 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+  formattedBlock: string; 
+  
+```
+
+**src/application/mappers/bundle-result.mapper.ts** (+22 líneas)**
+
+```
+import { BundleResult } from "../../types.js";
+import { BundleResultDto } from "../dtos/bundle-result.dto.js";
+
+export class BundleResultMapper {
+  static toDomain(dto: BundleResultDto): BundleResult {
+    return {
+      content: dto.content,
+      truncated: dto.truncated,
+      omittedFiles: dto.omittedFiles,
+      filesIncluded: 0,
+      filesOmitted: 0,
+    };
+  }
+
+  static toDto(domain: BundleResult): BundleResultDto {
+    return {
+      content: domain.content,
+      truncated: domain.truncated,
+      omittedFiles: domain.omittedFiles,
+    };
+  }
+}
+```
+
+**src/application/mappers/file-metadata.mapper.ts** (+23 líneas)**
+
+```
+import { FileMetadata } from "../../domain/models/file-metadata.model.js";
+import { FileMetadataDto } from "../dtos/file-metadata.dto.js";
+
+
+export class FileMetadataMapper {
+  static toDomain(dto: FileMetadataDto): FileMetadata {
+    return {
+      absolutePath: dto.absolutePath,
+      relativePath: dto.relativePath,
+      size: dto.size,
+      extension: dto.extension,
+    };
+  }
+
+  static toDto(domain: FileMetadata): FileMetadataDto {
+    return {
+      absolutePath: domain.absolutePath,
+      relativePath: domain.relativePath,
+      size: domain.size,
+      extension: domain.extension,
+    };
+  }
+}
+```
+
+**src/application/tools/get-context-from-config.ts** (+14 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+      console.debug('No instruction file found at', candidate);
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/application/tools/get-directory-context.ts** (+6 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+```
+
+**src/application/tools/get-project-context.ts** (+6 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+```
+
+**src/application/use-cases/get-context-from-config.use-case.ts** (+106 líneas)**
+
+```
+import * as path from 'path';
+import { SecurityConfig, BundleResult } from '../../types.js';
+import { BundleFormatterPort } from '../../domain/ports/out/bundle-formatter.port.js';
+import { CachePort } from '../../domain/ports/out/cache.port.js';
+import { ConfigRepositoryPort } from '../../domain/ports/out/config-repository.port.js';
+import { FileRepositoryPort } from '../../domain/ports/out/file-repository.port.js';
+import { FingerprintServicePort } from '../../domain/ports/out/fingerprint-service.port.js';
+import { LoggerPort } from '../../domain/ports/out/logger.port.js';
+import { SecurityValidatorPort } from '../../domain/ports/out/security-validator.port.js';
+
+export class GetContextFromConfigUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private configRepository: ConfigRepositoryPort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    projectRoot: string,
+    securityConfig: SecurityConfig,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetContextFromConfigUseCase.execute started', { projectRoot });
+
+    try {
+      
+      const config = await this.configRepository.loadConfig(projectRoot);
+
+      
+      const allFileMetadata: Array<{ absolutePath: string; relativePath: string; size: number; extension: string }> = [];
+
+      for (const module of config.modules) {
+        const modulePath = path.join(projectRoot, module.path);
+        const moduleFiles = await this.fileRepository.discoverFiles(
+          modulePath,
+          module.excludePatterns,
+        );
+
+        allFileMetadata.push(...moduleFiles);
+      }
+
+      
+      if (config.globalInstructions) {
+        const instructionsPath = path.join(projectRoot, config.globalInstructions);
+        try {
+          const metadata = await this.fileRepository.getFileMetadata(instructionsPath);
+          allFileMetadata.push(metadata);
+        } catch (error) {
+          this.logger.warn(`Could not load global instructions file: ${instructionsPath}`);
+        }
+      }
+
+      
+      const secureFiles = allFileMetadata.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        config.maxTotalSizeKb,
+      );
+
+      this.logger.info('GetContextFromConfigUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: allFileMetadata.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetContextFromConfigUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/application/use-cases/get-directory-context.use-case.ts** (+84 líneas)**
+
+```
+import { SecurityConfig, BundleResult } from "../../types.js";
+import { BundleFormatterPort } from "../../domain/ports/out/bundle-formatter.port.js";
+import { CachePort } from "../../domain/ports/out/cache.port.js";
+import { FileRepositoryPort } from "../../domain/ports/out/file-repository.port.js";
+import { FingerprintServicePort } from "../../domain/ports/out/fingerprint-service.port.js";
+import { LoggerPort } from "../../domain/ports/out/logger.port.js";
+import { SecurityValidatorPort } from "../../domain/ports/out/security-validator.port.js";
+
+export class GetDirectoryContextUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    rootPath: string,
+    excludePatterns: string[] | undefined,
+    securityConfig: SecurityConfig,
+    maxTotalSizeKb: number,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetDirectoryContextUseCase.execute started', { rootPath });
+
+    try {
+      
+      const fileMetadataList = await this.fileRepository.discoverFiles(
+        rootPath,
+        excludePatterns,
+      );
+
+      
+      const secureFiles = fileMetadataList.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        maxTotalSizeKb,
+      );
+
+      this.logger.info('GetDirectoryContextUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: fileMetadataList.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetDirectoryContextUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/application/use-cases/get-project-context.use-case.ts** (+80 líneas)**
+
+```
+import { BundleResult, SecurityConfig } from "../../types.js";
+import { BundleFormatterPort } from "../../domain/ports/out/bundle-formatter.port.js";
+import { CachePort } from "../../domain/ports/out/cache.port.js";
+import { FileRepositoryPort } from "../../domain/ports/out/file-repository.port.js";
+import { FingerprintServicePort } from "../../domain/ports/out/fingerprint-service.port.js";
+import { LoggerPort } from "../../domain/ports/out/logger.port.js";
+import { SecurityValidatorPort } from "../../domain/ports/out/security-validator.port.js";
+
+export class GetProjectContextUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    paths: string[],
+    securityConfig: SecurityConfig,
+    maxTotalSizeKb: number,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetProjectContextUseCase.execute started', { paths });
+
+    try {
+      
+      const fileMetadataList = await this.fileRepository.getFilesByPaths(paths);
+
+      
+      const secureFiles = fileMetadataList.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        maxTotalSizeKb,
+      );
+
+      this.logger.info('GetProjectContextUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: fileMetadataList.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetProjectContextUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/domain/entities/cache-config.entity.ts** (+4 líneas)**
+
+```
+export interface CacheConfig {
+  maxEntries?: number;
+  maxEntrySizeKb?: number;
+}
+```
+
+**src/domain/entities/project-context.entity.ts** (+12 líneas)**
+
+```
+export interface ModuleConfig {
+  name: string;
+  path: string;
+  includeInstructions?: boolean;
+  excludePatterns?: string[];
+}
+
+export interface ProjectContext {
+  modules: ModuleConfig[];
+  globalInstructions?: string;
+  maxTotalSizeKb: number;
+}
+```
+
+**src/domain/entities/security-config.entity.ts** (+7 líneas)**
+
+```
+export interface SecurityConfig {
+  allowedPaths?: string[];
+  deniedPaths?: string[];
+  deniedFiles?: string[];
+  maxFileSizeKb?: number;
+  allowedExtensions?: string[];
+}
+```
+
+**src/domain/errors/error-messages.ts** (+44 líneas)**
+
+```
+export const ERROR_MESSAGES = {
+  
+  CONFIG_FILE_NOT_FOUND: 'Configuration file not found',
+  CONFIG_INVALID_JSON: 'Invalid JSON in configuration file',
+  CONFIG_INVALID_STRUCTURE: 'Invalid configuration structure',
+  CONFIG_INVALID_MODULES: 'Invalid modules configuration',
+  CONFIG_INVALID_SECURITY: 'Invalid security configuration',
+  CONFIG_MISSING_REQUIRED_FIELD: 'Missing required field in configuration',
+
+  
+  SECURITY_FILE_DENIED_BLACKLIST: 'File denied by blacklist',
+  SECURITY_FILE_BINARY_EXTENSION: 'Binary files are not allowed',
+  SECURITY_FILE_DENIED_PATH: 'File path is denied',
+  SECURITY_FILE_NOT_ALLOWED_PATH: 'File path is not in allowed paths',
+  SECURITY_FILE_DENIED_NAME: 'Filename is denied',
+  SECURITY_FILE_EXTENSION_NOT_ALLOWED: 'File extension is not allowed',
+  SECURITY_FILE_SIZE_EXCEEDED: 'File size exceeds maximum allowed',
+  SECURITY_FILE_EXCLUDED_BY_PATTERN: 'File excluded by pattern',
+
+  
+  FILE_NOT_FOUND: 'File not found',
+  FILE_READ_ERROR: 'Error reading file',
+  FILE_EMPTY: 'File is empty',
+
+  
+  FINGERPRINT_COMPUTATION_ERROR: 'Error computing file fingerprint',
+
+  
+  BUNDLE_FORMAT_ERROR: 'Error formatting bundle',
+
+  
+  FILE_DISCOVERY_ERROR: 'Error discovering files',
+  INVALID_GLOB_PATTERN: 'Invalid glob pattern',
+
+  
+  CACHE_ERROR: 'Cache operation error',
+
+  
+  LOGGER_ERROR: 'Logger initialization error',
+
+  
+  UNEXPECTED_ERROR: 'An unexpected error occurred',
+  INVALID_ARGUMENT: 'Invalid argument provided',
+} as const;
+```
+
+**src/domain/errors/errors.ts** (+60 líneas)**
+
+```
+export class ApplicationError extends Error {
+  constructor(
+    public code: string,
+    message: string,
+    public statusCode: number = 500,
+    public details?: Record<string, unknown>,
+  ) {
+    super(message);
+    this.name = this.constructor.name;
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
+export class ConfigLoadError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('CONFIG_LOAD_ERROR', message, 400, details);
+  }
+}
+
+export class SecurityCheckError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('SECURITY_CHECK_ERROR', message, 403, details);
+  }
+}
+
+export class FileReadError extends ApplicationError {
+  constructor(message: string, filePath: string) {
+    super('FILE_READ_ERROR', message, 500, { filePath });
+  }
+}
+
+export class FingerprintError extends ApplicationError {
+  constructor(message: string, filePath: string) {
+    super('FINGERPRINT_ERROR', message, 500, { filePath });
+  }
+}
+
+export class BundleFormattingError extends ApplicationError {
+  constructor(message: string) {
+    super('BUNDLE_FORMAT_ERROR', message, 500);
+  }
+}
+
+export class FileDiscoveryError extends ApplicationError {
+  constructor(message: string, pattern?: string) {
+    super('FILE_DISCOVERY_ERROR', message, 500, { pattern });
+  }
+}
+
+export class CacheError extends ApplicationError {
+  constructor(message: string) {
+    super('CACHE_ERROR', message, 500);
+  }
+}
+
+export class ValidationError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('VALIDATION_ERROR', message, 400, details);
+  }
+}
+```
+
+**src/domain/models/bundle-result.model.ts** (+7 líneas)**
+
+```
+export interface BundleResult {
+  content: string;
+  isTruncated: boolean;
+  omittedFiles?: string[];
+  cacheHits?: number;
+  cacheMisses?: number;
+}
+```
+
+**src/domain/models/cache-entry.model.ts** (+5 líneas)**
+
+```
+export interface CacheEntry {
+  fingerprint: string;
+  block: string;
+  timestamp?: number;
+}
+```
+
+**src/domain/models/file-metadata.model.ts** (+7 líneas)**
+
+```
+export interface FileMetadata {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+  fingerprint?: string;
+}
+```
+
+**src/domain/models/security-check-result.model.ts** (+15 líneas)**
+
+```
+export type DenialReason =
+  | 'BLACKLIST'
+  | 'BINARY_EXTENSION'
+  | 'DENIED_PATH'
+  | 'NOT_ALLOWED_PATH'
+  | 'DENIED_FILE'
+  | 'EXTENSION_NOT_ALLOWED'
+  | 'SIZE_EXCEEDED'
+  | 'EXCLUDED_BY_PATTERN';
+
+export interface SecurityCheckResult {
+  isAllowed: boolean;
+  reason?: DenialReason;
+  message?: string;
+}
+```
+
+**src/domain/ports/in/get-context-from-config.port.ts** (+6 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+
+export interface GetContextFromConfigPort {
+  execute(projectRoot: string): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/in/get-directory-context.port.ts** (+5 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+export interface GetDirectoryContextPort {
+  execute(rootPath: string, excludePatterns?: string[]): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/in/get-project-context.port.ts** (+5 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+export interface GetProjectContextPort {
+  execute(paths: string[]): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/out/bundle-formatter.port.ts** (+8 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+
+export interface BundleFormatterPort {
+  formatFiles(
+    files: Array<{ metadata: FileMetadata; content: string }>,
+    maxTotalSizeKb: number,
+  ): Promise<{ content: string; isTruncated: boolean; omittedFiles?: string[] }>;
+}
+```
+
+**src/domain/ports/out/cache.port.ts** (+8 líneas)**
+
+```
+import { CacheEntry } from "../../../types.js";
+
+export interface CachePort {
+  get(key: string): CacheEntry | undefined;
+  set(key: string, value: CacheEntry): void;
+  clear(): void;
+  has(key: string): boolean;
+}
+```
+
+**src/domain/ports/out/config-repository.port.ts** (+5 líneas)**
+
+```
+import { ProjectContext } from "../../entities/project-context.entity.js";
+
+export interface ConfigRepositoryPort {
+  loadConfig(projectRoot: string): Promise<ProjectContext>;
+}
+```
+
+**src/domain/ports/out/file-repository.port.ts** (+8 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+
+export interface FileRepositoryPort {
+  readFile(filePath: string): Promise<string>;
+  getFileMetadata(filePath: string): Promise<FileMetadata>;
+  discoverFiles(rootPath: string, excludePatterns?: string[]): Promise<FileMetadata[]>;
+  getFilesByPaths(paths: string[]): Promise<FileMetadata[]>;
+}
+```
+
+**src/domain/ports/out/fingerprint-service.port.ts** (+3 líneas)**
+
+```
+export interface FingerprintServicePort {
+  computeFingerprint(content: string): Promise<string>;
+}
+```
+
+**src/domain/ports/out/logger.port.ts** (+9 líneas)**
+
+```
+export type LogLevel = 'error' | 'warn' | 'info' | 'debug';
+
+export interface LoggerPort {
+  log(level: LogLevel, message: string, data?: unknown): void;
+  error(message: string, data?: unknown): void;
+  warn(message: string, data?: unknown): void;
+  info(message: string, data?: unknown): void;
+  debug(message: string, data?: unknown): void;
+}
+```
+
+**src/domain/ports/out/security-validator.port.ts** (+9 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+import { SecurityCheckResult, SecurityConfig } from "../../../types.js";
+
+export interface SecurityValidatorPort {
+  validate(
+    fileMetadata: FileMetadata,
+    securityConfig: SecurityConfig,
+  ): SecurityCheckResult;
+}
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/infrastructure/cache/lru-cache.ts** (+5 líneas)**
+
+```
+
+import type { CacheEntry, LRUCacheOptions } from '../../types.js';
+    
+    
+      
+```
+
+**src/infrastructure/config/config-loader.ts** (+2 líneas)**
+
+```
+
+import type { ProjectConfig, SecurityConfig } from '../../types.js';
+```
+
+**src/infrastructure/security/security-guard.ts** (+11 líneas)**
+
+```
+
+import type { SecurityCheckResult, SecurityConfig, DenialReason } from '../../types.js';
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/server.ts** (+5 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+import { getProjectContext, getProjectContextMcpResponse } from './application/tools/get-project-context.js';
+import { getDirectoryContext, getDirectoryContextMcpResponse } from './application/tools/get-directory-context.js';
+import { getContextFromConfig, getContextFromConfigMcpResponse } from './application/tools/get-context-from-config.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
+```
 
 ---
 
-### `get_project_context`
+## 🕐 22/05/2026, 11:24:37
 
-Carga una lista específica de archivos por ruta.
+### 📊 Resumen
+- **Total archivos:** 60
+- **📝 Nuevos:** 0
+- **✏️ Modificados:** 60
+- **🗑️ Eliminados:** 0
+- **✅ En staging:** 53 (listos para commit)
+- **Líneas añadidas:** +1521
+- **Líneas eliminadas:** -69
+- **Balance neto:** +1452 líneas
 
-```json
-{ "paths": ["src/auth/login.ts", "src/types.ts"], "projectRoot": "/ruta/absoluta" }
+### 📝 Detalle por archivo
+
+| Estado | Archivo | Añadidas | Eliminadas | Neto |
+|--------|---------|----------|------------|------|
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.repository.ts` | +136 | -0 | +136 |
+| ✅ ✏️ | `.infrastructure-wip/security/security.validator.ts` | +116 | -0 | +116 |
+| ✅ ✏️ | `src/application/use-cases/get-context-from-config.use-case.ts` | +106 | -0 | +106 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger.adapter.ts` | +101 | -0 | +101 |
+| ✅ ✏️ | `.infrastructure-wip/formatters/bundle.formatter.ts` | +94 | -0 | +94 |
+| ✅ ✏️ | `src/application/use-cases/get-directory-context.use-case.ts` | +84 | -0 | +84 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config-file.repository.ts` | +82 | -0 | +82 |
+| ✅ ✏️ | `src/application/use-cases/get-project-context.use-case.ts` | +80 | -0 | +80 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts` | +70 | -0 | +70 |
+| ✅ ✏️ | `.infrastructure-wip/security/security-check.rules.ts` | +69 | -0 | +69 |
+| ✅ ✏️ | `src/domain/errors/errors.ts` | +60 | -0 | +60 |
+| ✅ ✏️ | `src/domain/errors/error-messages.ts` | +44 | -0 | +44 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config.mapper.ts` | +34 | -0 | +34 |
+| ✅ ✏️ | `.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts` | +27 | -0 | +27 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.mapper.ts` | +26 | -0 | +26 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts` | +24 | -0 | +24 |
+| ✅ ✏️ | `src/application/mappers/file-metadata.mapper.ts` | +23 | -0 | +23 |
+| ✅ ✏️ | `src/application/mappers/bundle-result.mapper.ts` | +22 | -0 | +22 |
+| ✅ ✏️ | `src/types.ts` | +11 | -11 | 0 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config.entity.ts` | +16 | -0 | +16 |
+| ✅ ✏️ | `src/domain/models/security-check-result.model.ts` | +15 | -0 | +15 |
+| ✅ ✏️ | `.infrastructure-wip/security/security-error-messages.ts` | +14 | -0 | +14 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger.entity.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `src/domain/entities/project-context.entity.ts` | +12 | -0 | +12 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts` | +11 | -0 | +11 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/file/file.entity.ts` | +11 | -0 | +11 |
+| ✅ ✏️ | `src/server.ts` | +5 | -5 | 0 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/external/logger-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/file-discovery/file-discovery-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/formatters/bundle-format-error-messages.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `src/domain/ports/out/logger.port.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `src/domain/ports/out/security-validator.port.ts` | +9 | -0 | +9 |
+| ✅ ✏️ | `.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/bundle-formatter.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/cache.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/ports/out/file-repository.port.ts` | +8 | -0 | +8 |
+| ✅ ✏️ | `src/domain/entities/security-config.entity.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/domain/models/bundle-result.model.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/domain/models/file-metadata.model.ts` | +7 | -0 | +7 |
+| ✅ ✏️ | `src/application/dtos/file-metadata.dto.ts` | +6 | -0 | +6 |
+| ✅ ✏️ | `src/domain/ports/in/get-context-from-config.port.ts` | +6 | -0 | +6 |
+| ✅ ✏️ | `src/logger/logger.ts` | +3 | -3 | 0 |
+| ✅ ✏️ | `src/application/dtos/bundle-result.dto.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/models/cache-entry.model.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/in/get-directory-context.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/in/get-project-context.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/ports/out/config-repository.port.ts` | +5 | -0 | +5 |
+| ✅ ✏️ | `src/domain/entities/cache-config.entity.ts` | +4 | -0 | +4 |
+| ✅ ✏️ | `src/domain/ports/out/fingerprint-service.port.ts` | +3 | -0 | +3 |
+| ✅ ✏️ | `src/index.ts` | +1 | -1 | 0 |
+| ✅ ✏️ | `src/init/init-command.ts` | +1 | -1 | 0 |
+| ✏️ | `src/{ => application}/tools/get-context-from-config.ts` | +14 | -14 | 0 |
+| ✏️ | `src/{ => infrastructure}/security/security-guard.ts` | +11 | -11 | 0 |
+| ✏️ | `src/{ => application}/tools/get-directory-context.ts` | +6 | -6 | 0 |
+| ✏️ | `src/{ => application}/tools/get-project-context.ts` | +6 | -6 | 0 |
+| ✏️ | `src/{ => infrastructure}/cache/lru-cache.ts` | +5 | -5 | 0 |
+| ✏️ | `src/{ => application}/formatter/bundle-formatter.ts` | +4 | -4 | 0 |
+| ✏️ | `src/{ => infrastructure}/config/config-loader.ts` | +2 | -2 | 0 |
+
+### 📁 Lista completa
+
+<details>
+<summary>Ver todos los archivos (60)</summary>
+
+**✅ Modificados (staged):**
+```
+.infrastructure-wip/adapters/persistence/file/file.repository.ts
+.infrastructure-wip/security/security.validator.ts
+src/application/use-cases/get-context-from-config.use-case.ts
+.infrastructure-wip/adapters/external/logger.adapter.ts
+.infrastructure-wip/formatters/bundle.formatter.ts
+src/application/use-cases/get-directory-context.use-case.ts
+.infrastructure-wip/adapters/persistence/config/config-file.repository.ts
+src/application/use-cases/get-project-context.use-case.ts
+.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts
+.infrastructure-wip/security/security-check.rules.ts
+src/domain/errors/errors.ts
+src/domain/errors/error-messages.ts
+.infrastructure-wip/adapters/persistence/config/config.mapper.ts
+.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts
+.infrastructure-wip/adapters/persistence/file/file.mapper.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts
+src/application/mappers/file-metadata.mapper.ts
+src/application/mappers/bundle-result.mapper.ts
+src/types.ts
+.infrastructure-wip/adapters/persistence/config/config.entity.ts
+src/domain/models/security-check-result.model.ts
+.infrastructure-wip/security/security-error-messages.ts
+.infrastructure-wip/adapters/external/logger.entity.ts
+.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts
+src/domain/entities/project-context.entity.ts
+.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts
+.infrastructure-wip/adapters/persistence/file/file.entity.ts
+src/server.ts
+.infrastructure-wip/adapters/external/logger-error-messages.ts
+.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts
+.infrastructure-wip/file-discovery/file-discovery-error-messages.ts
+.infrastructure-wip/formatters/bundle-format-error-messages.ts
+src/domain/ports/out/logger.port.ts
+src/domain/ports/out/security-validator.port.ts
+.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts
+src/domain/ports/out/bundle-formatter.port.ts
+src/domain/ports/out/cache.port.ts
+src/domain/ports/out/file-repository.port.ts
+src/domain/entities/security-config.entity.ts
+src/domain/models/bundle-result.model.ts
+src/domain/models/file-metadata.model.ts
+src/application/dtos/file-metadata.dto.ts
+src/domain/ports/in/get-context-from-config.port.ts
+src/logger/logger.ts
+src/application/dtos/bundle-result.dto.ts
+src/domain/models/cache-entry.model.ts
+src/domain/ports/in/get-directory-context.port.ts
+src/domain/ports/in/get-project-context.port.ts
+src/domain/ports/out/config-repository.port.ts
+src/domain/entities/cache-config.entity.ts
+src/domain/ports/out/fingerprint-service.port.ts
+src/index.ts
+src/init/init-command.ts
 ```
 
-| Parámetro | Tipo | Requerido | Descripción |
-|---|---|---|---|
-| `paths` | string[] | sí | Rutas de archivos a cargar |
-| `projectRoot` | string | no | Raíz para resolver rutas relativas |
-| `configPath` | string | no | Ruta a `contextcache.json` |
-
----
-
-## Formato de salida
-
-Cada archivo en el bundle se envuelve con marcadores `BUNDLE`:
-
+**✏️ Modificados:**
 ```
-BUNDLE_START: <sha256-fingerprint>
-ruta/al/archivo.ts
-<contenido completo del archivo>
-BUNDLE_END: ruta/al/archivo.ts
+src/{ => application}/tools/get-context-from-config.ts
+src/{ => infrastructure}/security/security-guard.ts
+src/{ => application}/tools/get-directory-context.ts
+src/{ => application}/tools/get-project-context.ts
+src/{ => infrastructure}/cache/lru-cache.ts
+src/{ => application}/formatter/bundle-formatter.ts
+src/{ => infrastructure}/config/config-loader.ts
 ```
 
-Los archivos siempre se ordenan alfabéticamente para una salida determinista.
+</details>
 
-### Manejo de `BUNDLE_TRUNCATED`
+### 💻 Código Añadido
 
-Cuando el tamaño total supera `maxTotalSizeKb`, la respuesta incluye:
+**.infrastructure-wip/adapters/external/logger-error-messages.ts** (+9 líneas)**
 
 ```
-BUNDLE_TRUNCATED: límite de tamaño excedido.
-Límite configurado: 2048 KB
-Tamaño total: 3100 KB
-Archivos omitidos:
-  src/modulo-grande/archivo-a.ts
-  src/modulo-grande/archivo-b.ts
+/**
+ * Logger Error Messages
+ */
+
+export const LOGGER_ERROR_MESSAGES = {
+  LOG_DIR_CREATION_ERROR: 'Error creating log directory',
+  LOG_FILE_WRITE_ERROR: 'Error writing to log file',
+  LOGGER_INITIALIZATION_ERROR: 'Error initializing logger',
+} as const;
 ```
 
-Llama a `get_project_context` con las rutas omitidas para recuperarlos en una llamada de seguimiento.
+**.infrastructure-wip/adapters/external/logger.adapter.ts** (+101 líneas)**
 
----
+```
+/**
+ * Logger Adapter - Implementation of LoggerPort
+ */
 
-## Seguridad
+import * as fs from 'fs';
+import * as path from 'path';
+import * as os from 'os';
+import { LoggerPort, LogLevel } from '../../../../application/ports/out/logger.port.js';
+import { LOGGER_ERROR_MESSAGES } from './logger-error-messages.js';
 
-Los siguientes archivos están **siempre bloqueados**, independientemente del `contextcache.json`:
+export class LoggerAdapter implements LoggerPort {
+  private logDir: string;
+  private logFile: string;
+  private currentLogLevel: LogLevel = 'info';
 
-- `.env`, `.env.*`, `credentials.json`, `*.pem`, `id_rsa`, `id_ed25519`
-- `*.key`, `private.key`, `secret*`, `secrets.json`, `token*`
-- `service-account.json`, `.npmrc`, `.pypirc`
-- Todos los binarios: `.exe`, `.dll`, `.png`, `.zip`, `.wasm`, etc.
+  constructor(logLevel: LogLevel = 'info') {
+    this.currentLogLevel = logLevel;
+    const homeDir = os.homedir();
+    this.logDir = path.join(homeDir, '.mcp-context-cache', 'logs');
+    this.logFile = path.join(this.logDir, 'server.log');
+    this.ensureLogDirectory();
+  }
 
-Las rutas fuera de `allowedPaths` son rechazadas. El servidor nunca sigue symlinks fuera del árbol permitido.
+  log(level: LogLevel, message: string, data?: unknown): void {
+    if (this.shouldLog(level)) {
+      const timestamp = new Date().toISOString();
+      const logMessage = this.formatLogMessage(level, message, timestamp, data);
 
----
+      // Log to console
+      this.logToConsole(level, logMessage);
 
-## Desarrollo
+      // Log to file
+      this.logToFile(logMessage);
+    }
+  }
 
-```bash
-pnpm install
-pnpm build   # Compila TypeScript → dist/
-pnpm dev     # Ejecuta con tsx (sin paso de build)
-pnpm test    # Suite de tests con Vitest
+  error(message: string, data?: unknown): void {
+    this.log('error', message, data);
+  }
+
+  warn(message: string, data?: unknown): void {
+    this.log('warn', message, data);
+  }
+
+  info(message: string, data?: unknown): void {
+    this.log('info', message, data);
+  }
+
+  debug(message: string, data?: unknown): void {
+    this.log('debug', message, data);
+  }
+
+  private shouldLog(level: LogLevel): boolean {
+    const levels: LogLevel[] = ['error', 'warn', 'info', 'debug'];
+    const currentIndex = levels.indexOf(this.currentLogLevel);
+    const levelIndex = levels.indexOf(level);
+    return levelIndex <= currentIndex;
+  }
+
+  private formatLogMessage(level: LogLevel, message: string, timestamp: string, data?: unknown): string {
+    const dataString = data ? ` | ${JSON.stringify(data)}` : '';
+    return `[${timestamp}] [${level.toUpperCase()}] ${message}${dataString}`;
+  }
+
+  private logToConsole(level: LogLevel, message: string): void {
+    switch (level) {
+      case 'error':
+        console.error(message);
+        break;
+      case 'warn':
+        console.warn(message);
+        break;
+      case 'info':
+        console.log(message);
+        break;
+      case 'debug':
+        console.log(message);
+        break;
+    }
+  }
+
+  private logToFile(message: string): void {
+    try {
+      fs.appendFileSync(this.logFile, message + '\n', 'utf-8');
+    } catch (error) {
+      console.error(`${LOGGER_ERROR_MESSAGES.LOG_FILE_WRITE_ERROR}: ${(error as Error).message}`);
+    }
+  }
+
+  private ensureLogDirectory(): void {
+    try {
+      if (!fs.existsSync(this.logDir)) {
+        fs.mkdirSync(this.logDir, { recursive: true });
+      }
+    } catch (error) {
+      console.error(
+        `${LOGGER_ERROR_MESSAGES.LOG_DIR_CREATION_ERROR}: ${(error as Error).message}`,
+      );
+    }
+  }
+}
 ```
 
----
+**.infrastructure-wip/adapters/external/logger.entity.ts** (+12 líneas)**
 
-## Licencia
+```
+/**
+ * Logger Entity - Infrastructure representation of logger
+ */
 
-MIT
+export type LogLevel = 'error' | 'warn' | 'info' | 'debug';
+
+export interface LogEntry {
+  level: LogLevel;
+  message: string;
+  timestamp: string;
+  data?: unknown;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/cache-entry.entity.ts** (+9 líneas)**
+
+```
+/**
+ * Cache Entry Entity - Infrastructure representation of a cache entry
+ */
+
+export interface CacheEntryEntity {
+  fingerprint: string;
+  block: string;
+  timestamp?: number;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/cache-entry.mapper.ts** (+24 líneas)**
+
+```
+/**
+ * Cache Entry Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { CacheEntryEntity } from './cache-entry.entity.js';
+import { CacheEntry } from '../../../../domain/models/cache-entry.model.js';
+
+export class CacheEntryMapper {
+  static toDomain(entity: CacheEntryEntity): CacheEntry {
+    return {
+      fingerprint: entity.fingerprint,
+      block: entity.block,
+      timestamp: entity.timestamp,
+    };
+  }
+
+  static toEntity(domain: CacheEntry): CacheEntryEntity {
+    return {
+      fingerprint: domain.fingerprint,
+      block: domain.block,
+      timestamp: domain.timestamp,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/cache/lru-cache.adapter.ts** (+70 líneas)**
+
+```
+/**
+ * LRU Cache Adapter - Implementation of CachePort using LRU cache strategy
+ */
+
+import { CachePort } from '../../../../application/ports/out/cache.port.js';
+import { CacheEntry } from '../../../../domain/models/cache-entry.model.js';
+
+export interface LRUCacheOptions {
+  maxEntries?: number;
+  maxEntrySizeKb?: number;
+}
+
+export class LRUCacheAdapter implements CachePort {
+  private cache: Map<string, CacheEntry>;
+  private accessOrder: string[] = [];
+  private readonly maxEntries: number;
+  private readonly maxEntrySizeKb: number;
+
+  constructor(options: LRUCacheOptions = {}) {
+    this.maxEntries = options.maxEntries || 5000;
+    this.maxEntrySizeKb = options.maxEntrySizeKb || 1024;
+    this.cache = new Map();
+  }
+
+  get(key: string): CacheEntry | undefined {
+    if (!this.cache.has(key)) {
+      return undefined;
+    }
+
+    // Move to end (most recently used)
+    this.accessOrder = this.accessOrder.filter((k) => k !== key);
+    this.accessOrder.push(key);
+
+    return this.cache.get(key);
+  }
+
+  set(key: string, value: CacheEntry): void {
+    // Check size limit
+    const entrySizeKb = Buffer.byteLength(value.block) / 1024;
+    if (entrySizeKb > this.maxEntrySizeKb) {
+      return; // Don't cache if too large
+    }
+
+    // Remove if exists to update order
+    if (this.cache.has(key)) {
+      this.accessOrder = this.accessOrder.filter((k) => k !== key);
+    }
+
+    // Check if we need to evict
+    while (this.cache.size >= this.maxEntries && this.cache.size > 0) {
+      const lruKey = this.accessOrder.shift();
+      if (lruKey) {
+        this.cache.delete(lruKey);
+      }
+    }
+
+    // Add new entry
+    this.cache.set(key, value);
+    this.accessOrder.push(key);
+  }
+
+  clear(): void {
+    this.cache.clear();
+    this.accessOrder = [];
+  }
+
+  has(key: string): boolean {
+    return this.cache.has(key);
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config-file.repository.ts** (+82 líneas)**
+
+```
+/**
+ * Config File Repository Adapter - Implementation of ConfigRepositoryPort
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import { z } from 'zod';
+import { ConfigRepositoryPort } from '../../../../application/ports/out/config-repository.port.js';
+import { ProjectContext } from '../../../../domain/entities/project-context.entity.js';
+import { ConfigLoadError } from '../../../../domain/errors/errors.js';
+import { CONFIG_REPOSITORY_ERROR_MESSAGES } from './config-repository-error-messages.js';
+import { ConfigEntity } from './config.entity.js';
+import { ConfigMapper } from './config.mapper.js';
+
+// Zod schema for validation
+const ModuleConfigSchema = z.object({
+  name: z.string(),
+  path: z.string(),
+  includeInstructions: z.boolean().optional(),
+  excludePatterns: z.array(z.string()).optional(),
+});
+
+const ConfigFileSchema = z.object({
+  modules: z.array(ModuleConfigSchema),
+  globalInstructions: z.string().optional(),
+  maxTotalSizeKb: z.number().positive(),
+  cache: z.object({
+    maxEntries: z.number().optional(),
+    maxEntrySizeKb: z.number().optional(),
+  }).optional(),
+  security: z.any().optional(),
+});
+
+export class ConfigFileRepositoryAdapter implements ConfigRepositoryPort {
+  async loadConfig(projectRoot: string): Promise<ProjectContext> {
+    try {
+      const configPath = path.join(projectRoot, 'contextcache.json');
+
+      if (!fs.existsSync(configPath)) {
+        throw new ConfigLoadError(
+          `${CONFIG_REPOSITORY_ERROR_MESSAGES.FILE_NOT_FOUND} ${configPath}`,
+        );
+      }
+
+      const fileContent = fs.readFileSync(configPath, 'utf-8');
+      let rawConfig: unknown;
+
+      try {
+        rawConfig = JSON.parse(fileContent);
+      } catch (error) {
+        throw new ConfigLoadError(CONFIG_REPOSITORY_ERROR_MESSAGES.INVALID_JSON, {
+          filePath: configPath,
+        });
+      }
+
+      // Validate with Zod
+      let validatedConfig: z.infer<typeof ConfigFileSchema>;
+      try {
+        validatedConfig = ConfigFileSchema.parse(rawConfig);
+      } catch (error) {
+        const zodError = error as z.ZodError;
+        throw new ConfigLoadError(CONFIG_REPOSITORY_ERROR_MESSAGES.INVALID_STRUCTURE, {
+          errors: zodError.errors,
+        });
+      }
+
+      // Map to entity and then to domain
+      const entity: ConfigEntity = {
+        modules: validatedConfig.modules,
+        globalInstructions: validatedConfig.globalInstructions,
+        maxTotalSizeKb: validatedConfig.maxTotalSizeKb,
+      };
+
+      return ConfigMapper.toDomain(entity);
+    } catch (error) {
+      if (error instanceof ConfigLoadError) {
+        throw error;
+      }
+      throw new ConfigLoadError(`Error loading configuration: ${(error as Error).message}`);
+    }
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config-repository-error-messages.ts** (+12 líneas)**
+
+```
+/**
+ * Config Repository Error Messages
+ */
+
+export const CONFIG_REPOSITORY_ERROR_MESSAGES = {
+  FILE_NOT_FOUND: 'Configuration file not found at',
+  INVALID_JSON: 'Invalid JSON in configuration file',
+  INVALID_STRUCTURE: 'Invalid configuration structure',
+  MISSING_MODULES: 'Missing required field: modules',
+  MISSING_MAX_SIZE: 'Missing required field: maxTotalSizeKb',
+  INVALID_MODULE: 'Invalid module configuration',
+} as const;
+```
+
+**.infrastructure-wip/adapters/persistence/config/config.entity.ts** (+16 líneas)**
+
+```
+/**
+ * Config Entity - Infrastructure representation of project configuration
+ */
+
+export interface ModuleConfigEntity {
+  name: string;
+  path: string;
+  includeInstructions?: boolean;
+  excludePatterns?: string[];
+}
+
+export interface ConfigEntity {
+  modules: ModuleConfigEntity[];
+  globalInstructions?: string;
+  maxTotalSizeKb: number;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/config/config.mapper.ts** (+34 líneas)**
+
+```
+/**
+ * Config Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { ConfigEntity } from './config.entity.js';
+import { ProjectContext, ModuleConfig } from '../../../../domain/entities/project-context.entity.js';
+
+export class ConfigMapper {
+  static toDomain(entity: ConfigEntity): ProjectContext {
+    return {
+      modules: entity.modules.map((m: any) => ({
+        name: m.name,
+        path: m.path,
+        includeInstructions: m.includeInstructions,
+        excludePatterns: m.excludePatterns,
+      })),
+      globalInstructions: entity.globalInstructions,
+      maxTotalSizeKb: entity.maxTotalSizeKb,
+    };
+  }
+
+  static toEntity(domain: ProjectContext): ConfigEntity {
+    return {
+      modules: domain.modules.map((m: ModuleConfig) => ({
+        name: m.name,
+        path: m.path,
+        includeInstructions: m.includeInstructions,
+        excludePatterns: m.excludePatterns,
+      })),
+      globalInstructions: domain.globalInstructions,
+      maxTotalSizeKb: domain.maxTotalSizeKb,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file-repository-error-messages.ts** (+11 líneas)**
+
+```
+/**
+ * File Repository Error Messages
+ */
+
+export const FILE_REPOSITORY_ERROR_MESSAGES = {
+  FILE_NOT_FOUND: 'File not found',
+  FILE_READ_ERROR: 'Error reading file',
+  INVALID_PATH: 'Invalid file path',
+  ACCESS_DENIED: 'Access denied to file',
+  PATH_TRAVERSAL_ATTEMPT: 'Path traversal attempt detected',
+} as const;
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.entity.ts** (+11 líneas)**
+
+```
+/**
+ * File Entity - Infrastructure representation of a file
+ */
+
+export interface FileEntity {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+  content?: string;
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.mapper.ts** (+26 líneas)**
+
+```
+/**
+ * File Mapper - Manual mapping between infrastructure entity and domain model
+ */
+
+import { FileEntity } from './file.entity.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+
+export class FileMapper {
+  static toDomain(entity: FileEntity): FileMetadata {
+    return {
+      absolutePath: entity.absolutePath,
+      relativePath: entity.relativePath,
+      size: entity.size,
+      extension: entity.extension,
+    };
+  }
+
+  static toEntity(domain: FileMetadata): FileEntity {
+    return {
+      absolutePath: domain.absolutePath,
+      relativePath: domain.relativePath,
+      size: domain.size,
+      extension: domain.extension,
+    };
+  }
+}
+```
+
+**.infrastructure-wip/adapters/persistence/file/file.repository.ts** (+136 líneas)**
+
+```
+/**
+ * File Repository Adapter - Implementation of FileRepositoryPort using filesystem
+ */
+
+import * as fs from 'fs';
+import * as path from 'path';
+import fg from 'fast-glob';
+import { FileRepositoryPort } from '../../../../application/ports/out/file-repository.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { FileReadError } from '../../../../domain/errors/errors.js';
+import { FILE_REPOSITORY_ERROR_MESSAGES } from './file-repository-error-messages.js';
+import { FileEntity } from './file.entity.js';
+import { FileMapper } from './file.mapper.js';
+
+export class FileRepositoryAdapter implements FileRepositoryPort {
+  async readFile(filePath: string): Promise<string> {
+    try {
+      this.validatePath(filePath);
+      return fs.readFileSync(filePath, 'utf-8');
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `${FILE_REPOSITORY_ERROR_MESSAGES.FILE_READ_ERROR}: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  async getFileMetadata(filePath: string): Promise<FileMetadata> {
+    try {
+      this.validatePath(filePath);
+
+      if (!fs.existsSync(filePath)) {
+        throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.FILE_NOT_FOUND, filePath);
+      }
+
+      const stats = fs.statSync(filePath);
+      const extension = path.extname(filePath);
+
+      const entity: FileEntity = {
+        absolutePath: filePath,
+        relativePath: path.relative(process.cwd(), filePath),
+        size: stats.size,
+        extension,
+      };
+
+      return FileMapper.toDomain(entity);
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `Error getting file metadata: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  async discoverFiles(rootPath: string, excludePatterns?: string[]): Promise<FileMetadata[]> {
+    try {
+      this.validatePath(rootPath);
+
+      if (!fs.existsSync(rootPath)) {
+        throw new FileReadError(`Directory not found: ${rootPath}`, rootPath);
+      }
+
+      const pattern = path.join(rootPath, '**', '*');
+      const ignorePatterns = excludePatterns?.map((p) => `!${path.join(rootPath, p)}`) || [];
+
+      const files = await fg([pattern, ...ignorePatterns], {
+        dot: false,
+        onlyFiles: true,
+      });
+
+      return files.map((filePath: string) => {
+        const stats = fs.statSync(filePath);
+        const extension = path.extname(filePath);
+
+        const entity: FileEntity = {
+          absolutePath: filePath,
+          relativePath: path.relative(rootPath, filePath),
+          size: stats.size,
+          extension,
+        };
+
+        return FileMapper.toDomain(entity);
+      });
+    } catch (error) {
+      if (error instanceof FileReadError) {
+        throw error;
+      }
+      throw new FileReadError(
+        `Error discovering files: ${(error as Error).message}`,
+        rootPath,
+      );
+    }
+  }
+
+  async getFilesByPaths(paths: string[]): Promise<FileMetadata[]> {
+    try {
+      const fileMetadata: FileMetadata[] = [];
+
+      for (const filePath of paths) {
+        try {
+          const metadata = await this.getFileMetadata(filePath);
+          fileMetadata.push(metadata);
+        } catch (error) {
+          // Log but continue with other files
+          console.warn(`Could not get metadata for ${filePath}: ${(error as Error).message}`);
+        }
+      }
+
+      return fileMetadata;
+    } catch (error) {
+      throw new FileReadError(
+        `Error getting files by paths: ${(error as Error).message}`,
+        paths.join(','),
+      );
+    }
+  }
+
+  private validatePath(filePath: string): void {
+    if (!filePath || typeof filePath !== 'string') {
+      throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.INVALID_PATH, filePath);
+    }
+
+    const resolvedPath = path.resolve(filePath);
+    const basePath = path.resolve(process.cwd());
+
+    if (!resolvedPath.startsWith(basePath)) {
+      throw new FileReadError(FILE_REPOSITORY_ERROR_MESSAGES.PATH_TRAVERSAL_ATTEMPT, filePath);
+    }
+  }
+}
+```
+
+**.infrastructure-wip/file-discovery/file-discovery-error-messages.ts** (+9 líneas)**
+
+```
+/**
+ * File Discovery Error Messages
+ */
+
+export const FILE_DISCOVERY_ERROR_MESSAGES = {
+  DISCOVERY_ERROR: 'Error discovering files',
+  INVALID_PATTERN: 'Invalid glob pattern',
+  DIRECTORY_NOT_FOUND: 'Directory not found',
+} as const;
+```
+
+**.infrastructure-wip/fingerprinting/fingerprint-error-messages.ts** (+8 líneas)**
+
+```
+/**
+ * Fingerprint Error Messages
+ */
+
+export const FINGERPRINT_ERROR_MESSAGES = {
+  COMPUTATION_ERROR: 'Error computing fingerprint',
+  INVALID_INPUT: 'Invalid input for fingerprinting',
+} as const;
+```
+
+**.infrastructure-wip/fingerprinting/sha256-fingerprint.service.ts** (+27 líneas)**
+
+```
+/**
+ * SHA256 Fingerprint Service - Implementation of FingerprintServicePort
+ */
+
+import * as crypto from 'crypto';
+import * as fs from 'fs';
+import { FingerprintServicePort } from '../../../../application/ports/out/fingerprint-service.port.js';
+import { FingerprintError } from '../../../../domain/errors/errors.js';
+import { FINGERPRINT_ERROR_MESSAGES } from './fingerprint-error-messages.js';
+
+export class SHA256FingerprintService implements FingerprintServicePort {
+  async computeFingerprint(filePath: string): Promise<string> {
+    try {
+      const content = fs.readFileSync(filePath, 'utf-8');
+      return this.hashContent(content);
+    } catch (error) {
+      throw new FingerprintError(
+        `${FINGERPRINT_ERROR_MESSAGES.COMPUTATION_ERROR}: ${(error as Error).message}`,
+        filePath,
+      );
+    }
+  }
+
+  private hashContent(content: string): string {
+    return crypto.createHash('sha256').update(content).digest('hex');
+  }
+}
+```
+
+**.infrastructure-wip/formatters/bundle-format-error-messages.ts** (+9 líneas)**
+
+```
+/**
+ * Bundle Formatter Error Messages
+ */
+
+export const BUNDLE_FORMATTER_ERROR_MESSAGES = {
+  FORMAT_ERROR: 'Error formatting bundle',
+  SIZE_CALCULATION_ERROR: 'Error calculating bundle size',
+  INVALID_FILES: 'Invalid files for formatting',
+} as const;
+```
+
+**.infrastructure-wip/formatters/bundle.formatter.ts** (+94 líneas)**
+
+```
+/**
+ * Bundle Formatter Adapter - Implementation of BundleFormatterPort
+ */
+
+import { BundleFormatterPort } from '../../../../application/ports/out/bundle-formatter.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { BundleFormattingError } from '../../../../domain/errors/errors.js';
+import { BUNDLE_FORMATTER_ERROR_MESSAGES } from './bundle-format-error-messages.js';
+
+interface FileWithContent {
+  metadata: FileMetadata;
+  content: string;
+}
+
+export class BundleFormatterAdapter implements BundleFormatterPort {
+  async formatFiles(
+    files: FileWithContent[],
+    maxTotalSizeKb: number,
+  ): Promise<{ content: string; isTruncated: boolean; omittedFiles?: string[] }> {
+    try {
+      // Sort files by relative path
+      const sortedFiles = files.sort((a, b) =>
+        a.metadata.relativePath.localeCompare(b.metadata.relativePath),
+      );
+
+      const blocks: string[] = [];
+      const omittedFiles: string[] = [];
+      let totalSizeKb = 0;
+      const maxSizeBytes = maxTotalSizeKb * 1024;
+
+      for (const file of sortedFiles) {
+        const block = this.createFileBlock(file.metadata, file.content);
+        const blockSizeBytes = Buffer.byteLength(block);
+        const newTotalSize = totalSizeKb * 1024 + blockSizeBytes;
+
+        if (newTotalSize <= maxSizeBytes) {
+          blocks.push(block);
+          totalSizeKb = newTotalSize / 1024;
+        } else {
+          omittedFiles.push(file.metadata.relativePath);
+        }
+      }
+
+      // Add truncation notice if needed
+      let content = blocks.join('\n\n');
+      let isTruncated = false;
+
+      if (omittedFiles.length > 0) {
+        isTruncated = true;
+        const truncationMessage = this.createTruncationMessage(omittedFiles);
+        content += '\n\n' + truncationMessage;
+      }
+
+      return {
+        content,
+        isTruncated,
+        omittedFiles: isTruncated ? omittedFiles : undefined,
+      };
+    } catch (error) {
+      throw new BundleFormattingError(
+        `${BUNDLE_FORMATTER_ERROR_MESSAGES.FORMAT_ERROR}: ${(error as Error).message}`,
+      );
+    }
+  }
+
+  private createFileBlock(metadata: FileMetadata, content: string): string {
+    const SHA256 = this.calculateSHA256(content);
+    return (
+      `BUNDLE_START: ${SHA256}\n` +
+      `${metadata.relativePath}\n` +
+      `${content}\n` +
+      `BUNDLE_END: ${metadata.relativePath}`
+    );
+  }
+
+  private createTruncationMessage(omittedFiles: string[]): string {
+    const fileList = omittedFiles.map((f) => `  - ${f}`).join('\n');
+    return (
+      `BUNDLE_TRUNCATED\n\nThe following files were omitted due to size limit:\n${fileList}`
+    );
+  }
+
+  private calculateSHA256(content: string): string {
+    // For now, just return a simple hash representation
+    // In production, this would use proper crypto
+    let hash = 0;
+    for (let i = 0; i < content.length; i++) {
+      const char = content.charCodeAt(i);
+      hash = (hash << 5) - hash + char;
+      hash = hash & hash; // Convert to 32bit integer
+    }
+    return Math.abs(hash).toString(16).padStart(64, '0');
+  }
+}
+```
+
+**.infrastructure-wip/security/security-check.rules.ts** (+69 líneas)**
+
+```
+/**
+ * Security Check Rules - Hardcoded security rules
+ */
+
+// Files that should never be included (hardcoded blacklist)
+export const HARDCODED_BLACKLIST = [
+  /\.env/i,
+  /\.env\.local/i,
+  /\.env\.production/i,
+  /\.env\.development/i,
+  /\.pem$/i,
+  /\.key$/i,
+  /\.p12$/i,
+  /\.pfx$/i,
+  /private[_-]?key/i,
+  /\.aws\/credentials/i,
+  /\.ssh\/id_/i,
+  /aws_access_key_id/i,
+  /aws_secret_access_key/i,
+  /password/i,
+  /secret/i,
+  /token/i,
+  /oauth/i,
+];
+
+// Binary file extensions that should be excluded
+export const BINARY_EXTENSIONS = [
+  '.exe',
+  '.dll',
+  '.so',
+  '.dylib',
+  '.bin',
+  '.png',
+  '.jpg',
+  '.jpeg',
+  '.gif',
+  '.bmp',
+  '.ico',
+  '.svg',
+  '.zip',
+  '.tar',
+  '.gz',
+  '.rar',
+  '.7z',
+  '.pdf',
+  '.doc',
+  '.docx',
+  '.xls',
+  '.xlsx',
+  '.ppt',
+  '.pptx',
+  '.mp3',
+  '.mp4',
+  '.avi',
+  '.mov',
+  '.webp',
+  '.woff',
+  '.woff2',
+  '.ttf',
+  '.otf',
+];
+
+export function matchesBlacklist(filename: string): boolean {
+  return HARDCODED_BLACKLIST.some((pattern) => pattern.test(filename));
+}
+
+export function isBinaryExtension(extension: string): boolean {
+  return BINARY_EXTENSIONS.includes(extension.toLowerCase());
+}
+```
+
+**.infrastructure-wip/security/security-error-messages.ts** (+14 líneas)**
+
+```
+/**
+ * Security Error Messages
+ */
+
+export const SECURITY_ERROR_MESSAGES = {
+  BLACKLIST_MATCH: 'File matches blacklist pattern',
+  BINARY_EXTENSION: 'Binary file extensions are not allowed',
+  DENIED_PATH: 'File path is in denied paths list',
+  NOT_ALLOWED_PATH: 'File path is not in allowed paths',
+  DENIED_FILENAME: 'Filename matches denied pattern',
+  EXTENSION_NOT_ALLOWED: 'File extension is not in allowed extensions list',
+  FILE_SIZE_EXCEEDED: 'File size exceeds maximum allowed size',
+  EXCLUDED_BY_PATTERN: 'File is excluded by configured exclude pattern',
+} as const;
+```
+
+**.infrastructure-wip/security/security.validator.ts** (+116 líneas)**
+
+```
+/**
+ * Security Validator Adapter - Implementation of SecurityValidatorPort
+ */
+
+import * as path from 'path';
+import { SecurityValidatorPort } from '../../../../application/ports/out/security-validator.port.js';
+import { FileMetadata } from '../../../../domain/models/file-metadata.model.js';
+import { SecurityCheckResult, DenialReason } from '../../../../domain/models/security-check-result.model.js';
+import { SecurityConfig } from '../../../../domain/entities/security-config.entity.js';
+import { SECURITY_ERROR_MESSAGES } from './security-error-messages.js';
+import { matchesBlacklist, isBinaryExtension } from './security-check.rules.js';
+
+export class SecurityValidatorAdapter implements SecurityValidatorPort {
+  validate(fileMetadata: FileMetadata, securityConfig: SecurityConfig): SecurityCheckResult {
+    // Step 1: Check hardcoded blacklist
+    if (matchesBlacklist(fileMetadata.absolutePath)) {
+      return this.denyAccess('BLACKLIST', SECURITY_ERROR_MESSAGES.BLACKLIST_MATCH);
+    }
+
+    // Step 2: Check for binary extensions
+    if (isBinaryExtension(fileMetadata.extension)) {
+      return this.denyAccess('BINARY_EXTENSION', SECURITY_ERROR_MESSAGES.BINARY_EXTENSION);
+    }
+
+    // Step 3: Check denied paths
+    if (this.isInDeniedPaths(fileMetadata.absolutePath, securityConfig.deniedPaths)) {
+      return this.denyAccess('DENIED_PATH', SECURITY_ERROR_MESSAGES.DENIED_PATH);
+    }
+
+    // Step 4: Check allowed paths (if configured)
+    if (
+      securityConfig.allowedPaths &&
+      securityConfig.allowedPaths.length > 0 &&
+      !this.isInAllowedPaths(fileMetadata.absolutePath, securityConfig.allowedPaths)
+    ) {
+      return this.denyAccess('NOT_ALLOWED_PATH', SECURITY_ERROR_MESSAGES.NOT_ALLOWED_PATH);
+    }
+
+    // Step 5: Check denied filenames
+    const fileName = path.basename(fileMetadata.absolutePath);
+    if (this.isInDeniedFiles(fileName, securityConfig.deniedFiles)) {
+      return this.denyAccess('DENIED_FILE', SECURITY_ERROR_MESSAGES.DENIED_FILENAME);
+    }
+
+    // Step 6: Check allowed extensions (if configured)
+    if (
+      securityConfig.allowedExtensions &&
+      securityConfig.allowedExtensions.length > 0 &&
+      !this.isExtensionAllowed(fileMetadata.extension, securityConfig.allowedExtensions)
+    ) {
+      return this.denyAccess(
+        'EXTENSION_NOT_ALLOWED',
+        SECURITY_ERROR_MESSAGES.EXTENSION_NOT_ALLOWED,
+      );
+    }
+
+    // Step 7: Check file size
+    if (
+      securityConfig.maxFileSizeKb &&
+      fileMetadata.size / 1024 > securityConfig.maxFileSizeKb
+    ) {
+      return this.denyAccess('SIZE_EXCEEDED', SECURITY_ERROR_MESSAGES.FILE_SIZE_EXCEEDED);
+    }
+
+    // Step 8: All checks passed
+    return { isAllowed: true };
+  }
+
+  private isInDeniedPaths(filePath: string, deniedPaths?: string[]): boolean {
+    if (!deniedPaths || deniedPaths.length === 0) {
+      return false;
+    }
+
+    const normalizedFilePath = path.normalize(filePath);
+    return deniedPaths.some((deniedPath) => {
+      const normalizedDeniedPath = path.normalize(deniedPath);
+      return normalizedFilePath.includes(normalizedDeniedPath);
+    });
+  }
+
+  private isInAllowedPaths(filePath: string, allowedPaths: string[]): boolean {
+    const normalizedFilePath = path.normalize(filePath);
+    return allowedPaths.some((allowedPath) => {
+      const normalizedAllowedPath = path.normalize(allowedPath);
+      return normalizedFilePath.startsWith(normalizedAllowedPath);
+    });
+  }
+
+  private isInDeniedFiles(fileName: string, deniedFiles?: string[]): boolean {
+    if (!deniedFiles || deniedFiles.length === 0) {
+      return false;
+    }
+
+    return deniedFiles.some((deniedFile) => {
+      // Support glob-like patterns
+      if (deniedFile.includes('*')) {
+        const regex = new RegExp(deniedFile.replace(/\*/g, '.*'));
+        return regex.test(fileName);
+      }
+      return fileName === deniedFile;
+    });
+  }
+
+  private isExtensionAllowed(extension: string, allowedExtensions: string[]): boolean {
+    const normalizedExtension = extension.toLowerCase();
+    return allowedExtensions.some((allowed) => allowed.toLowerCase() === normalizedExtension);
+  }
+
+  private denyAccess(reason: DenialReason, message: string): SecurityCheckResult {
+    return {
+      isAllowed: false,
+      reason,
+      message,
+    };
+  }
+}
+```
+
+**src/application/dtos/bundle-result.dto.ts** (+5 líneas)**
+
+```
+export interface BundleResultDto {
+  content: string;
+  truncated: boolean;
+  omittedFiles: string[];
+}
+```
+
+**src/application/dtos/file-metadata.dto.ts** (+6 líneas)**
+
+```
+export interface FileMetadataDto {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+}
+```
+
+**src/application/formatter/bundle-formatter.ts** (+4 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+  formattedBlock: string; 
+  
+```
+
+**src/application/mappers/bundle-result.mapper.ts** (+22 líneas)**
+
+```
+import { BundleResult } from "../../types.js";
+import { BundleResultDto } from "../dtos/bundle-result.dto.js";
+
+export class BundleResultMapper {
+  static toDomain(dto: BundleResultDto): BundleResult {
+    return {
+      content: dto.content,
+      truncated: dto.truncated,
+      omittedFiles: dto.omittedFiles,
+      filesIncluded: 0,
+      filesOmitted: 0,
+    };
+  }
+
+  static toDto(domain: BundleResult): BundleResultDto {
+    return {
+      content: domain.content,
+      truncated: domain.truncated,
+      omittedFiles: domain.omittedFiles,
+    };
+  }
+}
+```
+
+**src/application/mappers/file-metadata.mapper.ts** (+23 líneas)**
+
+```
+import { FileMetadata } from "../../domain/models/file-metadata.model.js";
+import { FileMetadataDto } from "../dtos/file-metadata.dto.js";
+
+
+export class FileMetadataMapper {
+  static toDomain(dto: FileMetadataDto): FileMetadata {
+    return {
+      absolutePath: dto.absolutePath,
+      relativePath: dto.relativePath,
+      size: dto.size,
+      extension: dto.extension,
+    };
+  }
+
+  static toDto(domain: FileMetadata): FileMetadataDto {
+    return {
+      absolutePath: domain.absolutePath,
+      relativePath: domain.relativePath,
+      size: domain.size,
+      extension: domain.extension,
+    };
+  }
+}
+```
+
+**src/application/tools/get-context-from-config.ts** (+14 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+      console.debug('No instruction file found at', candidate);
+  
+      
+  
+    
+          
+    
+    
+```
+
+**src/application/tools/get-directory-context.ts** (+6 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+```
+
+**src/application/tools/get-project-context.ts** (+6 líneas)**
+
+```
+
+import type { BundleResult } from '../../types.js';
+import { LRUCache } from '../../infrastructure/cache/lru-cache.js';
+import { Logger } from '../../logger/logger.js';
+import { checkFile, DEFAULT_SECURITY_CONFIG, mergeSecurityConfig } from '../../infrastructure/security/security-guard.js';
+import { loadConfig, resolveSecurityConfig, resolveMaxTotalSizeKb } from '../../infrastructure/config/config-loader.js';
+```
+
+**src/application/use-cases/get-context-from-config.use-case.ts** (+106 líneas)**
+
+```
+import * as path from 'path';
+import { SecurityConfig, BundleResult } from '../../types.js';
+import { BundleFormatterPort } from '../../domain/ports/out/bundle-formatter.port.js';
+import { CachePort } from '../../domain/ports/out/cache.port.js';
+import { ConfigRepositoryPort } from '../../domain/ports/out/config-repository.port.js';
+import { FileRepositoryPort } from '../../domain/ports/out/file-repository.port.js';
+import { FingerprintServicePort } from '../../domain/ports/out/fingerprint-service.port.js';
+import { LoggerPort } from '../../domain/ports/out/logger.port.js';
+import { SecurityValidatorPort } from '../../domain/ports/out/security-validator.port.js';
+
+export class GetContextFromConfigUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private configRepository: ConfigRepositoryPort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    projectRoot: string,
+    securityConfig: SecurityConfig,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetContextFromConfigUseCase.execute started', { projectRoot });
+
+    try {
+      
+      const config = await this.configRepository.loadConfig(projectRoot);
+
+      
+      const allFileMetadata: Array<{ absolutePath: string; relativePath: string; size: number; extension: string }> = [];
+
+      for (const module of config.modules) {
+        const modulePath = path.join(projectRoot, module.path);
+        const moduleFiles = await this.fileRepository.discoverFiles(
+          modulePath,
+          module.excludePatterns,
+        );
+
+        allFileMetadata.push(...moduleFiles);
+      }
+
+      
+      if (config.globalInstructions) {
+        const instructionsPath = path.join(projectRoot, config.globalInstructions);
+        try {
+          const metadata = await this.fileRepository.getFileMetadata(instructionsPath);
+          allFileMetadata.push(metadata);
+        } catch (error) {
+          this.logger.warn(`Could not load global instructions file: ${instructionsPath}`);
+        }
+      }
+
+      
+      const secureFiles = allFileMetadata.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        config.maxTotalSizeKb,
+      );
+
+      this.logger.info('GetContextFromConfigUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: allFileMetadata.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetContextFromConfigUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/application/use-cases/get-directory-context.use-case.ts** (+84 líneas)**
+
+```
+import { SecurityConfig, BundleResult } from "../../types.js";
+import { BundleFormatterPort } from "../../domain/ports/out/bundle-formatter.port.js";
+import { CachePort } from "../../domain/ports/out/cache.port.js";
+import { FileRepositoryPort } from "../../domain/ports/out/file-repository.port.js";
+import { FingerprintServicePort } from "../../domain/ports/out/fingerprint-service.port.js";
+import { LoggerPort } from "../../domain/ports/out/logger.port.js";
+import { SecurityValidatorPort } from "../../domain/ports/out/security-validator.port.js";
+
+export class GetDirectoryContextUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    rootPath: string,
+    excludePatterns: string[] | undefined,
+    securityConfig: SecurityConfig,
+    maxTotalSizeKb: number,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetDirectoryContextUseCase.execute started', { rootPath });
+
+    try {
+      
+      const fileMetadataList = await this.fileRepository.discoverFiles(
+        rootPath,
+        excludePatterns,
+      );
+
+      
+      const secureFiles = fileMetadataList.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        maxTotalSizeKb,
+      );
+
+      this.logger.info('GetDirectoryContextUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: fileMetadataList.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetDirectoryContextUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/application/use-cases/get-project-context.use-case.ts** (+80 líneas)**
+
+```
+import { BundleResult, SecurityConfig } from "../../types.js";
+import { BundleFormatterPort } from "../../domain/ports/out/bundle-formatter.port.js";
+import { CachePort } from "../../domain/ports/out/cache.port.js";
+import { FileRepositoryPort } from "../../domain/ports/out/file-repository.port.js";
+import { FingerprintServicePort } from "../../domain/ports/out/fingerprint-service.port.js";
+import { LoggerPort } from "../../domain/ports/out/logger.port.js";
+import { SecurityValidatorPort } from "../../domain/ports/out/security-validator.port.js";
+
+export class GetProjectContextUseCase {
+  constructor(
+    private fileRepository: FileRepositoryPort,
+    private cache: CachePort,
+    private securityValidator: SecurityValidatorPort,
+    private fingerprintService: FingerprintServicePort,
+    private bundleFormatter: BundleFormatterPort,
+    private logger: LoggerPort,
+  ) {}
+
+  async execute(
+    paths: string[],
+    securityConfig: SecurityConfig,
+    maxTotalSizeKb: number,
+  ): Promise<BundleResult> {
+    this.logger.debug('GetProjectContextUseCase.execute started', { paths });
+
+    try {
+      
+      const fileMetadataList = await this.fileRepository.getFilesByPaths(paths);
+
+      
+      const secureFiles = fileMetadataList.filter((metadata) => {
+        const securityCheck = this.securityValidator.validate(metadata, securityConfig);
+        if (!securityCheck.allowed) {
+          this.logger.warn(`File denied by security: ${metadata.absolutePath}`, {
+            reason: securityCheck.reason,
+          });
+        }
+        return securityCheck.allowed;
+      });
+
+      
+      const filesWithContent = await Promise.all(
+        secureFiles.map(async (metadata) => {
+          const fingerprint = await this.fingerprintService.computeFingerprint(
+            metadata.absolutePath,
+          );
+
+          
+          if (this.cache.has(fingerprint)) {
+            this.logger.debug(`Cache hit for file: ${metadata.relativePath}`);
+            return { metadata, content: '' }; 
+          }
+
+          
+          const content = await this.fileRepository.readFile(metadata.absolutePath);
+          return { metadata, content };
+        }),
+      );
+
+      
+      const formattedBundle = await this.bundleFormatter.formatFiles(
+        filesWithContent,
+        maxTotalSizeKb,
+      );
+
+      this.logger.info('GetProjectContextUseCase.execute completed successfully');
+
+      return {
+        content: formattedBundle.content,
+        truncated: formattedBundle.isTruncated,
+        omittedFiles: formattedBundle.omittedFiles || [],
+        filesIncluded: fileMetadataList.length - (formattedBundle.omittedFiles?.length || 0),
+        filesOmitted: formattedBundle.omittedFiles?.length || 0,
+      };
+    } catch (error) {
+      this.logger.error('GetProjectContextUseCase.execute failed', { error });
+      throw error;
+    }
+  }
+}
+```
+
+**src/domain/entities/cache-config.entity.ts** (+4 líneas)**
+
+```
+export interface CacheConfig {
+  maxEntries?: number;
+  maxEntrySizeKb?: number;
+}
+```
+
+**src/domain/entities/project-context.entity.ts** (+12 líneas)**
+
+```
+export interface ModuleConfig {
+  name: string;
+  path: string;
+  includeInstructions?: boolean;
+  excludePatterns?: string[];
+}
+
+export interface ProjectContext {
+  modules: ModuleConfig[];
+  globalInstructions?: string;
+  maxTotalSizeKb: number;
+}
+```
+
+**src/domain/entities/security-config.entity.ts** (+7 líneas)**
+
+```
+export interface SecurityConfig {
+  allowedPaths?: string[];
+  deniedPaths?: string[];
+  deniedFiles?: string[];
+  maxFileSizeKb?: number;
+  allowedExtensions?: string[];
+}
+```
+
+**src/domain/errors/error-messages.ts** (+44 líneas)**
+
+```
+export const ERROR_MESSAGES = {
+  
+  CONFIG_FILE_NOT_FOUND: 'Configuration file not found',
+  CONFIG_INVALID_JSON: 'Invalid JSON in configuration file',
+  CONFIG_INVALID_STRUCTURE: 'Invalid configuration structure',
+  CONFIG_INVALID_MODULES: 'Invalid modules configuration',
+  CONFIG_INVALID_SECURITY: 'Invalid security configuration',
+  CONFIG_MISSING_REQUIRED_FIELD: 'Missing required field in configuration',
+
+  
+  SECURITY_FILE_DENIED_BLACKLIST: 'File denied by blacklist',
+  SECURITY_FILE_BINARY_EXTENSION: 'Binary files are not allowed',
+  SECURITY_FILE_DENIED_PATH: 'File path is denied',
+  SECURITY_FILE_NOT_ALLOWED_PATH: 'File path is not in allowed paths',
+  SECURITY_FILE_DENIED_NAME: 'Filename is denied',
+  SECURITY_FILE_EXTENSION_NOT_ALLOWED: 'File extension is not allowed',
+  SECURITY_FILE_SIZE_EXCEEDED: 'File size exceeds maximum allowed',
+  SECURITY_FILE_EXCLUDED_BY_PATTERN: 'File excluded by pattern',
+
+  
+  FILE_NOT_FOUND: 'File not found',
+  FILE_READ_ERROR: 'Error reading file',
+  FILE_EMPTY: 'File is empty',
+
+  
+  FINGERPRINT_COMPUTATION_ERROR: 'Error computing file fingerprint',
+
+  
+  BUNDLE_FORMAT_ERROR: 'Error formatting bundle',
+
+  
+  FILE_DISCOVERY_ERROR: 'Error discovering files',
+  INVALID_GLOB_PATTERN: 'Invalid glob pattern',
+
+  
+  CACHE_ERROR: 'Cache operation error',
+
+  
+  LOGGER_ERROR: 'Logger initialization error',
+
+  
+  UNEXPECTED_ERROR: 'An unexpected error occurred',
+  INVALID_ARGUMENT: 'Invalid argument provided',
+} as const;
+```
+
+**src/domain/errors/errors.ts** (+60 líneas)**
+
+```
+export class ApplicationError extends Error {
+  constructor(
+    public code: string,
+    message: string,
+    public statusCode: number = 500,
+    public details?: Record<string, unknown>,
+  ) {
+    super(message);
+    this.name = this.constructor.name;
+    Object.setPrototypeOf(this, new.target.prototype);
+  }
+}
+
+export class ConfigLoadError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('CONFIG_LOAD_ERROR', message, 400, details);
+  }
+}
+
+export class SecurityCheckError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('SECURITY_CHECK_ERROR', message, 403, details);
+  }
+}
+
+export class FileReadError extends ApplicationError {
+  constructor(message: string, filePath: string) {
+    super('FILE_READ_ERROR', message, 500, { filePath });
+  }
+}
+
+export class FingerprintError extends ApplicationError {
+  constructor(message: string, filePath: string) {
+    super('FINGERPRINT_ERROR', message, 500, { filePath });
+  }
+}
+
+export class BundleFormattingError extends ApplicationError {
+  constructor(message: string) {
+    super('BUNDLE_FORMAT_ERROR', message, 500);
+  }
+}
+
+export class FileDiscoveryError extends ApplicationError {
+  constructor(message: string, pattern?: string) {
+    super('FILE_DISCOVERY_ERROR', message, 500, { pattern });
+  }
+}
+
+export class CacheError extends ApplicationError {
+  constructor(message: string) {
+    super('CACHE_ERROR', message, 500);
+  }
+}
+
+export class ValidationError extends ApplicationError {
+  constructor(message: string, details?: Record<string, unknown>) {
+    super('VALIDATION_ERROR', message, 400, details);
+  }
+}
+```
+
+**src/domain/models/bundle-result.model.ts** (+7 líneas)**
+
+```
+export interface BundleResult {
+  content: string;
+  isTruncated: boolean;
+  omittedFiles?: string[];
+  cacheHits?: number;
+  cacheMisses?: number;
+}
+```
+
+**src/domain/models/cache-entry.model.ts** (+5 líneas)**
+
+```
+export interface CacheEntry {
+  fingerprint: string;
+  block: string;
+  timestamp?: number;
+}
+```
+
+**src/domain/models/file-metadata.model.ts** (+7 líneas)**
+
+```
+export interface FileMetadata {
+  absolutePath: string;
+  relativePath: string;
+  size: number;
+  extension: string;
+  fingerprint?: string;
+}
+```
+
+**src/domain/models/security-check-result.model.ts** (+15 líneas)**
+
+```
+export type DenialReason =
+  | 'BLACKLIST'
+  | 'BINARY_EXTENSION'
+  | 'DENIED_PATH'
+  | 'NOT_ALLOWED_PATH'
+  | 'DENIED_FILE'
+  | 'EXTENSION_NOT_ALLOWED'
+  | 'SIZE_EXCEEDED'
+  | 'EXCLUDED_BY_PATTERN';
+
+export interface SecurityCheckResult {
+  isAllowed: boolean;
+  reason?: DenialReason;
+  message?: string;
+}
+```
+
+**src/domain/ports/in/get-context-from-config.port.ts** (+6 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+
+export interface GetContextFromConfigPort {
+  execute(projectRoot: string): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/in/get-directory-context.port.ts** (+5 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+export interface GetDirectoryContextPort {
+  execute(rootPath: string, excludePatterns?: string[]): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/in/get-project-context.port.ts** (+5 líneas)**
+
+```
+import { BundleResult } from "../../../types.js";
+
+export interface GetProjectContextPort {
+  execute(paths: string[]): Promise<BundleResult>;
+}
+```
+
+**src/domain/ports/out/bundle-formatter.port.ts** (+8 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+
+export interface BundleFormatterPort {
+  formatFiles(
+    files: Array<{ metadata: FileMetadata; content: string }>,
+    maxTotalSizeKb: number,
+  ): Promise<{ content: string; isTruncated: boolean; omittedFiles?: string[] }>;
+}
+```
+
+**src/domain/ports/out/cache.port.ts** (+8 líneas)**
+
+```
+import { CacheEntry } from "../../../types.js";
+
+export interface CachePort {
+  get(key: string): CacheEntry | undefined;
+  set(key: string, value: CacheEntry): void;
+  clear(): void;
+  has(key: string): boolean;
+}
+```
+
+**src/domain/ports/out/config-repository.port.ts** (+5 líneas)**
+
+```
+import { ProjectContext } from "../../entities/project-context.entity.js";
+
+export interface ConfigRepositoryPort {
+  loadConfig(projectRoot: string): Promise<ProjectContext>;
+}
+```
+
+**src/domain/ports/out/file-repository.port.ts** (+8 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+
+export interface FileRepositoryPort {
+  readFile(filePath: string): Promise<string>;
+  getFileMetadata(filePath: string): Promise<FileMetadata>;
+  discoverFiles(rootPath: string, excludePatterns?: string[]): Promise<FileMetadata[]>;
+  getFilesByPaths(paths: string[]): Promise<FileMetadata[]>;
+}
+```
+
+**src/domain/ports/out/fingerprint-service.port.ts** (+3 líneas)**
+
+```
+export interface FingerprintServicePort {
+  computeFingerprint(content: string): Promise<string>;
+}
+```
+
+**src/domain/ports/out/logger.port.ts** (+9 líneas)**
+
+```
+export type LogLevel = 'error' | 'warn' | 'info' | 'debug';
+
+export interface LoggerPort {
+  log(level: LogLevel, message: string, data?: unknown): void;
+  error(message: string, data?: unknown): void;
+  warn(message: string, data?: unknown): void;
+  info(message: string, data?: unknown): void;
+  debug(message: string, data?: unknown): void;
+}
+```
+
+**src/domain/ports/out/security-validator.port.ts** (+9 líneas)**
+
+```
+import { FileMetadata } from "../../models/file-metadata.model.js";
+import { SecurityCheckResult, SecurityConfig } from "../../../types.js";
+
+export interface SecurityValidatorPort {
+  validate(
+    fileMetadata: FileMetadata,
+    securityConfig: SecurityConfig,
+  ): SecurityCheckResult;
+}
+```
+
+**src/index.ts** (+1 línea)**
+
+```
+
+```
+
+**src/infrastructure/cache/lru-cache.ts** (+5 líneas)**
+
+```
+
+import type { CacheEntry, LRUCacheOptions } from '../../types.js';
+    
+    
+      
+```
+
+**src/infrastructure/config/config-loader.ts** (+2 líneas)**
+
+```
+
+import type { ProjectConfig, SecurityConfig } from '../../types.js';
+```
+
+**src/infrastructure/security/security-guard.ts** (+11 líneas)**
+
+```
+
+import type { SecurityCheckResult, SecurityConfig, DenialReason } from '../../types.js';
+  
+  
+  
+  
+  
+  
+  
+  
+  allowedPaths: [], 
+```
+
+**src/init/init-command.ts** (+1 línea)**
+
+```
+
+```
+
+**src/logger/logger.ts** (+3 líneas)**
+
+```
+
+      
+    
+```
+
+**src/server.ts** (+5 líneas)**
+
+```
+
+import { LRUCache } from './infrastructure/cache/lru-cache.js';
+import { getProjectContext, getProjectContextMcpResponse } from './application/tools/get-project-context.js';
+import { getDirectoryContext, getDirectoryContextMcpResponse } from './application/tools/get-directory-context.js';
+import { getContextFromConfig, getContextFromConfigMcpResponse } from './application/tools/get-context-from-config.js';
+```
+
+**src/types.ts** (+11 líneas)**
+
+```
+
+  fingerprint: string; 
+  block: string; 
+  maxEntries: number; 
+  maxEntrySizeKb: number; 
+  allowedPaths: string[]; 
+  deniedFiles: string[]; 
+  maxFileSizeKb: number; 
+  allowedExtensions: string[]; 
+  includeInstructions?: boolean; 
+  maxTotalSizeKb?: number; 
 ```
 
 ---
